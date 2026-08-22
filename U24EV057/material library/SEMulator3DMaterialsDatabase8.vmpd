@@ -7,9 +7,9 @@
     <fileAccessRestriction ___text="" readonly="true"/>
   </___Properties>
 
-  <___Parser UUID="dc1c34be-8692-40e8-9b2e-b9125414104c" ___Name="Variables" ___Type="VariableRoot"/>
+  <___Parser UUID="d1baa803-d48f-4cbd-90e3-282cd5ce00cd" ___Name="Variables" ___Type="VariableRoot" isExpanded="true"/>
 
-  <___DocumentTree UUID="e8d21127-5a26-4fcf-ab76-41cf277d720e" ___Name="Material Database" ___Type="MaterialTreeRoot">
+  <___DocumentTree UUID="99e9c1b2-d6bf-42be-8305-be1312f4599b" ___Name="Material Database" ___Type="MaterialTreeRoot" isExpanded="true">
     <___Item UUID="b51793fd-adba-49be-b6d7-0fb0be5486b9" ___Name="Materials" ___Type="MainMaterialGroup" isExpanded="true">
       <___Properties isEnable="true"/>
       <___Item NotDeletable="true" UUID="f0e1bf5b-9de1-4a92-88ed-29c17934a945" ___Name="Metals" ___Type="MaterialGroup" isExpanded="true">
@@ -1060,7 +1060,7 @@
         <___Item UUID="5651bf54-0e01-4111-b671-89f8b228dc3a" ___Name="Si3N4_Comp" ___Type="Material">
           <___Properties ID="-1" OrderUsed="-1" VersionNumber="13.1.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
-              <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
+              <color ___blue="255" ___green="0" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
               <visibility ___expression="true"/>
             </visualProperties>
@@ -1255,7 +1255,7 @@
         <___Item UUID="f58eebab-801a-4242-a51c-7cb472b3315c" ___Name="Si3N4_LPCVD" ___Type="Material">
           <___Properties ID="-1" OrderUsed="-1" VersionNumber="13.1.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
-              <color ___blue="0" ___green="128" ___red="0" noItemUpdateRequired="true"/>
+              <color ___blue="0" ___green="0" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
               <visibility ___expression="true"/>
             </visualProperties>
@@ -1450,7 +1450,7 @@
         <___Item UUID="4cba9ccb-77c4-47c0-b0b9-1ca283cd1998" ___Name="Si3N" ___Type="Material">
           <___Properties ID="-1" VersionNumber="13.1.0.0" isEnable="true">
             <visualProperties isEnable="true" showHeader="true">
-              <color ___blue="67" ___green="185" ___red="142" noItemUpdateRequired="true"/>
+              <color ___blue="0" ___green="255" ___red="0" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
               <visibility ___expression="true"/>
             </visualProperties>

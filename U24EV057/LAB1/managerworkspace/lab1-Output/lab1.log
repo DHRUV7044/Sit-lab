@@ -1,63 +1,136 @@
-12:28:51 INFO   Loading Assembly file: D:/Sit-lab/U24EV057/LAB1/managerworkspace/lab1.zam
-12:28:55 INFO   Loading Analysis file: 
-12:28:55 INFO   Loading Process file: D:/Sit-lab/U24EV057/LAB1/managerworkspace/../Process_Editor_workspace/lab1_process.vproc
-12:29:28 ERROR   Failed to obtain feature list: License server machine is down or not responding.
- See the system administrator about starting the license server system, or
- make sure you're referring to the right host (see LM_LICENSE_FILE).
-Hostname:      LAMLICENSEVM
-License path:  54015@172.23.244.37;
-FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
-12:29:28 INFO   Loading Material file: D:/Sit-lab/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd
-12:29:41 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:29:43 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:29:43 INFO   Saving build script: D:\Sit-lab\U24EV057\LAB1\managerworkspace\__semu_lab1.py
-12:29:44 INFO : License server value is 54015@172.23.244.37.
-12:29:44 INFO : Platform is Windows, 64-bit.
-12:29:44 INFO : PRODUCT_NAME             SEMulator3D
-12:29:44 INFO : VERSION_BUILD_NUMBER     13.1.0.0
-12:29:44 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
-12:29:44 INFO : 
+13:11:07 INFO   Loading Assembly file: D:/Sit-lab/U24EV057/LAB1/managerworkspace/lab1.zam
+13:11:12 INFO   Loading Analysis file: 
+13:11:12 INFO   Loading Process file: D:/Sit-lab/U24EV057/LAB1/managerworkspace/../Process_Editor_workspace/lab1_process.vproc
+13:11:51 INFO   Loading Material file: D:/Sit-lab/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd
+13:11:56 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:11:58 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:11:58 INFO   Saving build script: D:\Sit-lab\U24EV057\LAB1\managerworkspace\__semu_lab1.py
+13:11:59 INFO : License server value is 54015@172.23.244.37.
+13:11:59 INFO : Platform is Windows, 64-bit.
+13:11:59 INFO : PRODUCT_NAME             SEMulator3D
+13:11:59 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:11:59 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:11:59 INFO : 
 
-12:29:55 INFO   Default number of parallel workers = 8
-12:29:55 INFO   Adding new input file path: D:\Sit-lab\U24EV057\LAB1\managerworkspace\
-12:30:18 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+13:12:02 ERROR   Failed to obtain feature list: Cannot connect to license server system.
  The license server manager (lmgrd) has not been started yet,
  the wrong port@host or license file is being used, or the
  port or hostname in the license file has been changed.
 Server name:   172.23.244.37
 License path:  54015@172.23.244.37;
 FlexNet Licensing error:-15,10032.
-12:30:29 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+13:12:26 INFO   Default number of parallel workers = 8
+13:12:26 INFO   Adding new input file path: D:\Sit-lab\U24EV057\LAB1\managerworkspace\
+13:12:46 ERROR   Failed to obtain feature list: License server machine is down or not responding.
  See the system administrator about starting the license server system, or
  make sure you're referring to the right host (see LM_LICENSE_FILE).
 Hostname:      LAMLICENSEVM
 License path:  54015@172.23.244.37;
 FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
-12:30:35 INFO : 1:	Running WaferSetup ("Wafer Setup")
-12:30:35 INFO   Voxel Wafer resolution is 2 nm.
-12:30:39 INFO   Model bounds for new wafer are 2000 by 500 voxels.
-12:30:39 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:39 INFO : 2:	Running Deposit ("pad oxide deposition")
-12:30:39 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:39 INFO : 3:	Running Deposit ("pad nitride")
-12:30:40 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:40 INFO : 4:	Sequence ("lithography")
-12:30:40 INFO : 4.1:	Running Deposit ("spin rx resist")
-12:30:40 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:40 INFO : 4.2:	Running ExposeMaterial ("Expose rx")
-12:30:41 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:41 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:41 INFO : 5:	Sequence ("etch fins")
-12:30:41 INFO : 5.1:	Running Etch ("pad nitride etch")
-12:30:43 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:43 INFO : 5.2:	Running Etch ("pad oxide etch")
-12:30:44 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:44 INFO : 5.3:	Running Etch ("sillicon etch")
-12:30:45 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:46 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:46 INFO : 6:	Running RemoveMaterials ("resiste strip")
-12:30:46 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:46 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
-12:30:46 INFO : Build process completed.
-12:30:46 INFO : Elapsed Time 61 seconds.
+13:12:49 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:12:52 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:13:03 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:13:06 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:13:06 INFO : 1:	Running WaferSetup ("Wafer Setup")
+13:13:06 INFO   Voxel Wafer resolution is 2 nm.
+13:13:12 INFO   Model bounds for new wafer are 2000 by 500 voxels.
+13:13:12 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:12 INFO : 2:	Sequence ("d_layer")
+13:13:12 INFO : 2.1:	Sequence ("d layer")
+13:13:12 INFO : 2.1.1:	Running Deposit ("pad oxide deposition")
+13:13:12 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:12 INFO : 2.1.2:	Running Deposit ("pad nitride")
+13:13:13 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:13 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:13 INFO : 2.2:	Sequence ("lithography")
+13:13:13 INFO : 2.2.1:	Running Deposit ("spin rx resist")
+13:13:13 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:13 INFO : 2.2.2:	Running ExposeMaterial ("Expose rx")
+13:13:14 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:14 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:14 INFO : 2.3:	Sequence ("etch fins")
+13:13:14 INFO : 2.3.1:	Running Etch ("pad nitride etch")
+13:13:16 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:16 INFO : 2.3.2:	Running Etch ("pad oxide etch")
+13:13:17 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:17 INFO : 2.3.3:	Running Etch ("sillicon etch")
+13:13:18 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:18 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:19 INFO : 2.4:	Running RemoveMaterials ("resiste strip")
+13:13:19 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:19 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:19 INFO : 3:	Sequence ("s_layer")
+13:13:19 INFO : 3.1:	Sequence ("d layer")
+13:13:19 INFO : 3.1.1:	Running Deposit ("pad oxide deposition")
+13:13:19 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:19 INFO : 3.1.2:	Running Deposit ("pad nitride")
+13:13:20 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:20 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:20 INFO : 3.2:	Sequence ("lithography")
+13:13:20 INFO : 3.2.1:	Running Deposit ("spin rx resist")
+13:13:21 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:21 INFO : 3.2.2:	Running ExposeMaterial ("Expose rx")
+13:13:23 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:23 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:23 INFO : 3.3:	Sequence ("etch fins")
+13:13:23 INFO : 3.3.1:	Running Etch ("pad nitride etch")
+13:13:25 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:25 INFO : 3.3.2:	Running Etch ("pad oxide etch")
+13:13:27 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:27 INFO : 3.3.3:	Running Etch ("sillicon etch")
+13:13:29 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:30 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:30 INFO : 3.4:	Running RemoveMaterials ("resiste strip")
+13:13:30 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:30 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:30 INFO : 4:	Sequence ("57_layer")
+13:13:30 INFO : 4.1:	Sequence ("d layer")
+13:13:30 INFO : 4.1.1:	Running Deposit ("pad oxide deposition")
+13:13:31 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:31 INFO : 4.1.2:	Running Deposit ("pad nitride")
+13:13:33 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:33 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:33 INFO : 4.2:	Sequence ("lithography")
+13:13:33 INFO : 4.2.1:	Running Deposit ("spin rx resist")
+13:13:35 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:35 INFO : 4.2.2:	Running ExposeMaterial ("Expose rx")
+13:13:37 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:37 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:37 INFO : 4.3:	Sequence ("etch fins")
+13:13:37 INFO : 4.3.1:	Running Etch ("pad nitride etch")
+13:13:42 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:42 INFO : 4.3.2:	Running Etch ("pad oxide etch")
+13:13:44 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:44 INFO : 4.3.3:	Running Etch ("sillicon etch")
+13:13:49 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:49 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:49 INFO : 4.4:	Running RemoveMaterials ("resiste strip")
+13:13:49 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:49 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:49 INFO   Saving assembly file "D:\Sit-lab\U24EV057\LAB1\managerworkspace\lab1.zam".
+13:13:49 INFO : Build process completed.
+13:13:49 INFO : Elapsed Time 110 seconds.
 Build log file moved to : D:/Sit-lab/U24EV057/LAB1/managerworkspace/lab1-Output/lab1.log

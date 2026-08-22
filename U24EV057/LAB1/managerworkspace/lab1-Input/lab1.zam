@@ -10,7 +10,7 @@
     <Output Directory="lab1-Output" Enabled="true" ExtractFragments="false"/>
     <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
     <ModelArea BoundingMask="boundry" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
-    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday August 07, 2026 15:53:17" LastModified="Friday August 07, 2026 15:53:17" Revision="244" Watermark=""/>
+    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday August 07, 2026 15:53:17" LastModified="Friday August 07, 2026 15:53:17" Revision="385" Watermark=""/>
     <SecurityProperties FileAccessRestriction=""/>
   </DocumentProperties>
 
