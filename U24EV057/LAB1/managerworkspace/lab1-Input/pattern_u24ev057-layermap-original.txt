@@ -1,0 +1,5 @@
+layer_b3                    3     0  
+layer_b2                    2     0  
+layer_b1                    1     0  
+boundry                     0     0  
+saparator                   4     0  

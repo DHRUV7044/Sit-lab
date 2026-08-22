@@ -1,0 +1,102 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="true" ModelResolution="2.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="../LAYOUT/pattern_u24ev057.cat" TopCell="pattern_u24ev057"/>
+    <ProcessFile Filename="../Process_Editor_workspace/lab1_process.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="lab1-Output/" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="boundry" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday August 07, 2026 15:53:17" LastModified="Friday August 07, 2026 15:53:17" Revision="227" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <material MaterialID="1" blue="67" green="185" name="/Nitrides/Si3N" red="142" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="2" blue="250" green="155" name="/Organics/photoresist" red="205" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="3" blue="50" green="243" name="/Oxides/Silicon_oxide" red="12" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="4" blue="137" green="26" name="/Silicon/Silicon_xtal" red="122" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,45,315)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(97,163,82)" Name="" Position="(213.444,59.6091,48.0906)" ProjType="Orthographic" UpVector="(-0.408248,0.408248,0.816497)" ViewHeight="275.3579406738281"/>
+  </View>
+
+  <InternalSceneGraphNode Comments="" Name="Default Zone" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 1(Wafer Setup)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 4 38 lab1-Output/Default Zone/94B96VBA.iwaf 38 lab1-Output/Default Zone/WQ0U6CWF.nwaf 38 lab1-Output/Default Zone/WNT6OVAS.swaf 38 lab1-Output/Default Zone/ZHDDJ9DA.vwaf&#xA;" StepNumber="1" StepUUID="bb987a5e-3939-4116-b9f7-b00c4cb1c1a0" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/ZHDDJ9DA.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/ZHDDJ9DA.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2(pad oxide deposition)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/VBWA6601.vwaf&#xA;" StepNumber="2" StepUUID="e9bb95bb-20c3-4ca8-894b-a56f603845ba" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/VBWA6601.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/VBWA6601.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/VBWA6601.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3(pad nitride)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/IVBMMW4P.vwaf&#xA;" StepNumber="3" StepUUID="c5ae56b4-6dea-4ff5-9b54-397727603ef9" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/IVBMMW4P.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/IVBMMW4P.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/IVBMMW4P.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/IVBMMW4P.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 4(lithography)" StepNumber="4" StepUUID="1927fcdc-6f89-43bc-a0a6-3b2c2066aa6e" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.1(spin rx resist)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/44DRG7VN.vwaf&#xA;" StepNumber="1" StepUUID="ea538622-4de7-43da-b3a4-ba51e60f8735" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/44DRG7VN.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/44DRG7VN.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/44DRG7VN.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/44DRG7VN.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Organics/photoresist" MaterialID="2" MaterialType="Conductor" MicronScale="2.0" Name="/Organics/photoresist" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/44DRG7VN.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.2(Expose rx)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/4ACTSN3J.vwaf&#xA;" StepNumber="2" StepUUID="4b2baed7-4b72-4d8a-8835-40da5aa3835b" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/4ACTSN3J.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/4ACTSN3J.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/4ACTSN3J.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/4ACTSN3J.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Organics/photoresist" MaterialID="2" MaterialType="Conductor" MicronScale="2.0" Name="/Organics/photoresist" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/4ACTSN3J.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 5(etch fins)" StepNumber="5" StepUUID="c2cc22ac-9f0c-49ca-a3ec-9ebe12672c55" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.1(pad nitride etch)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/V0WKMR2B.vwaf&#xA;" StepNumber="1" StepUUID="3a3c88b2-822e-497a-ae31-6f51a1c634e6" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/V0WKMR2B.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/V0WKMR2B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/V0WKMR2B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/V0WKMR2B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Organics/photoresist" MaterialID="2" MaterialType="Conductor" MicronScale="2.0" Name="/Organics/photoresist" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/V0WKMR2B.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.2(pad oxide etch)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/LR42HC37.vwaf&#xA;" StepNumber="2" StepUUID="57f338e1-429a-4fe6-9495-2d6a801d84f1" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/LR42HC37.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/LR42HC37.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/LR42HC37.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/LR42HC37.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Organics/photoresist" MaterialID="2" MaterialType="Conductor" MicronScale="2.0" Name="/Organics/photoresist" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/LR42HC37.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.3(sillicon etch)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/6T23L9TF.vwaf&#xA;" StepNumber="3" StepUUID="83399ba8-b92c-4afd-821d-a009f0ea5174" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/6T23L9TF.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/6T23L9TF.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/6T23L9TF.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/6T23L9TF.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Organics/photoresist" MaterialID="2" MaterialType="Conductor" MicronScale="2.0" Name="/Organics/photoresist" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/6T23L9TF.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 6(resiste strip)" RestartWafers="22 serialization::archive 17 1 1 7 WAFER_1 1 1 38 lab1-Output/Default Zone/DW2X4V19.vwaf&#xA;" StepNumber="6" StepUUID="7ccd8682-5753-4d23-8439-ca5dc86eedb7" Transparency="0.0" VWAFFilename="lab1-Output/Default Zone/DW2X4V19.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Nitrides/Si3N" MaterialID="1" MaterialType="Conductor" MicronScale="2.0" Name="/Nitrides/Si3N" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/DW2X4V19.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Oxides/Silicon_oxide" MaterialID="3" MaterialType="Conductor" MicronScale="2.0" Name="/Oxides/Silicon_oxide" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/DW2X4V19.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab1-Output/Default Zone/94B96VBA.iwaf" Material="/Silicon/Silicon_xtal" MaterialID="4" MaterialType="Conductor" MicronScale="2.0" Name="/Silicon/Silicon_xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab1-Output/Default Zone/DW2X4V19.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+  </InternalSceneGraphNode>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true"/>
+
+</SceneGraph>
