@@ -1,0 +1,6 @@
+AFM_OX                      5     0  
+Boundary                    2     0  
+PC                          1     0  
+MEA_CD                      3     0  
+MEA_FT                      4     0  
+RX                          0     0  

@@ -1,0 +1,2 @@
+Boundary                    0     0  
+LOCOS_Trench                1     0  

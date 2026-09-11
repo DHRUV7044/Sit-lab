@@ -1,0 +1,96 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="true" ModelResolution="2.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="../layout/LOCOS_Layout (2).cat" TopCell="LOCOS_Cell"/>
+    <ProcessFile Filename="../process_workspace/lab3_locus.vproc"/>
+    <Zones Number="1"/>
+    <Output Directory="lab3_locus-Output/" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="Boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday September 11, 2026 14:23:38" LastModified="Friday September 11, 2026 14:23:38" Revision="101" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <material MaterialID="1" blue="0" green="128" name="/Nitrides/Si3N4_LPCVD" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="2" blue="128" green="0" name="/Organics/Resist" red="128" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="3" blue="255" green="0" name="/Oxides/SiO2_Thermal" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="4" blue="0" green="0" name="/Silicon/Si_Xtal" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights/>
+
+  <InternalSceneGraphNode Comments="" Name="Default Zone" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 1(Wafer Setup)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 4 44 lab3_locus-Output/Default Zone/NAVBZRJV.iwaf 44 lab3_locus-Output/Default Zone/PSUOHUOB.nwaf 44 lab3_locus-Output/Default Zone/AJPBSFH6.swaf 44 lab3_locus-Output/Default Zone/6HVII4SK.vwaf&#xA;" StepNumber="1" StepUUID="49732907-276d-4747-8466-c37fa3b9efd9" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/6HVII4SK.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/6HVII4SK.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2(pad oxide deposition)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/MGSLZ19L.vwaf&#xA;" StepNumber="2" StepUUID="1ad88a78-8247-48a3-b730-06a4f998c8ba" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/MGSLZ19L.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/MGSLZ19L.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/MGSLZ19L.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3(sin hard mask deposition)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/50I2U53F.vwaf&#xA;" StepNumber="3" StepUUID="613fcb87-e28b-46e3-a1d5-04b8fdcc71d6" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/50I2U53F.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/50I2U53F.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/50I2U53F.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/50I2U53F.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 4(lithography)" StepNumber="4" StepUUID="433b0b12-7eab-4a2f-97c5-9b5532a31ff2" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.1(Deposit)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/KX2SIBOY.vwaf&#xA;" StepNumber="1" StepUUID="1cba4658-dfc1-455a-9678-dba310594a24" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/KX2SIBOY.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/KX2SIBOY.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Organics/Resist" MaterialID="2" MaterialType="Dielectric" MicronScale="2.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/KX2SIBOY.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/KX2SIBOY.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/KX2SIBOY.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.2(uv exposure)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/3MA78Q83.vwaf&#xA;" StepNumber="2" StepUUID="8821c7a6-e2f9-477a-8927-596fa5a66f12" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/3MA78Q83.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/3MA78Q83.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Organics/Resist" MaterialID="2" MaterialType="Dielectric" MicronScale="2.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/3MA78Q83.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/3MA78Q83.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/3MA78Q83.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 5(etch)" StepNumber="5" StepUUID="b60b75c3-1758-4bb6-abce-886f6a3eb950" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.1(SIN hardmsk etch)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/P5OTBNH3.vwaf&#xA;" StepNumber="1" StepUUID="064b32b8-0ac0-43cc-bde9-dd1cb00e56cb" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/P5OTBNH3.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/P5OTBNH3.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Organics/Resist" MaterialID="2" MaterialType="Dielectric" MicronScale="2.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/P5OTBNH3.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/P5OTBNH3.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/P5OTBNH3.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.2(pad oxide etch)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/RTH26AX7.vwaf&#xA;" StepNumber="2" StepUUID="98d11eb9-c225-4079-8059-7d5bcaca35c0" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/RTH26AX7.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/RTH26AX7.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Organics/Resist" MaterialID="2" MaterialType="Dielectric" MicronScale="2.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/RTH26AX7.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/RTH26AX7.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/RTH26AX7.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5.3(resist removal)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/DKXFCC5P.vwaf&#xA;" StepNumber="3" StepUUID="1466e5fd-7e3f-4b58-9393-5c60b86bd3bb" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/DKXFCC5P.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/DKXFCC5P.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/DKXFCC5P.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/DKXFCC5P.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 6(thermal oxidation)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/4L9QG2L1.vwaf&#xA;" StepNumber="6" StepUUID="42f44e11-ef9e-4771-8086-a16c9cc07269" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/4L9QG2L1.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="1" MaterialType="Dielectric" MicronScale="2.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/4L9QG2L1.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/4L9QG2L1.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/4L9QG2L1.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 7(sin hardmask strip)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/SYHPU6E7.vwaf&#xA;" StepNumber="7" StepUUID="ff8f740d-5f20-4be5-b0c3-c1c0f82d1c94" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/SYHPU6E7.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/SYHPU6E7.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/SYHPU6E7.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 8(Multi Etch)" RestartWafers="22 serialization::archive 17 1 1 6 wafer1 1 1 44 lab3_locus-Output/Default Zone/HQC08LRZ.vwaf&#xA;" StepNumber="8" StepUUID="86580fd6-9ea6-490f-8f1f-5ffdcb1fc805" Transparency="0.0" VWAFFilename="lab3_locus-Output/Default Zone/HQC08LRZ.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="3" MaterialType="Dielectric" MicronScale="2.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/HQC08LRZ.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="lab3_locus-Output/Default Zone/NAVBZRJV.iwaf" Material="/Silicon/Si_Xtal" MaterialID="4" MaterialType="Dielectric" MicronScale="2.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="lab3_locus-Output/Default Zone/HQC08LRZ.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+  </InternalSceneGraphNode>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true"/>
+
+</SceneGraph>
