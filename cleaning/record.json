@@ -1,0 +1,127 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "clean.jpeg",
+            "title": "Clean"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 2,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "Demonstration of Processing Steps Involved in the cleaning of Glass/Silicon Wafers"
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": [
+                        "Glass/Silicon wafer or substrate",
+                        "Ultrasonic sonicator",
+                        "Beakers or sample holders",
+                        "DI water",
+                        "Acetone",
+                        "Isopropyl alcohol (IPA)",
+                        "Nitrogen blow-off or air-drying facility",
+                        "PPE such as gloves and goggles"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "Cleaning is a critical step in semiconductor fabrication because the wafer surface must be completely free from any contamination before processes such as lithography or deposition can be performed. Even tiny particles or dust can negatively impact the final device performance.",
+                        "Different cleaning methods use a predefined sequence of chemicals, each selected for removing a specific type of impurity like organic residues, salts, dust, or other unwanted materials. The order and timing of these chemicals form the cleaning recipe.",
+                        "During this demonstration, a glass substrate was cleaned using various chemicals along with an ultrasonic sonicator. The ultrasonic vibrations help dislodge fine particles from the surface, while the chemicals dissolve or wash away remaining contaminants. This process ensures that the substrate becomes properly cleaned, smooth, and suitable for the next fabrication steps."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "procedure",
+                    "new_page": true,
+                    "text": [
+                        "1. Prepare the Sonicator & Samples",
+                        "\u2022 Fill the sonicator bath with water (or the appropriate solvent if needed).",
+                        "\u2022 Place samples in a beaker or holder (ensure they are sonicator-safe).",
+                        "",
+                        "2. First Cleaning Cycle (DI Water)",
+                        "\u2022 Submerge samples in a beaker filled with DI water.",
+                        "\u2022 Run the sonicator for 15 minutes at recommended power.",
+                        "\u2022 Removes loose particles and water-soluble contaminants.",
+                        "",
+                        "3. Rinse & Inspect",
+                        "\u2022 Remove samples and rinse with fresh DI water.",
+                        "\u2022 Check for visible residues; repeat if needed.",
+                        "",
+                        "4. Second Cleaning Cycle (Acetone)",
+                        "\u2022 Place samples in a clean beaker with acetone (for organic residues).",
+                        "\u2022 Sonicate for 15 minutes (acetone evaporates quickly).",
+                        "",
+                        "5. Rinse & Transition to IPA",
+                        "\u2022 Discard acetone, rinse samples with fresh IPA to avoid water streaks.",
+                        "",
+                        "6. Final Cleaning Cycle (IPA)",
+                        "\u2022 Sonicate samples in IPA for 15 minutes for degreasing & drying.",
+                        "\u2022 Ensures no solvent residues remain.",
+                        "",
+                        "7. Dry & Verify Cleanliness",
+                        "\u2022 Remove samples, air-dry or use nitrogen blow-off.",
+                        "\u2022 Inspect under a microscope if needed.",
+                        "",
+                        "Safety Notes:",
+                        "\u2022 Wear PPE (gloves, goggles).",
+                        "\u2022 Work in a fume hood for acetone/IPA.",
+                        "\u2022 Dispose of solvents properly."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Equipments and chemical",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [1]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": "The glass substrate was cleaned sequentially using DI water, acetone, and IPA with ultrasonic sonication. Loose particles, water-soluble contaminants, and organic residues were removed, and the substrate appeared clean and free from visible residues after drying."
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "The cleaning process for the glass/silicon substrate was successfully demonstrated using DI water, acetone, IPA, and ultrasonic sonication. Each cleaning stage removed specific types of contaminants and prepared the surface for further semiconductor processing. The experiment demonstrated the importance of proper wafer cleaning in achieving a clean and suitable substrate."
+                }
+            ]
+        }
+    ]
+}

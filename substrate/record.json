@@ -1,0 +1,82 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "substrate.jpeg",
+            "title": "Substrate"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 1,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "Identification of different types of Substrates"
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Apparatus Required",
+                    "new_page": false,
+                    "text": "Different types of substrate samples such as Sapphire, ITO, FTO, PDMS, and PET."
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "In semiconductor fabrication and materials science, a substrate is the foundational physical base or wafer upon which thin films, active layers, or microstructures are deposited, grown, or etched.",
+                        "Sapphire is a single-crystal aluminium oxide (corundum) used as an insulating, transparent, and rigid substrate.",
+                        "ITO and FTO are Transparent Conducting Oxides (TCOs) that allow light to pass through while conducting electricity. They are used in optoelectronics because conventional metals are opaque. They are generally rigid, while ITO can also be coated on PET to provide flexibility.",
+                        "PDMS (Polydimethylsiloxane) is a silicone-based organic polymer that is optically transparent, elastomeric, flexible, and stretchable. It is commonly used in wearable sensors.",
+                        "PET (Polyethylene Terephthalate) is a transparent and flexible polymer substrate used where lightweight and bendable support is required."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 4,
+                    "title": "images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 5,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": "The different substrate samples were identified based on their physical and functional properties. Sapphire was observed to be transparent, rigid, and insulating. ITO and FTO were identified as transparent conducting substrates. PDMS was identified as transparent, flexible, and stretchable, while PET was identified as transparent and flexible."
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "Different types of substrates used in semiconductor, optoelectronic, and flexible electronic applications were successfully identified. Sapphire, ITO, FTO, PDMS, and PET were distinguished based on properties such as transparency, conductivity, rigidity, flexibility, and stretchability. The experiment provided an understanding of how substrate properties determine their suitability for different device fabrication applications."
+                }
+            ]
+        }
+    ]
+}

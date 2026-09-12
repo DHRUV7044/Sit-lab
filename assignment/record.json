@@ -1,0 +1,278 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "assignment1.png",
+            "title": "Assignment1 layout"
+        },
+        {
+            "id": 2,
+            "path": "assignment2.png",
+            "title": "Assignment2 layout"
+        },
+        {
+            "id": 3,
+            "path": "process_editor_assignment1.png",
+            "title": "Process Editor Assignment1"
+        },
+        {
+            "id": 4,
+            "path": "process_editor_assignment2.png",
+            "title": "Process Editor Assignment2"
+        },
+        {
+            "id": 5,
+            "path": "images/assignement1_slide_1_img_1.png"
+        },
+        {
+            "id": 6,
+            "path": "images/assignement1_slide_2_img_1.png"
+        },
+        {
+            "id": 7,
+            "path": "images/assignement1_slide_3_img_1.png"
+        },
+        {
+            "id": 8,
+            "path": "images/assignement1_slide_4_img_1.png"
+        },
+        {
+            "id": 9,
+            "path": "images/assignement1_slide_5_img_1.png"
+        },
+        {
+            "id": 10,
+            "path": "images/assignement1_slide_6_img_1.png"
+        },
+        {
+            "id": 11,
+            "path": "images/assignement1_slide_7_img_1.png"
+        },
+        {
+            "id": 12,
+            "path": "images/assignement1_slide_8_img_1.png"
+        },
+        {
+            "id": 13,
+            "path": "images/assignement1_slide_9_img_1.png"
+        },
+        {
+            "id": 14,
+            "path": "images/assignement1_slide_10_img_1.png"
+        },
+        {
+            "id": 15,
+            "path": "images/assignement1_slide_11_img_1.png",
+            "title": "assignement 1 final output"
+        },
+        {
+            "id": 16,
+            "path": "images/assignement2_slide_1_img_1.png"
+        },
+        {
+            "id": 17,
+            "path": "images/assignement2_slide_2_img_1.png"
+        },
+        {
+            "id": 18,
+            "path": "images/assignement2_slide_3_img_1.png"
+        },
+        {
+            "id": 19,
+            "path": "images/assignement2_slide_4_img_1.png"
+        },
+        {
+            "id": 20,
+            "path": "images/assignement2_slide_5_img_1.png"
+        },
+        {
+            "id": 21,
+            "path": "images/assignement2_slide_6_img_1.png"
+        },
+        {
+            "id": 22,
+            "path": "images/assignement2_slide_7_img_1.png"
+        },
+        {
+            "id": 23,
+            "path": "images/assignement2_slide_8_img_1.png"
+        },
+        {
+            "id": 24,
+            "path": "images/assignement2_slide_9_img_1.png"
+        },
+        {
+            "id": 25,
+            "path": "images/assignement2_slide_10_img_1.png"
+        },
+        {
+            "id": 26,
+            "path": "images/assignement2_slide_11_img_1.png",
+            "title": "assignement 2 final output"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 1,
+            "title": "Lab Experiment",
+            "type" : "Assignment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To design and study a lithography mask pattern for shallow trench isolation, illustrating line space structures within a defined boundary for device isolation for given masks."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": "Semulator3D"
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "Shallow Trench Isolation (STI) is a semiconductor fabrication technique used to electrically isolate adjacent devices. In this process, shallow trenches are formed in the silicon substrate and filled with an insulating material. Lithography is used to define the regions where the trenches are to be formed.",
+                        "In this assignment, two lithography mask designs are studied. Design 1 consists of a 500 nm \u00d7 400 nm boundary containing four vertical mask openings, each 40 nm wide and separated by 60 nm spacing. The openings form a regular line-space grating oriented along the Y-axis. Design 2 consists of a 500 nm \u00d7 500 nm boundary with a 60 nm wide horizontal bar and a 60 nm wide vertical bar, both extending across the complete boundary and intersecting at the center.",
+                        "These patterns illustrate how lithographic dimensions such as opening width, spacing, orientation, and alignment are used to define regions for device isolation. Precise control of these parameters is important for transferring the required pattern accurately during semiconductor fabrication."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "DESIGN PARAMETERS",
+                    "new_page": true,
+                    "tables": [
+                        {
+                            "title": "assignment 1",
+                            "csv": "a1.csv"
+                        },
+                        {
+                            "title": "assignment 2",
+                            "csv": "a2.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Assignment2",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "Assignment2",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1,
+                                    15
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "3x3",
+                                "elements": [
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10,
+                                    11,
+                                    12,
+                                    13
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    14,
+                                    15
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 6,
+                    "title": "Assignment1",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "Assignment1",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    2,
+                                    26
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "3x3",
+                                "elements": [
+                                    16,
+                                    17,
+                                    18,
+                                    19,
+                                    20,
+                                    21,
+                                    22,
+                                    23,
+                                    24
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    25,
+                                    26
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": [
+                        "Design 1 showed four uniform vertical line openings within the 500 nm \u00d7 400 nm boundary. Each line was 40 nm wide with 60 nm spacing, producing a regular line-space grating along the Y-axis.",
+                        "Design 2 showed a cross-shaped pattern within the 500 nm \u00d7 500 nm boundary. The horizontal and vertical openings were each 60 nm wide, extended across the full boundary, and intersected at the center."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 8,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "The lithography mask patterns for shallow trench isolation were successfully designed and studied using Semulator3D. The parallel line array and orthogonal cross pattern were created with the specified dimensions, spacing, orientation, and boundary limits. The experiment demonstrated how accurately defined mask openings are used to represent isolation regions during semiconductor fabrication."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "spin.jpeg",
+            "title": "Spin"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 4,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To deposit a uniform thin film of precursor on a glass substrate using Spin Coating Technique."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": [
+                        "Spin coater",
+                        "Vacuum pump",
+                        "Glass substrate",
+                        "Precursor/coating solution",
+                        "Syringe or dropper"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "Spin coating is a common technique used to create a thin and even layer of coating material on a flat substrate. A measured amount of precursor is placed near the centre of the substrate, which is then rotated at a controlled speed.",
+                        "The process involves four key stages: deposition, spin-up, spin-off, and evaporation or film-setting. During spin-up, centrifugal force spreads the liquid outward. During spin-off, excess material is removed from the edges, reducing the film thickness.",
+                        "As spinning continues, the solvent evaporates and the film becomes more stable. The final film thickness depends mainly on parameters such as spin speed, acceleration, spinning time, precursor viscosity, and solvent evaporation."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Procedure",
+                    "new_page": true,
+                    "text": [
+                        "1. Open the lid, power on the spin coater, turn on the vacuum pump, and place the substrate on the chuck.",
+                        "2. Place the substrate holder appropriately and position the properly cleaned glass substrate at the centre.",
+                        "3. Switch on the spin coater and vacuum pump.",
+                        "4. Check the vacuum level. It should be within approximately 250\u2013400 mm Hg.",
+                        "5. If the vacuum level is not within the required range, adjust the vacuum and check again.",
+                        "6. Close the lid and run the spin-up stage.",
+                        "7. Run the calibrate function.",
+                        "8. Set the required parameters such as speed (rpm), acceleration (Acc.), time, and control time.",
+                        "9. Dispense the required quantity of precursor/coating material onto the substrate using a syringe.",
+                        "10. Run the spin-coating process.",
+                        "11. After the process is completed, remove the processed sample carefully.",
+                        "12. Open the lid and take out the coated substrate along with the substrate holder.",
+                        "13. Close the lid, switch off the instrument, and finish the operation."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Equipment",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": "A thin and uniform coating of the precursor was obtained on the glass substrate after spin coating. The coating quality was influenced by the spin speed, acceleration, spinning time, vacuum condition, and quantity of precursor dispensed."
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "The spin coating process was successfully demonstrated for depositing a uniform thin film of precursor on a glass substrate. The experiment provided an understanding of how controlled rotation, vacuum holding, precursor quantity, and process parameters influence the formation and uniformity of the deposited film."
+                }
+            ]
+        }
+    ]
+}

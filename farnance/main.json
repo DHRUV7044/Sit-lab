@@ -2,7 +2,7 @@
     "jobs": [
         {
             "input": "record.json",
-            "output": "output/sit_lab7.pdf"
+            "output": "output/sit_lab6.pdf"
         }
     ]
 }

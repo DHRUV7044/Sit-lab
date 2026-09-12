@@ -14,7 +14,7 @@
         {
             "id": "lab1",
             "path": "lab1.png",
-            "title": "final output"
+            "title": "final result"
         },
         {
             "id": "layout",
@@ -22,124 +22,54 @@
             "title": "Layout"
         },
         {
-            "id": "processeditor",
-            "path": "processeditor.png",
-            "title": "Processeditor"
-        },
-        {
             "id": 1,
-            "path": "images/lab1_slide_1_img_1.png",
-            "title": "lab1 Slide 1"
+            "path": "images/lab1_slide_1_img_1.png"
         },
         {
             "id": 2,
-            "path": "images/lab1_slide_2_img_1.png",
-            "title": "lab1 Slide 2"
+            "path": "images/lab1_slide_2_img_1.png"
         },
         {
             "id": 3,
-            "path": "images/lab1_slide_3_img_1.png",
-            "title": "lab1 Slide 3"
+            "path": "images/lab1_slide_3_img_1.png"
         },
         {
             "id": 4,
-            "path": "images/lab1_slide_4_img_1.png",
-            "title": "lab1 Slide 4"
+            "path": "images/lab1_slide_4_img_1.png"
         },
         {
             "id": 5,
-            "path": "images/lab1_slide_5_img_1.png",
-            "title": "lab1 Slide 5"
+            "path": "images/lab1_slide_5_img_1.png"
         },
         {
             "id": 6,
-            "path": "images/lab1_slide_6_img_1.png",
-            "title": "lab1 Slide 6"
+            "path": "images/lab1_slide_6_img_1.png"
         },
         {
             "id": 7,
-            "path": "images/lab1_slide_7_img_1.png",
-            "title": "lab1 Slide 7"
+            "path": "images/lab1_slide_7_img_1.png"
         },
         {
             "id": 8,
-            "path": "images/lab1_slide_8_img_1.png",
-            "title": "lab1 Slide 8"
+            "path": "images/lab1_slide_8_img_1.png"
         },
         {
             "id": 9,
-            "path": "images/lab1_slide_9_img_1.png",
-            "title": "lab1 Slide 9"
+            "path": "images/lab1_slide_9_img_1.png"
         },
         {
             "id": 10,
-            "path": "images/lab1_slide_10_img_1.png",
-            "title": "lab1 Slide 10"
+            "path": "images/lab1_slide_10_img_1.png"
         },
         {
             "id": 11,
             "path": "images/lab1_slide_11_img_1.png",
-            "title": "lab1 Slide 11"
-        },
-        {
-            "id": 12,
-            "path": "images/lab1_slide_1_img_1.png",
-            "title": "lab1 Slide 1"
-        },
-        {
-            "id": 13,
-            "path": "images/lab1_slide_2_img_1.png",
-            "title": "lab1 Slide 2"
-        },
-        {
-            "id": 14,
-            "path": "images/lab1_slide_3_img_1.png",
-            "title": "lab1 Slide 3"
-        },
-        {
-            "id": 15,
-            "path": "images/lab1_slide_4_img_1.png",
-            "title": "lab1 Slide 4"
-        },
-        {
-            "id": 16,
-            "path": "images/lab1_slide_5_img_1.png",
-            "title": "lab1 Slide 5"
-        },
-        {
-            "id": 17,
-            "path": "images/lab1_slide_6_img_1.png",
-            "title": "lab1 Slide 6"
-        },
-        {
-            "id": 18,
-            "path": "images/lab1_slide_7_img_1.png",
-            "title": "lab1 Slide 7"
-        },
-        {
-            "id": 19,
-            "path": "images/lab1_slide_8_img_1.png",
-            "title": "lab1 Slide 8"
-        },
-        {
-            "id": 20,
-            "path": "images/lab1_slide_9_img_1.png",
-            "title": "lab1 Slide 9"
-        },
-        {
-            "id": 21,
-            "path": "images/lab1_slide_10_img_1.png",
-            "title": "lab1 Slide 10"
-        },
-        {
-            "id": 22,
-            "path": "images/lab1_slide_11_img_1.png",
-            "title": "lab1 Slide 11"
+            "title": "final result"
         }
     ],
     "experiments": [
         {
-            "number": 1,
+            "number": 3,
             "title": "Shallow Trench Isolation Lithography Mask Pattern",
             "date": "13/08/2026",
             "sections": [
@@ -167,7 +97,6 @@
                         "STI became the preferred isolation technique for advanced CMOS technologies, particularly for process nodes of 250 nanometers and below, because it allows isolation regions to be made narrower and more precise compared to earlier methods. Before STI became standard, older CMOS nodes and several non-MOS technologies typically relied on LOCOS (Local Oxidation of Silicon) for isolation.",
                         "However, LOCOS suffered from issues like the bird's beak effect, which caused lateral oxidation beyond the intended region and reduced packing density. STI overcomes these limitations by providing better control over isolation dimensions and enabling closer placement of devices. It therefore supports improved device scaling, higher packing density and reliable electrical isolation, making it an important isolation technique in modern semiconductor manufacturing.",
                         "In lithography, the STI mask pattern defines the regions where the isolation trenches are to be formed. The line-space pattern consists of alternating line and space regions within a defined boundary. Accurate dimensions and spacing of these structures are important for obtaining the desired isolation geometry and maintaining pattern fidelity during subsequent fabrication steps."
-                        
                     ]
                 },
                 {

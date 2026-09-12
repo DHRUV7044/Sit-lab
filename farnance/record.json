@@ -1,0 +1,114 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "furnace.jpeg",
+            "title": "Furnace"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 6,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "Demonstration of furnaces (Vacuum Oven and Muffle Furnace) for material growth"
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Apparatus Required",
+                    "new_page": false,
+                    "text": [
+                        "Vacuum Oven",
+                        "Vacuum pump",
+                        "Muffle Furnace",
+                        "Heating elements",
+                        "Ceramic chamber or muffle",
+                        "Material/sample for demonstration",
+                        "Suitable sample handling tools",
+                        "Personal protective equipment (PPE)"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "A vacuum oven operates on the principle of reduced-pressure thermal desolvation. By evacuating the chamber using a vacuum pump, the pressure inside the chamber is reduced, which lowers the boiling point of moisture and trapped solvents. This allows materials to be dried at relatively low temperatures while minimizing thermal degradation.",
+                        "The oxygen-depleted environment in a vacuum oven helps reduce oxidation and is useful for removing volatile solvents and moisture from heat-sensitive materials. It is commonly used for drying polymers, outgassing delicate electronic components, baking photoresists, and drying other temperature-sensitive materials.",
+                        "A muffle furnace operates on the principle of isolated high-temperature indirect heating. Heating elements heat an inner ceramic chamber called the muffle, which isolates the samples from direct contact with the heating elements, flames, or combustion residues. This provides controlled and uniform high-temperature heating.",
+                        "A muffle furnace is used for processes requiring high thermal energy, such as thermal decomposition, calcination, phase transformation, solid-state sintering, ashing of organic materials, metal heat treatment, and glass annealing.",
+                        "Thus, the vacuum oven is mainly suitable for gentle low-temperature drying and solvent removal under reduced pressure, whereas the muffle furnace is used for high-temperature material processing and thermal treatment."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "PROCEDURE",
+                    "new_page": false,
+                    "text": [
+                        "1. Identify the vacuum oven and muffle furnace and study their main components and controls.",
+                        "2. For the vacuum oven, place the material or sample inside the chamber and ensure that the chamber is properly closed.",
+                        "3. Connect the vacuum system and evacuate the chamber using the vacuum pump to obtain the required reduced pressure.",
+                        "4. Set the required temperature and allow the sample to undergo controlled heating and drying under vacuum.",
+                        "5. After completion, switch off the heating and allow the chamber to cool before restoring atmospheric pressure and removing the sample.",
+                        "6. For the muffle furnace, place the material or sample inside the ceramic chamber using suitable handling tools.",
+                        "7. Close the furnace door and set the required temperature according to the material-processing requirement.",
+                        "8. Allow the furnace to heat the sample uniformly for the required duration to achieve the desired thermal treatment.",
+                        "9. After completion, switch off the furnace and allow it to cool sufficiently before opening the door and removing the sample.",
+                        "10. Observe and compare the operating principles and applications of the vacuum oven and muffle furnace."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Equipment",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": [
+                        "The working and applications of the vacuum oven and muffle furnace were studied. The vacuum oven was observed to provide controlled low-temperature heating under reduced pressure, allowing efficient removal of moisture and solvents while minimizing oxidation and thermal damage.",
+                        "The muffle furnace was observed to provide isolated and uniform high-temperature heating. It is suitable for thermal processes such as calcination, sintering, annealing, and thermal decomposition. The different operating principles of the two furnaces were observed based on their respective material-processing applications."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": [
+                        "The demonstration of the vacuum oven and muffle furnace provided an understanding of their working principles and applications in material processing. The vacuum oven is suitable for low-temperature drying and solvent removal under reduced pressure, while the muffle furnace is suitable for high-temperature processes such as calcination, sintering, annealing, and thermal decomposition."
+                    ]
+                }
+            ]
+        }
+    ]
+}
