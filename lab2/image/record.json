@@ -1,0 +1,64 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "cmos_layout.png",
+            "title": "Cmos Layout",
+            "rotation": 270
+        }
+    ],
+    "experiments": [
+        {
+            "number": 5,
+            "title": "Lithography Mask Pattern for CMOS Inverter Using Gate First Approach",
+            "sections": [
+                {
+                    "type": "text",
+                    "title": "Aim",
+                    "text": "To design and study a lithography mask pattern for CMOS Inverter using the gate first approach."
+                },
+                {
+                    "type": "text",
+                    "title": "Tool Required",
+                    "text": "Semulator3D"
+                },
+                {
+                    "type": "text",
+                    "title": "Theory",
+                    "text": "Lithography is a fundamental pattern-transfer process in semiconductor fabrication used to define device regions on a silicon wafer. A lithography mask contains geometrical patterns that selectively expose or protect regions of the wafer during photoresist processing. These patterns are later transferred to the underlying layers through processes such as etching and implantation.\n\nA CMOS inverter consists of complementary NMOS and PMOS transistors that provide efficient digital switching. In the gate-first approach, the gate structure is formed before the source and drain regions are defined. The mask pattern includes the active regions, well regions, gate, contacts, and metal interconnections required to form the inverter. The gate crosses the active regions to define the transistor channels, while the source, drain, and contact regions provide the required electrical connections.\n\nUsing Semulator3D, the CMOS inverter mask pattern can be designed and studied layer by layer. The software helps visualize the geometrical relationship and alignment between different mask layers. Proper alignment and dimensions are essential for obtaining the intended transistor structure and ensuring correct CMOS inverter operation."
+                },
+                {
+                    "type": "image",
+                    "title": "Image",
+                    "new_page" : true,
+                    "subsections": [
+                        {
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "title": "Observation",
+                    "text": "The lithography mask pattern for the CMOS inverter was successfully designed and studied using Semulator3D. The active, well, gate, contact, and interconnection regions required for forming the complementary NMOS and PMOS devices were observed."
+                },
+                {
+                    "type": "text",
+                    "title": "Conclusion",
+                    "text": "The lithography mask pattern for the CMOS inverter was successfully designed and studied using Semulator3D. The gate-first approach helped in understanding the formation and alignment of the gate with the active regions of NMOS and PMOS devices. The experiment provided a clear understanding of how mask patterns define the structural regions required for CMOS inverter fabrication."
+                }
+            ]
+        }
+    ]
+}

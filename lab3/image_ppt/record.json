@@ -1,0 +1,168 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "layout.png",
+            "title": "Layout"
+        },
+        {
+            "id": 2,
+            "path": "processeditor.png",
+            "title": "Processeditor"
+        },
+        {
+            "id": 3,
+            "path": "step1.png",
+            "title": "Step1"
+        },
+        {
+            "id": 4,
+            "path": "images/lab3_locus_slide_1_img_1.png",
+            "title": "lab3_locus Slide 1"
+        },
+        {
+            "id": 5,
+            "path": "images/lab3_locus_slide_2_img_1.png",
+            "title": "lab3_locus Slide 2"
+        },
+        {
+            "id": 6,
+            "path": "images/lab3_locus_slide_3_img_1.png",
+            "title": "lab3_locus Slide 3"
+        },
+        {
+            "id": 7,
+            "path": "images/lab3_locus_slide_4_img_1.png",
+            "title": "lab3_locus Slide 4"
+        },
+        {
+            "id": 8,
+            "path": "images/lab3_locus_slide_5_img_1.png",
+            "title": "lab3_locus Slide 5"
+        },
+        {
+            "id": 9,
+            "path": "images/lab3_locus_slide_6_img_1.png",
+            "title": "lab3_locus Slide 6"
+        },
+        {
+            "id": 10,
+            "path": "images/lab3_locus_slide_7_img_1.png",
+            "title": "lab3_locus Slide 7"
+        },
+        {
+            "id": 11,
+            "path": "images/lab3_locus_slide_8_img_1.png",
+            "title": "final output"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 1,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To design and study the implementation pattern and structures."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": "Simulation Tool"
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "Theoretical background and principles of the experiment."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "DESIGN PARAMETERS",
+                    "new_page": true,
+                    "element_type": "column",
+                    "elements": [
+                        {
+                            "title": "Parameter",
+                            "entries": [
+                                "Param 1",
+                                "Param 2"
+                            ]
+                        },
+                        {
+                            "title": "Value",
+                            "entries": [
+                                "Val 1",
+                                "Val 2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "RESULT",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    11,
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "4x2",
+                                "elements": [
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10,
+                                    11
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": "The pattern was designed and observed within the specified boundary."
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "The experiment was successfully designed and studied."
+                }
+            ]
+        }
+    ]
+}
