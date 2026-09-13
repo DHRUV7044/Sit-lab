@@ -168,11 +168,11 @@
                 {
                     "type": "image",
                     "number": 5,
-                    "title": "Assignment2",
+                    "title": "Assignment1",
                     "new_page": false,
                     "subsections": [
                         {
-                            "title": "Assignment2",
+                            "title": "Assignment1",
                             "layout": {
                                 "type": "column",
                                 "elements": [
@@ -213,11 +213,11 @@
                 {
                     "type": "image",
                     "number": 6,
-                    "title": "Assignment1",
+                    "title": "Assignment2",
                     "new_page": false,
                     "subsections": [
                         {
-                            "title": "Assignment1",
+                            "title": "Assignment2",
                             "layout": {
                                 "type": "column",
                                 "elements": [

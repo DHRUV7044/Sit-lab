@@ -90,6 +90,10 @@
                     ]
                 },
                 {
+                    "type" : "blank",
+                    "empty" : true
+                },
+                {
                     "type": "text",
                     "number": 6,
                     "title": "Observation",

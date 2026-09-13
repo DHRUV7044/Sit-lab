@@ -39,17 +39,21 @@
                     "new_page": false,
                     "text": [
                         "In semiconductor fabrication and materials science, a substrate is the foundational physical base or wafer upon which thin films, active layers, or microstructures are deposited, grown, or etched.",
-                        "Sapphire is a single-crystal aluminium oxide (corundum) used as an insulating, transparent, and rigid substrate.",
+                        "Sapphire is a single-crystal aluminum oxide (corundum) used as an insulating, transparent, and rigid substrate.",
                         "ITO and FTO are Transparent Conducting Oxides (TCOs) that allow light to pass through while conducting electricity. They are used in optoelectronics because conventional metals are opaque. They are generally rigid, while ITO can also be coated on PET to provide flexibility.",
                         "PDMS (Polydimethylsiloxane) is a silicone-based organic polymer that is optically transparent, elastomeric, flexible, and stretchable. It is commonly used in wearable sensors.",
                         "PET (Polyethylene Terephthalate) is a transparent and flexible polymer substrate used where lightweight and bendable support is required."
                     ]
                 },
                 {
+                    "type" : "blank",
+                    "empty" : true
+                },
+                {
                     "type": "image",
                     "number": 4,
                     "title": "images",
-                    "new_page": true,
+                    "new_page": false,
                     "subsections": [
                         {
                             "title": "layout",
