@@ -6,14 +6,14 @@
     <filePassword ___text="" readonly="true"/>
     <fileAccessRestriction ___text="" readonly="true"/>
     <modelUnit ___activeMember="nm"/>
-    <materialDatabase RelativeFileName="../../../../material library/SEMulator3DMaterialsDatabase8.vmpd" ___text="D:/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd"/>
+    <materialDatabase RelativeFileName="../../material library/SEMulator3DMaterialsDatabase8.vmpd" ___text="D:/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd"/>
   </___Properties>
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="43a12ef0-7e57-418c-bcf5-c20100145d32" ___Name="Variables" ___Type="VariableRoot">
+  <___Parser UUID="b98b15cf-5898-4c3c-981c-e6b972cc1f57" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="874ff2af-0475-40ae-a4a2-bbf849141dea" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="a3b78023-a1d5-4b4e-b2d0-92070501eb2c" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="5cc0b3d1-e4b5-4e59-901f-d4d9e86aa4f4" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -22,7 +22,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="97f1f529-edc9-42e2-b955-d36055938e46" ___Name="Process Library" ___Type="ProcessRoot">
+  <___DocumentTree UUID="f1e8db90-be4a-401d-8f16-0064dbb0ab5c" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -1728,7 +1728,7 @@
         <airSide ___activeMember="top"/>
         <growthAmount ___activeMember="totalThickness ">
           <totalThickness isEnable="true">
-            <thickness ___expression="200" ___lastKnownValue="200.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <thickness ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit"/>
             <ratio ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
           </totalThickness>
           <thicknessBySide isEnable="true">
@@ -2368,7 +2368,7 @@
         </type>
       </___Properties>
     </___Item>
-    <___Item UUID="86580fd6-9ea6-490f-8f1f-5ffdcb1fc805" ___Name="Multi Etch1" ___Type="MultiEtch">
+    <___Item UUID="86580fd6-9ea6-490f-8f1f-5ffdcb1fc805" ___Name="Multi Etch1" ___Type="MultiEtch" isExpanded="true">
       <___Properties VersionNumber="13.1.0.0" isEnable="true">
         <stepName ___text="Multi Etch"/>
         <stepAction ___text="Multi Etch (Advanced Modeling)" icon=":/icons/MultiEtch" readonly="true" stepType="MultiEtch"/>

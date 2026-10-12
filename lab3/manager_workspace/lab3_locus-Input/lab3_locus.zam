@@ -2,15 +2,15 @@
 <SceneGraph ColorMode="Material">
 
   <DocumentProperties>
-    <ModelProperties IsComplete="false" ModelResolution="2.0" ModelUnits="nm"/>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
     <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
     <LayoutFile Filename="../layout/LOCOS_Layout (2).cat" TopCell="LOCOS_Cell"/>
-    <ProcessFile Filename="../process_workspace/lab3_locus.vproc"/>
+    <ProcessFile Filename="../analysis/main_exp.vanalysis"/>
     <Zones Number="1"/>
-    <Output Directory="lab3_locus-Output/" Enabled="true" ExtractFragments="false"/>
+    <Output Directory="lab3_locus-Output" Enabled="true" ExtractFragments="false"/>
     <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
     <ModelArea BoundingMask="Boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
-    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday September 11, 2026 14:23:38" LastModified="Friday September 11, 2026 14:23:38" Revision="87" Watermark=""/>
+    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday September 11, 2026 14:23:38" LastModified="Friday September 11, 2026 14:23:38" Revision="709" Watermark=""/>
     <SecurityProperties FileAccessRestriction=""/>
   </DocumentProperties>
 
@@ -20,8 +20,28 @@
 
   <Views/>
 
-  <Lights/>
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,45,315)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
 
-  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true"/>
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(750,100,41)" Name="" Position="(764.988,86.9277,10.9422)" ProjType="Orthographic" UpVector="(0,0,1)" ViewHeight="985.1806640625"/>
+  </View>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-1()" StepNumber="1" StepUUID="5643d11f-0ca8-4328-a072-abcb4b1a9d1d" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-2()" StepNumber="2" StepUUID="99fe32b4-7c00-4e21-a8cd-35ff52d25b4b" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-3()" StepNumber="3" StepUUID="de6ba214-3d6e-40c9-bf31-816dc933f874" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-4()" StepNumber="4" StepUUID="672a0c2a-ecb4-4ad2-a6eb-1d61afc0b61f" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-5()" StepNumber="5" StepUUID="25e63fcb-8bd9-4326-8288-7ca905a33166" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-6()" StepNumber="6" StepUUID="8e0487dd-6c9e-4e98-83c0-38a9d4723f20" Transparency="0.0" Visibility="false"/>
+  </Analyses>
 
 </SceneGraph>

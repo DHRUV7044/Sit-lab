@@ -1,0 +1,250 @@
+14:29:15 INFO   Loading Assembly file: D:/U24EV057/Lab 4/Assignment4_Gate_First/Assignment4_Gatefirst.zam
+14:29:20 INFO   Loading Analysis file: 
+14:29:20 INFO   Loading Process file: D:/U24EV057/Lab 4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+14:30:06 INFO   Loading Material file: D:/U24EV057/Lab 4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+14:30:12 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:30:14 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:30:14 INFO   Saving build script: D:\U24EV057\Lab 4\Assignment4_Gate_First\__semu_Assignment4_Gatefirst.py
+14:30:15 INFO : License server value is 54015@172.23.244.37.
+14:30:15 INFO : Platform is Windows, 64-bit.
+14:30:15 INFO : PRODUCT_NAME             SEMulator3D
+14:30:15 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+14:30:15 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+14:30:15 INFO : 
+
+14:30:42 INFO   Default number of parallel workers = 8
+14:30:42 INFO   Adding new input file path: D:\U24EV057\Lab 4\Assignment4_Gate_First\
+14:31:04 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+14:31:08 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+14:31:18 ERROR   Failed to obtain feature list: Cannot read data from license server system.
+ The license server system appears to be running, but is not
+responding.  If this persists, notify the System Administrator.
+(The license server manager (lmgrd) and vendor daemon processes
+should be terminated and restarted.)
+Hostname:      172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-16,287.
+14:31:18 INFO : 1:	Running WaferSetup ("Wafer Setup")
+14:31:18 INFO   Voxel Wafer resolution is 0.5 nm.
+14:31:24 INFO   Model bounds for new wafer are 200 by 100 voxels.
+14:31:24 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:24 INFO : 2:	Running Deposit ("Pad Oxide Deposition")
+14:31:24 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:24 INFO : 3:	Running Deposit ("SiN hardmask")
+14:31:24 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:24 INFO : 4:	Sequence ("STI_Trench_Lithography")
+14:31:24 INFO : 4.1:	Running Deposit ("Photo Resist coating")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 4.2:	Running ExposeMaterial ("Expose STI_Trench")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 5:	Sequence ("Etching trench")
+14:31:25 INFO : 5.1:	Running Etch ("SiN hardmask etch")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 5.2:	Running Etch ("pad oxide Etch")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 5.3:	Running Etch ("substrate silicon Etch")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 6:	Running RemoveMaterials ("resist removal")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 7:	Running InterfaceGrowth ("Thermal Oxidation of opened trench")
+14:31:25 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:25 INFO : 8:	Running Deposit ("Filling trench with CVD oxide")
+14:31:26 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:26 INFO : 9:	Running Polish ("STI oxide CMP")
+14:31:27 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:27 INFO : 10:	Running Etch ("Removal of SiN hard mask")
+14:31:27 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:27 INFO : 11:	Running MultiEtch ("Pad_oxide ramoval")
+14:31:32 INFO   Invoking MultiEtch with etch depth 5 nm on top side.
+14:31:32 INFO   Material-specific parameters (ignoring absent materials):
+14:31:32 INFO   	"/Oxides/SiO2_PECVD": type=Basic, Etch Ratio=0, Lateral Ratio=0.1
+14:31:32 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=1, Lateral Ratio=0.1
+14:31:32 INFO   Etching has no tilt or twist, and no rotation.
+14:31:32 INFO   MultiEtch: initializing ...
+14:31:32 INFO   MultiEtch 0.0% complete.
+14:31:32 INFO   MultiEtch 17.9% complete.
+14:31:32 INFO   MultiEtch 35.7% complete.
+14:31:32 INFO   MultiEtch 53.5% complete.
+14:31:33 INFO   MultiEtch 70.8% complete.
+14:31:33 INFO   MultiEtch 88.1% complete.
+14:31:33 INFO   MultiEtch 100.0% complete.
+14:31:33 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:33 INFO : 12:	Running Deposit ("Gate oxide deposition")
+14:31:33 WARN   Conformal deposit thickness (0.5 nm) is less than two voxels.  Layers less than two voxels thick may be invisible in the 3D Viewer and may cause modeling problems in subsequent operations.
+14:31:33 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:33 INFO : 13:	Running Deposit ("High k deposition for Gate")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO : 14:	Running Deposit ("NMOS gate metal")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO : 15:	Sequence ("gate patterning")
+14:31:34 INFO : 15.1:	Sequence ("NMOS Gate_Lithography")
+14:31:34 INFO : 15.1.1:	Running Deposit ("Photo Resist coating")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO : 15.1.2:	Running ExposeMaterial ("Expose for NMOS gate ")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO : 15.2:	Running Etch ("NMOS Metal Removal to pattern PMOS gate")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:34 INFO : 15.3:	Running RemoveMaterials ("resist removal after NMOS gate pattern")
+14:31:34 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO : 16:	Running Deposit ("gate metal deposition")
+14:31:35 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO : 17:	Sequence ("NMOS PMOS gates final pattern")
+14:31:35 INFO : 17.1:	Running Deposit ("Final Gate metal deposition")
+14:31:35 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO : 17.2:	Running Deposit ("patterning NMOS AND PMOS  gates")
+14:31:35 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO : 17.3:	Running ExposeMaterial ("Expose for NMOS gate ")
+14:31:35 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:35 INFO : 17.4:	Running Etch ("W Etch")
+14:31:36 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:36 INFO : 17.5:	Running Etch ("TiN/TiAl Etch")
+14:31:36 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:36 INFO : 17.6:	Running Etch ("high k Etch")
+14:31:36 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:36 INFO : 17.7:	Running Etch ("Gate oxide Etch")
+14:31:36 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:36 INFO : 17.8:	Running RemoveMaterials ("resist removal after gate pattern")
+14:31:37 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:37 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:37 INFO : 18:	Sequence ("NMOS source and Drain ")
+14:31:37 INFO : 18.1:	Running Deposit ("Conformal Deposit")
+14:31:37 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:37 INFO : 18.2:	Running Etch ("Basic Etch")
+14:31:37 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:37 INFO : 18.3:	Running Deposit ("Resist pattern for Nmos source and Drain")
+14:31:38 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:38 INFO : 18.4:	Running ExposeMaterial ("Expose resist for source and drain")
+14:31:38 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:38 INFO : 18.5:	Running Implant ("NMOS source and drain doping")
+14:31:43 WARN   Not all materials had their Implant profile specified: TiAl, TiN, W, Si3N4_LPCVD, Resist, HfOx, SiO2_HDP, SiO2_PECVD, SiO2_Thermal will have their profile set to stop on the surface.
+14:31:43 INFO   Implanting for 1456 surface locations..
+14:31:43 INFO   Implant 0.0% complete.
+14:31:43 INFO   Implant 10.2% complete.
+14:31:43 INFO   Implant 20.3% complete.
+14:31:43 INFO   Implant 30.5% complete.
+14:31:43 INFO   Implant 40.7% complete.
+14:31:43 INFO   Implant 50.8% complete.
+14:31:43 INFO   Implant 61.0% complete.
+14:31:43 INFO   Implant 71.2% complete.
+14:31:43 INFO   Implant 81.3% complete.
+14:31:43 INFO   Implant 91.5% complete.
+14:31:44 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:44 INFO : 18.6:	Running RemoveMaterials ("resist removal after PMOS gate pattern")
+14:31:44 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:44 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:44 INFO : 19:	Sequence ("PMOS source and Drain ")
+14:31:44 INFO : 19.1:	Running Deposit ("Resist pattern for Nmos source and Drain")
+14:31:44 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:44 INFO : 19.2:	Running ExposeMaterial ("Expose resist for source and drain")
+14:31:44 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:44 INFO : 19.3:	Running Implant ("PMOS source and drain doping")
+14:31:44 WARN   Not all materials had their Implant profile specified: TiAl, TiN, W, Si3N4_LPCVD, Resist, HfOx, SiO2_HDP, SiO2_PECVD, SiO2_Thermal will have their profile set to stop on the surface.
+14:31:44 INFO   Implanting for 1456 surface locations..
+14:31:44 INFO   Implant 0.0% complete.
+14:31:45 INFO   Implant 10.2% complete.
+14:31:45 INFO   Implant 20.3% complete.
+14:31:45 INFO   Implant 30.5% complete.
+14:31:45 INFO   Implant 40.7% complete.
+14:31:45 INFO   Implant 50.8% complete.
+14:31:45 INFO   Implant 61.0% complete.
+14:31:45 INFO   Implant 71.2% complete.
+14:31:45 INFO   Implant 81.3% complete.
+14:31:45 INFO   Implant 91.5% complete.
+14:31:45 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:45 INFO : 19.4:	Running RemoveMaterials ("resist removal after PMOS gate pattern")
+14:31:45 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:45 INFO : 19.5:	Running Diffusion ("Diffusion (Requires Advanced Modeling)")
+14:31:45 INFO   The value of Diffusivity of /Neutrals/Al in /Metals/TiAl is:1.38329e-15cm^2/sec
+14:31:45 INFO   The value of Diffusivity of /Neutrals/Al in /Metals/TiN is:1.38329e-15cm^2/sec
+14:31:45 INFO   The value of Diffusivity of /Neutrals/Al in /Silicon/Si_Xtal is:1.50827e-14cm^2/sec
+14:31:45 INFO   The value of Diffusivity of /Neutrals/Al in /Oxides/HfOx is:1.28985e-20cm^2/sec
+14:31:45 INFO   The value of Diffusivity of /Neutrals/Al in /Oxides/SiO2_HDP is:1.81461e-18cm^2/sec
+14:31:45 INFO   Before /Neutrals/Al diffusion: min/max = 0, 1e+17	atoms/cm^3
+14:31:45 INFO   Total amount of dopant atoms = 0.1
+14:31:45 INFO   Diffusion Solver 0.0% complete.
+14:31:46 INFO   Diffusion Solver 10.4% complete.
+14:31:46 INFO   Diffusion Solver 20.6% complete.
+14:31:46 INFO   Diffusion Solver 30.8% complete.
+14:31:46 INFO   Diffusion Solver 41.0% complete.
+14:31:46 INFO   Diffusion Solver 51.2% complete.
+14:31:46 INFO   Diffusion Solver 61.4% complete.
+14:31:46 INFO   Diffusion Solver 71.6% complete.
+14:31:46 INFO   Diffusion Solver 81.8% complete.
+14:31:46 INFO   Diffusion Solver 92.0% complete.
+14:31:46 INFO   Total amount of dopant atoms = 0.0999344
+14:31:46 INFO   After /Neutrals/Al diffusion: min/max = 0, 4.2248e+16	atoms/cm^3 (change made)
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:1.46944e-15cm^2/sec
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Oxides/HfOx is:1.99484e-17cm^2/sec
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:1.99484e-17cm^2/sec
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_LTO is:1.99484e-17cm^2/sec
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_PECVD is:1.99484e-17cm^2/sec
+14:31:46 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:1.99484e-17cm^2/sec
+14:31:46 INFO   Before /PType/B diffusion: min/max = 0, 5.19106e+16	atoms/cm^3
+14:31:46 INFO   Total amount of dopant atoms = 0.186359
+14:31:46 INFO   Diffusion Solver 0.0% complete.
+14:31:46 INFO   Diffusion Solver 10.9% complete.
+14:31:46 INFO   Diffusion Solver 21.8% complete.
+14:31:46 INFO   Diffusion Solver 32.7% complete.
+14:31:46 INFO   Diffusion Solver 43.6% complete.
+14:31:47 INFO   Diffusion Solver 54.5% complete.
+14:31:47 INFO   Diffusion Solver 65.4% complete.
+14:31:47 INFO   Diffusion Solver 76.3% complete.
+14:31:47 INFO   Diffusion Solver 87.2% complete.
+14:31:47 INFO   Diffusion Solver 98.2% complete.
+14:31:47 INFO   Total amount of dopant atoms = 0.186209
+14:31:47 INFO   After /PType/B diffusion: min/max = 0, 5.12107e+16	atoms/cm^3 (change made)
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Xtal is:1.46944e-15cm^2/sec
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Oxides/HfOx is:2.98718e-16cm^2/sec
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HDP is:2.98718e-16cm^2/sec
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_LTO is:2.98718e-16cm^2/sec
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_PECVD is:2.98718e-16cm^2/sec
+14:31:47 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_Thermal is:2.98718e-16cm^2/sec
+14:31:47 INFO   Before /NType/P diffusion: min/max = 0, 5.12107e+16	atoms/cm^3
+14:31:47 INFO   Total amount of dopant atoms = 0.184775
+14:31:47 INFO   Diffusion Solver 0.0% complete.
+14:31:47 INFO   Diffusion Solver 10.9% complete.
+14:31:47 INFO   Diffusion Solver 28.4% complete.
+14:31:47 INFO   Diffusion Solver 45.8% complete.
+14:31:47 INFO   Diffusion Solver 63.3% complete.
+14:31:47 INFO   Diffusion Solver 80.7% complete.
+14:31:47 INFO   Diffusion Solver 98.2% complete.
+14:31:47 INFO   Total amount of dopant atoms = 0.182138
+14:31:47 INFO   After /NType/P diffusion: min/max = 0, 3.66287e+16	atoms/cm^3 (change made)
+14:31:47 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:47 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:47 INFO : 20:	Sequence ("Source drain metal contacts")
+14:31:47 INFO : 20.1:	Running Deposit ("interlayer dielectric depsoition")
+14:31:47 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:47 INFO : 20.2:	Running Deposit ("ressit pattern for source and Drain metal contacts")
+14:31:47 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:47 INFO : 20.3:	Running ExposeMaterial ("Expose resist for source and drain metal contacts")
+14:31:47 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:47 INFO : 20.4:	Running Etch ("source and drain metal cotanct Etch")
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO : 20.5:	Running RemoveMaterials ("resist removal after source drain metal contacts")
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO : 20.6:	Running Deposit ("TiN Deposit")
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO : 21:	Running Polish ("Final CMP of ILD")
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO   Saving assembly file "D:\U24EV057\Lab 4\Assignment4_Gate_First\Assignment4_Gatefirst.zam".
+14:31:48 INFO : Build process completed.
+14:31:48 INFO : Elapsed Time 93 seconds.
+Build log file moved to : D:/U24EV057/Lab 4/Assignment4_Gate_First/Assignment4_Gatefirst-Output/Assignment4_Gatefirst.log

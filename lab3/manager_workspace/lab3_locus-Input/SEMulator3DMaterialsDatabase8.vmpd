@@ -7,9 +7,9 @@
     <fileAccessRestriction ___text="" readonly="true"/>
   </___Properties>
 
-  <___Parser UUID="32e48ad6-a590-47b9-97b9-25a22b45b23b" ___Name="Variables" ___Type="VariableRoot"/>
+  <___Parser UUID="9cdd0699-d4dd-4fb7-b11a-b6cfad160d73" ___Name="Variables" ___Type="VariableRoot"/>
 
-  <___DocumentTree UUID="63b704f3-992f-4e6a-be71-a0a3f3b9b3d2" ___Name="Material Database" ___Type="MaterialTreeRoot">
+  <___DocumentTree UUID="95a273ee-0de8-4eb8-98b6-a69ea1ae6dd2" ___Name="Material Database" ___Type="MaterialTreeRoot">
     <___Item UUID="b51793fd-adba-49be-b6d7-0fb0be5486b9" ___Name="Materials" ___Type="MainMaterialGroup" isExpanded="true">
       <___Properties isEnable="true"/>
       <___Item NotDeletable="true" UUID="f0e1bf5b-9de1-4a92-88ed-29c17934a945" ___Name="Metals" ___Type="MaterialGroup" isExpanded="true">
@@ -2036,7 +2036,7 @@
           </___Properties>
         </___Item>
       </___Item>
-      <___Item NotDeletable="true" UUID="d5d60728-a6a3-47c7-8379-fe3ebfcc53c6" ___Name="Oxides" ___Type="MaterialGroup">
+      <___Item NotDeletable="true" UUID="d5d60728-a6a3-47c7-8379-fe3ebfcc53c6" ___Name="Oxides" ___Type="MaterialGroup" isExpanded="true">
         <___Properties isEnable="true"/>
         <___Item UUID="13d4eb86-acf7-49fc-88e8-2eddb549bb02" ___Name="HfOx" ___Type="Material">
           <___Properties ID="-1" OrderUsed="-1" VersionNumber="13.1.0.0" isEnable="true">
@@ -2954,7 +2954,7 @@
         <___Item UUID="beca4429-7560-4e07-b31c-e8092d328a98" ___Name="Si_Amorph" ___Type="Material">
           <___Properties ID="-1" OrderUsed="-1" VersionNumber="13.1.0.0" isEnable="true">
             <visualProperties isEnable="true" isExpanded="true" showHeader="true">
-              <color ___blue="0" ___green="0" ___red="193" noItemUpdateRequired="true"/>
+              <color ___blue="0" ___green="0" ___red="255" noItemUpdateRequired="true"/>
               <transparency ___expression="0" noItemUpdateRequired="true"/>
               <visibility ___expression="true"/>
             </visualProperties>
