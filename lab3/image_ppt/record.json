@@ -1,0 +1,145 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "layout.png",
+            "title": "Layout"
+        },
+        {
+            "id": 2,
+            "path": "processeditor.png",
+            "title": "Processeditor"
+        },
+        {
+            "id": 3,
+            "path": "step1.png",
+            "title": "Step1"
+        },
+        {
+            "id": 4,
+            "path": "images/lab3_locus_slide_1_img_1.png"
+        },
+        {
+            "id": 5,
+            "path": "images/lab3_locus_slide_2_img_1.png"
+        },
+        {
+            "id": 6,
+            "path": "images/lab3_locus_slide_3_img_1.png"
+        },
+        {
+            "id": 7,
+            "path": "images/lab3_locus_slide_4_img_1.png"
+        },
+        {
+            "id": 8,
+            "path": "images/lab3_locus_slide_5_img_1.png"
+        },
+        {
+            "id": 9,
+            "path": "images/lab3_locus_slide_6_img_1.png"
+        },
+        {
+            "id": 10,
+            "path": "images/lab3_locus_slide_7_img_1.png"
+        },
+        {
+            "id": 11,
+            "path": "images/lab3_locus_slide_8_img_1.png",
+            "title": "final output"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 7,
+            "title": "Lab Experiment",
+            "date": "",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To design and study a lithography mask pattern for Local Oxidation of Silicon, demonstrating selective oxidation for device isolation"
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": "Semulator3D"
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "THEORY",
+                    "new_page": false,
+                    "text": [
+                        "Local Oxidation of Silicon (LOCOS) is a semiconductor fabrication technique used to create electrically isolated regions between adjacent devices. In this process, selected areas of a silicon wafer are oxidized to form a thick layer of silicon dioxide, while other regions are protected from oxidation. This selective oxidation is achieved using a suitable masking layer, commonly silicon nitride, which prevents oxygen from reaching the protected silicon surface.\n\nA lithography mask pattern defines the regions where oxidation is required. During the fabrication process, the mask protects the active device regions while exposing the isolation regions. Thermal oxidation is then performed, causing silicon dioxide to grow in the exposed regions. The resulting thick field oxide electrically separates neighboring active areas and reduces unwanted current flow between devices.\n\nLOCOS is an important isolation technique used in traditional integrated circuit fabrication. The geometry and dimensions of the mask pattern directly determine the location of the isolation regions and active areas. The process also demonstrates the importance of accurate lithographic pattern definition in semiconductor manufacturing.\n\nUsing Semulator3D, the lithography mask pattern for LOCOS can be designed and studied to visualize the selective oxidation regions. The simulation provides an understanding of how a mask controls oxidation and how the resulting oxide regions contribute to device isolation."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "DESIGN PARAMETERS",
+                    "new_page": true,
+                    "csv" : "lab3.csv"
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "RESULT",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "layout",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    11,
+                                    1
+                                ]
+                            }
+                        },
+                        {
+                            "title": "process outputs",
+                            "layout": {
+                                "type": "4x2",
+                                "elements": [
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10,
+                                    11
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observation",
+                    "new_page": false,
+                    "text": "The lithography mask pattern for Local Oxidation of Silicon was successfully designed and studied using Semulator3D. The pattern clearly defined the regions exposed for oxidation and the protected active regions, demonstrating the principle of selective oxidation used for device isolation."
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": "The lithography mask pattern for Local Oxidation of Silicon was successfully designed and studied using Semulator3D. The experiment demonstrated selective oxidation by defining protected and exposed regions through the mask pattern. It provided an understanding of how LOCOS forms field-oxide isolation between adjacent active regions during semiconductor fabrication."
+                }
+            ]
+        }
+    ]
+}
