@@ -1,105 +1,126 @@
-18:01:01 INFO   Loading Assembly file: D:/U24EV057/lab3/manager_workspace/lab3_locus.zam
-18:01:06 INFO   Loading Analysis file: D:/U24EV057/lab3/manager_workspace/../analysis/main_exp.vanalysis
-18:01:33 ERROR   Failed to obtain feature list: Cannot connect to license server system.
- The license server manager (lmgrd) has not been started yet,
- the wrong port@host or license file is being used, or the
- port or hostname in the license file has been changed.
-Server name:   172.23.244.37
+13:27:09 INFO   Loading Assembly file: D:/U24EV057/lab3/manager_workspace/lab3_locus.zam
+13:27:14 INFO   Loading Analysis file: D:/U24EV057/lab3/manager_workspace/../analysis/main_exp.vanalysis
+13:27:38 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
 License path:  54015@172.23.244.37;
-FlexNet Licensing error:-15,10032.
-18:01:36 ERROR   Failed to obtain feature list: Cannot connect to license server system.
- The license server manager (lmgrd) has not been started yet,
- the wrong port@host or license file is being used, or the
- port or hostname in the license file has been changed.
-Server name:   172.23.244.37
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:27:48 ERROR   Failed to obtain feature list: Cannot read data from license server system.
+ The license server system appears to be running, but is not
+responding.  If this persists, notify the System Administrator.
+(The license server manager (lmgrd) and vendor daemon processes
+should be terminated and restarted.)
+Hostname:      172.23.244.37
 License path:  54015@172.23.244.37;
-FlexNet Licensing error:-15,10032.
-18:01:48 INFO   Loading Process file: D:/U24EV057/lab3/process_workspace/lab3_locus.vproc
-18:01:48 INFO   Loading Material file: D:/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd
-18:01:54 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:01:56 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:01:57 INFO   Saving build script: D:\U24EV057\lab3\manager_workspace\__semu_lab3_locus.py
-18:01:58 INFO : License server value is 54015@172.23.244.37.
-18:01:58 INFO : Platform is Windows, 64-bit.
-18:01:58 INFO : PRODUCT_NAME             SEMulator3D
-18:01:58 INFO : VERSION_BUILD_NUMBER     13.1.0.0
-18:01:58 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
-18:01:58 INFO : 
+FlexNet Licensing error:-16,287.
+13:28:04 INFO   Loading Process file: D:/U24EV057/lab3/process_workspace/lab3_locus.vproc
+13:28:04 INFO   Loading Material file: D:/U24EV057/material library/SEMulator3DMaterialsDatabase8.vmpd
+13:28:09 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:28:11 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:28:12 INFO   Saving build script: D:\U24EV057\lab3\manager_workspace\__semu_lab3_locus.py
+13:28:12 INFO : License server value is 54015@172.23.244.37.
+13:28:12 INFO : Platform is Windows, 64-bit.
+13:28:12 INFO : PRODUCT_NAME             SEMulator3D
+13:28:12 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:28:12 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:28:12 INFO : 
 
-18:02:18 INFO   Default number of parallel workers = 8
-18:02:18 INFO   Adding new input file path: D:\U24EV057\lab3\manager_workspace\
-18:03:20 INFO : 1:	Running WaferSetup ("Wafer Setup")
-18:03:20 INFO   Voxel Wafer resolution is 1 nm.
-18:03:40 INFO   Model bounds for new wafer are 1900 by 200 voxels.
-18:03:40 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:40 INFO : 2:	Running Deposit ("pad oxide deposition")
-18:03:40 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:40 INFO : 3:	Running Deposit ("sin hard mask deposition")
-18:03:40 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:40 INFO : 4:	Sequence ("lithography")
-18:03:40 INFO : 4.1:	Running Deposit ("Deposit")
-18:03:40 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:40 INFO : 4.2:	Running ExposeMaterial ("uv exposure")
-18:03:42 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:42 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:42 INFO : 5:	Sequence ("etch")
-18:03:42 INFO : 5.1:	Running Etch ("SIN hardmsk etch")
-18:03:42 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:42 INFO : 5.2:	Running Etch ("pad oxide etch")
-18:03:43 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:43 INFO : 5.3:	Running RemoveMaterials ("resist removal")
-18:03:43 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:43 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:43 INFO : 6:	Running InterfaceGrowth ("thermal oxidation")
-18:03:44 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:44 INFO : A-2:	Running Analysis step Metrology ('gate_oxide') after process step '6';
-18:03:53 INFO : METROLOGY RESULTS:
-18:03:53 INFO : Film thickness measurement for ('/Oxides/SiO2_Thermal',) at (750.000000,175.000000):
-18:03:53 INFO :   gate_oxide = 15.000000
-18:03:53 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
-18:03:53 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:53 INFO : 7:	Running Etch ("sin hardmask strip")
-18:03:54 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:03:54 INFO : 8:	Running MultiEtch ("Multi Etch")
-18:03:59 INFO   Invoking MultiEtch with etch depth 18 nm on top side.
-18:03:59 INFO   Material-specific parameters (ignoring absent materials):
-18:03:59 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=1, Lateral Ratio=0.1
-18:03:59 INFO   Etching has no tilt or twist, and no rotation.
-18:03:59 INFO   MultiEtch: initializing ...
-18:03:59 INFO   MultiEtch 0.0% complete.
-18:04:00 INFO   MultiEtch 13.6% complete.
-18:04:01 INFO   MultiEtch 27.3% complete.
-18:04:02 INFO   MultiEtch 40.9% complete.
-18:04:03 INFO   MultiEtch 54.5% complete.
-18:04:04 INFO   MultiEtch 68.2% complete.
-18:04:05 INFO   MultiEtch 81.8% complete.
-18:04:06 INFO   MultiEtch 95.5% complete.
-18:04:06 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:06 INFO : A-1:	Running Analysis step Metrology ('wafer_thickeness') after process step '8';
-18:04:08 INFO : METROLOGY RESULTS:
-18:04:08 INFO : Film thickness measurement for ('/Silicon/Si_Xtal',) at (725.000000,0.000000):
-18:04:08 INFO :   wafer_thickeness = 398.000000
-18:04:08 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
-18:04:08 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:08 INFO : A-3:	Running Analysis step Metrology ('isolation_oxide') after process step '8';
-18:04:08 INFO : METROLOGY RESULTS:
-18:04:08 INFO : Film thickness measurement for ('/Oxides/SiO2_Thermal',) at (150.000000,0.000000):
-18:04:08 INFO :   isolation_oxide = 80.000000
-18:04:08 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
-18:04:08 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:08 INFO : A-4:	Running Analysis step Metrology ('gate_length') after process step '8';
-18:04:08 INFO : METROLOGY RESULTS:
-18:04:09 INFO : gate_length = FAILED
-18:04:09 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:09 INFO : A-5:	Running Analysis step Metrology ('gate_pitch') after process step '8';
-18:04:09 INFO : METROLOGY RESULTS:
-18:04:09 INFO : gate_pitch = 494.48828125
-18:04:09 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:09 INFO : A-6:	Running Analysis step Metrology ('isolation_length') after process step '8';
-18:04:09 INFO : METROLOGY RESULTS:
-18:04:10 INFO : isolation_length = 505.51171875
-18:04:10 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:10 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
-18:04:10 INFO : Build process completed.
-18:04:10 INFO : Elapsed Time 131 seconds.
+13:28:34 INFO   Default number of parallel workers = 8
+13:28:34 INFO   Adding new input file path: D:\U24EV057\lab3\manager_workspace\
+13:29:00 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:29:03 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:29:06 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:29:25 INFO : 1:	Running WaferSetup ("Wafer Setup")
+13:29:25 INFO   Voxel Wafer resolution is 1 nm.
+13:29:29 INFO   Model bounds for new wafer are 1900 by 200 voxels.
+13:29:29 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:29 INFO : 2:	Running Deposit ("pad oxide deposition")
+13:29:30 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:30 INFO : 3:	Running Deposit ("sin hard mask deposition")
+13:29:30 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:30 INFO : 4:	Sequence ("lithography")
+13:29:30 INFO : 4.1:	Running Deposit ("Deposit")
+13:29:30 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:30 INFO : 4.2:	Running ExposeMaterial ("uv exposure")
+13:29:32 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:32 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:32 INFO : 5:	Sequence ("etch")
+13:29:32 INFO : 5.1:	Running Etch ("SIN hardmsk etch")
+13:29:32 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:32 INFO : 5.2:	Running Etch ("pad oxide etch")
+13:29:33 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:33 INFO : 5.3:	Running RemoveMaterials ("resist removal")
+13:29:33 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:33 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:33 INFO : 6:	Running InterfaceGrowth ("thermal oxidation")
+13:29:34 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:34 INFO : A-2:	Running Analysis step Metrology ('gate_oxide') after process step '6';
+13:29:55 INFO : METROLOGY RESULTS:
+13:29:55 INFO : Film thickness measurement for ('/Oxides/SiO2_Thermal',) at (750.000000,175.000000):
+13:29:55 INFO :   gate_oxide = 15.000000
+13:29:55 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
+13:29:55 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:55 INFO : 7:	Running Etch ("sin hardmask strip")
+13:29:56 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:29:56 INFO : 8:	Running MultiEtch ("Multi Etch")
+13:30:04 INFO   Invoking MultiEtch with etch depth 18 nm on top side.
+13:30:04 INFO   Material-specific parameters (ignoring absent materials):
+13:30:04 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=1, Lateral Ratio=0.1
+13:30:04 INFO   Etching has no tilt or twist, and no rotation.
+13:30:04 INFO   MultiEtch: initializing ...
+13:30:04 INFO   MultiEtch 0.0% complete.
+13:30:04 INFO   MultiEtch 13.6% complete.
+13:30:05 INFO   MultiEtch 27.3% complete.
+13:30:05 INFO   MultiEtch 40.9% complete.
+13:30:06 INFO   MultiEtch 54.5% complete.
+13:30:06 INFO   MultiEtch 68.2% complete.
+13:30:07 INFO   MultiEtch 81.8% complete.
+13:30:07 INFO   MultiEtch 95.5% complete.
+13:30:08 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:08 INFO : A-1:	Running Analysis step Metrology ('wafer_thickeness') after process step '8';
+13:30:08 INFO : METROLOGY RESULTS:
+13:30:08 INFO : Film thickness measurement for ('/Silicon/Si_Xtal',) at (725.000000,0.000000):
+13:30:08 INFO :   wafer_thickeness = 398.000000
+13:30:08 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
+13:30:08 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:08 INFO : A-3:	Running Analysis step Metrology ('isolation_oxide') after process step '8';
+13:30:09 INFO : METROLOGY RESULTS:
+13:30:09 INFO : Film thickness measurement for ('/Oxides/SiO2_Thermal',) at (150.000000,0.000000):
+13:30:09 INFO :   isolation_oxide = 280.000000
+13:30:09 INFO : Results are stored in output file D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/metrology.txt.
+13:30:09 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:09 INFO : A-4:	Running Analysis step Metrology ('gate_length') after process step '8';
+13:30:09 INFO : METROLOGY RESULTS:
+13:30:09 INFO : gate_length = 200.71875
+13:30:09 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:09 INFO : A-5:	Running Analysis step Metrology ('gate_pitch') after process step '8';
+13:30:09 INFO : METROLOGY RESULTS:
+13:30:10 INFO : gate_pitch = 494.48828125
+13:30:10 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:10 INFO : A-6:	Running Analysis step Metrology ('isolation_length') after process step '8';
+13:30:10 INFO : METROLOGY RESULTS:
+13:30:10 INFO : isolation_length = 505.51171875
+13:30:10 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:10 INFO   Saving assembly file "D:\U24EV057\lab3\manager_workspace\lab3_locus.zam".
+13:30:10 INFO : Build process completed.
+13:30:10 INFO : Elapsed Time 117 seconds.
 Build log file moved to : D:/U24EV057/lab3/manager_workspace/lab3_locus-Output/lab3_locus.log

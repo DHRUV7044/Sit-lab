@@ -1,6 +1,6 @@
 wafer_thickeness = 398.0
 gate_oxide = 15.0
-isolation_oxide = 80.0
-gate_length = NOVAL
+isolation_oxide = 280.0
+gate_length = 200.71875
 gate_pitch = 494.48828125
 isolation_length = 505.51171875

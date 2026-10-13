@@ -1,0 +1,8 @@
+Metal_2                     8     0  
+STI_Boundary                2     0  
+Metal_1                     7     0  
+gate                        9     0  
+NMOS                        4     0  
+STI_Trench                  1     0  
+layer1                      0     0  
+PMOS                        3     0  

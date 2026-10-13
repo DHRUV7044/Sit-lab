@@ -10,7 +10,7 @@
     <Output Directory="lab3_locus-Output" Enabled="true" ExtractFragments="false"/>
     <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
     <ModelArea BoundingMask="Boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
-    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday September 11, 2026 14:23:38" LastModified="Friday September 11, 2026 14:23:38" Revision="709" Watermark=""/>
+    <UserProperties Author="INP" AutoRev="true" Comments="" CreatedOn="Friday September 11, 2026 14:23:38" LastModified="Friday September 11, 2026 14:23:38" Revision="1005" Watermark=""/>
     <SecurityProperties FileAccessRestriction=""/>
   </DocumentProperties>
 
@@ -32,7 +32,7 @@
   </Lights>
 
   <View Name="" Scale="(1,1,1)">
-    <Camera FocalPoint="(750,100,41)" Name="" Position="(764.988,86.9277,10.9422)" ProjType="Orthographic" UpVector="(0,0,1)" ViewHeight="985.1806640625"/>
+    <Camera FocalPoint="(750,100,16)" Name="" Position="(764.056,88.8001,10.9422)" ProjType="Orthographic" UpVector="(2.49584e-11,3.37043e-06,1)" ViewHeight="979.3651123046875"/>
   </View>
 
   <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">

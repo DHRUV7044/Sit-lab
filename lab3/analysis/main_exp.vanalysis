@@ -10,45 +10,45 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="e2a8dd44-08d6-48f4-bcda-c80c0d6aac57" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+  <___Parser UUID="2b15ec8e-3eb4-4b73-aa1d-7442874f58c7" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
     <___Item Automatic="true" UUID="a2991c06-a95b-475c-92c8-e2d0b3111996" ___Name="Auto" ___Type="VariableGroup" isExpanded="true">
-      <___Item Automatic="true" UUID="6dcf24df-57a2-46a4-b164-8314fedb9809" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="b739de76-6a24-4667-a75b-09291975920a" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="f8d7c775-7eb1-44d0-8c2f-3747bf76850e" ___Name="gate_length" ___Type="Variable">
+      <___Item Automatic="true" UUID="61144bb3-32ca-4c3f-808c-5be9309a05b6" ___Name="gate_length" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="027b0469-ffa8-4e78-8452-b10db1a58609" ___Name="gate_oxide" ___Type="Variable">
+      <___Item Automatic="true" UUID="1254c11e-26c9-4a23-9645-2385c0321abb" ___Name="gate_oxide" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="75636c8d-e070-4280-a50b-184bcc55d193" ___Name="gate_pitch" ___Type="Variable">
+      <___Item Automatic="true" UUID="33acb76b-4740-4677-aa97-62a6495f0fc0" ___Name="gate_pitch" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="0a8fa4fe-21e2-490e-8f23-9bac0e3ef72a" ___Name="isolation_length" ___Type="Variable">
+      <___Item Automatic="true" UUID="21ff6d46-39ac-42cd-8c87-9fa5cea1aaab" ___Name="isolation_length" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="13fb9ddc-c28a-44c8-9552-8c22f4483c8f" ___Name="isolation_oxide" ___Type="Variable">
+      <___Item Automatic="true" UUID="cd2bfff3-0f78-4305-9b41-dd0b4314116c" ___Name="isolation_oxide" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
-      <___Item Automatic="true" UUID="cc83d4d5-079f-4e5c-ad9d-1ed2029e637d" ___Name="wafer_thickeness" ___Type="Variable">
+      <___Item Automatic="true" UUID="caa57005-d986-4034-8652-f3483379c8eb" ___Name="wafer_thickeness" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -57,7 +57,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="5e5c0777-8fcb-418b-b696-3aaf572918d0" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
+  <___DocumentTree UUID="665e5ff6-6196-44b6-91c4-8eca10791754" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -421,11 +421,11 @@
           <maskName isEnable="true"/>
           <maskCoordinates isEnable="true">
             <lowerCorner isEnable="true" showHeader="true">
-              <x ___expression="580" ___lastKnownValue="580.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <x ___expression="500" ___lastKnownValue="500.0" ___unitConversionExpr="" ___unitName="nounit"/>
               <y ___expression="190" ___lastKnownValue="190.0" ___unitConversionExpr="" ___unitName="nounit"/>
             </lowerCorner>
             <upperCorner isEnable="true" showHeader="true">
-              <x ___expression="910" ___lastKnownValue="910.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <x ___expression="1000" ___lastKnownValue="1000.0" ___unitConversionExpr="" ___unitName="nounit"/>
               <y ___expression="200" ___lastKnownValue="200.0" ___unitConversionExpr="" ___unitName="nounit"/>
             </upperCorner>
           </maskCoordinates>

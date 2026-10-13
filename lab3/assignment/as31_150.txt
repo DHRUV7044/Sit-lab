@@ -1,0 +1,6 @@
+wafer_thickeness = 398.0
+gate_oxide = 15.0
+isolation_oxide = 130.0
+gate_length = 350.71875
+gate_pitch = 494.48828125
+isolation_length = 505.51171875
