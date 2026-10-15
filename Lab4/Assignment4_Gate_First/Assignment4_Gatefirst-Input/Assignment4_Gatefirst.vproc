@@ -11,9 +11,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="d13d4fee-787c-4cac-a4d1-2b9965d9611a" ___Name="Variables" ___Type="VariableRoot">
+  <___Parser UUID="fe4ba4e9-444b-42a8-93d2-32ec05b181d9" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="1578022d-a167-42a7-b9b7-163a00dfa254" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="4f11eb95-1f1e-4891-bbe5-b17063786a95" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="54f4cba3-7a8c-4f83-ac41-5886e189d9b3" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -22,7 +22,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="85626bff-7911-4f6c-916c-5745c3450a2e" ___Name="Process Library" ___Type="ProcessRoot">
+  <___DocumentTree UUID="a4f1f748-27fb-4c21-8fd5-3a1d925afd30" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -4075,7 +4075,7 @@
           <indexVariable ___text="LoopIndex" readonly="true"/>
         </looping>
       </___Properties>
-      <___Item UUID="40892265-88fd-4428-8fbf-684c64dc415b" ___Name="Sequence11" ___Type="Sequence">
+      <___Item UUID="40892265-88fd-4428-8fbf-684c64dc415b" ___Name="Sequence11" ___Type="Sequence" isExpanded="true">
         <___Properties isEnable="true">
           <stepName ___text="NMOS Gate_Lithography"/>
           <stepAction ___text="Sequence" icon=":/icons/Sequence" readonly="true" stepType="Sequence"/>
@@ -8980,7 +8980,7 @@
             <_DopantNodeType_PType_DopantLeafType_B UserDefinedName="/PType/B" isEnable="true"/>
           </dopants>
           <uiDiffusionSpacer2 ___text="" extraSpace="true"/>
-          <time ___expression="12" ___lastKnownValue="12.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <time ___expression="6.2" ___lastKnownValue="6.2" ___unitConversionExpr="" ___unitName="nounit"/>
           <temperature ___expression="900" ___lastKnownValue="900.0" ___unitConversionExpr="" ___unitName="nounit"/>
         </___Properties>
       </___Item>

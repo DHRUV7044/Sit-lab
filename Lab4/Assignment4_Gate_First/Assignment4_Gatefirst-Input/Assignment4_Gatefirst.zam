@@ -5,12 +5,12 @@
     <ModelProperties IsComplete="false" ModelResolution="0.5" ModelUnits="nm"/>
     <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
     <LayoutFile Filename="Gatefirst1.cat" TopCell="Gatefirst_cell"/>
-    <ProcessFile Filename="Assignment4_Gatefirst.vproc"/>
+    <ProcessFile Filename="gate_first_analysis.vanalysis"/>
     <Zones Number="1"/>
-    <Output Directory="Assignment4_Gatefirst-Output" Enabled="true" ExtractFragments="false"/>
+    <Output Directory="Assignment4_Gatefirst-Output/" Enabled="true" ExtractFragments="false"/>
     <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
     <ModelArea BoundingMask="layer1" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
-    <UserProperties Author="sushm" AutoRev="true" Comments="" CreatedOn="Thursday August 17, 2023 16:22:56" LastModified="Thursday August 17, 2023 16:22:56" Revision="3045" Watermark=""/>
+    <UserProperties Author="sushm" AutoRev="true" Comments="" CreatedOn="Thursday August 17, 2023 16:22:56" LastModified="Thursday August 17, 2023 16:22:56" Revision="3411" Watermark=""/>
     <SecurityProperties FileAccessRestriction=""/>
   </DocumentProperties>
 
@@ -35,6 +35,8 @@
     <Camera FocalPoint="(0,25,10.5)" Name="" Position="(30.4154,36.3487,257.241)" ProjType="Orthographic" UpVector="(0.00611528,0.311754,0.950143)" ViewHeight="66.22122192382812"/>
   </View>
 
-  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true"/>
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-1()" StepNumber="1" StepUUID="ae6368f9-6834-49cb-9889-c000a7d8474e" Transparency="0.0" Visibility="false"/>
+  </Analyses>
 
 </SceneGraph>
