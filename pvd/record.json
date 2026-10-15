@@ -1,0 +1,158 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057",
+        "date": "09/10/2026"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "images/sputtering_system.jpeg",
+            "title": "Sputtering System and Control Panel"
+        },
+        {
+            "id": 2,
+            "path": "images/venting_pump.jpeg",
+            "title": "Venting Pump"
+        },
+        {
+            "id": 3,
+            "path": "images/chiller.jpeg",
+            "title": "Chiller"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 8,
+            "title": "DEMONSTRATION OF PHYSICAL VAPOUR DEPOSITION (PVD - RF SPUTTERING)",
+            "date": "09/10/2026",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To demonstrate the physical vapour deposition (PVD) of a tin dioxide (SnO<sub>2</sub>) target onto an ITO-coated glass substrate using a sputtering system."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Apparatus Required",
+                    "new_page": false,
+                    "text": [
+                        "The following apparatus and materials are required for the sputtering process:",
+                        "1. Sputtering System: Consists of RF and DC power sources, a rotary pump, and a turbomolecular pump.",
+                        "2. Chiller: Used for cooling the sputtering system during operation.",
+                        "3. Venting Pump: Used for the venting process.",
+                        "4. Argon Gas: Used as the sputtering gas with a flow rate of 5 sccm for formation of plasma.",
+                        "5. Substrate: ITO-coated glass.",
+                        "6. Target: Tin dioxide (SnO<sub>2</sub>)."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Theory",
+                    "new_page": false,
+                    "text": [
+                        "Physical Vapour Deposition (PVD):",
+                        "Physical Vapour Deposition (PVD) is a thin-film deposition technique in which a material is physically transferred from a source (target) to a substrate under controlled vacuum conditions. In this experiment, tin dioxide (SnO<sub>2</sub>) is used as the target material, and ITO-coated glass is used as the substrate. The deposition is carried out using a sputtering system.",
+                        "Principle of Sputtering:",
+                        "Sputtering is a PVD technique in which energetic ions bombard the surface of a solid target and eject atoms or particles from it. These ejected particles travel through the vacuum chamber and deposit onto the substrate, forming a thin film.",
+                        "Argon (Ar) gas is introduced into the vacuum chamber at a controlled flow rate of 5 sccm. A voltage is applied between the electrodes using an RF or DC power source, which ionizes the argon gas and produces a plasma. The plasma consists of positively charged argon ions and free electrons.",
+                        "The positively charged argon ions are accelerated towards the negatively biased target. When these ions strike the SnO<sub>2</sub> target, they transfer their kinetic energy to the target atoms, causing them to be ejected from its surface. These sputtered particles then travel towards the ITO-coated glass substrate and gradually form a thin SnO<sub>2</sub> film.",
+                        "Role of Different Components:",
+                        "1. Target (SnO<sub>2</sub>): It is the source material from which atoms are ejected during the sputtering process.",
+                        "2. Substrate (ITO-coated Glass): It provides the surface on which the sputtered SnO<sub>2</sub> particles are deposited to form a thin film.",
+                        "3. Argon Gas: Argon is an inert gas used to generate plasma. Its ions bombard the target and cause sputtering.",
+                        "4. RF/DC Power Source: It supplies electrical power to generate and sustain plasma inside the chamber.",
+                        "5. Rotary and Turbomolecular Pumps: These pumps create the required vacuum inside the chamber. The rotary pump provides initial rough vacuum, while the turbomolecular pump helps achieve a higher vacuum.",
+                        "6. Chiller: It maintains the required cooling of the sputtering system during operation."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Procedure",
+                    "new_page": false,
+                    "text": [
+                        "The following steps are performed to deposit a thin film of SnO<sub>2</sub> on an ITO-coated glass substrate using the RF sputtering technique:",
+                        "1. Load the ITO-coated glass substrate into the sputtering chamber. If the chamber is under vacuum, first vent the chamber by opening the vent valve. After venting is completed, close the vent valve.",
+                        "2. Switch ON the Pirani gauge to monitor the vacuum pressure inside the chamber.",
+                        "3. Turn ON the rotary pump by setting its selector switch to the ON position.",
+                        "4. Open the backing valve to establish the required backing pressure.",
+                        "5. After achieving the required backing pressure, switch ON the turbomolecular pump and follow the pumping sequence specified in the equipment manual.",
+                        "6. Open the roughing valve to evacuate the chamber. Once the required roughing pressure is achieved, operate the valves according to the prescribed vacuum sequence.",
+                        "7. Switch ON the high-vacuum gauge and open the high-vacuum valve. Allow the turbomolecular pump to evacuate the chamber until the required high-vacuum pressure is achieved.",
+                        "8. Ensure that the SnO<sub>2</sub> target is properly mounted in the sputtering system.",
+                        "9. Open the argon gas valve and switch ON the required mass flow controller. Set the argon gas flow rate to 5 sccm.",
+                        "10. Switch ON the RF power supply and set the required RF power according to the experimental setup.",
+                        "11. Allow the argon gas to ionize and generate plasma inside the chamber. The positively charged argon ions bombard the SnO<sub>2</sub> target and eject its atoms.",
+                        "12. Operate the shutter to expose the ITO-coated glass substrate to the sputtered particles. The particles gradually deposit on the substrate and form a thin SnO<sub>2</sub> film.",
+                        "13. Monitor the deposition process using the thickness monitor. Once the required coating thickness is achieved, close the shutter.",
+                        "14. Switch OFF the RF power supply and close the argon gas valve.",
+                        "15. Allow the system to cool if required. Follow the prescribed venting procedure to bring the chamber to atmospheric pressure before removing the coated substrate."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Equipment Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1,
+                                    {
+                                        "type": "row",
+                                        "elements": [
+                                            2,
+                                            3
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 6,
+                    "title": "Parameters",
+                    "new_page": true,
+                    "text": "The following parameters were used during the SnO<sub>2</sub> thin-film deposition process:",
+                    "tables": [
+                        {
+                            "custom_caption": "Table 5: Parameters Used for SnO<sub>2</sub> Deposition",
+                            "csv": "parameters.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Observations",
+                    "new_page": false,
+                    "text": [
+                        "During the experiment, plasma formation was observed inside the sputtering chamber after introducing argon gas and applying RF power. The plasma generated energetic argon ions, which bombarded the SnO<sub>2</sub> target and caused the ejection of target particles. These particles travelled towards the ITO-coated glass substrate and gradually formed a thin film.",
+                        "The sputtering process was carried out under controlled vacuum conditions with an argon gas flow rate of 5 sccm and an RF power of 90 W. The experiment demonstrated the role of plasma generation, target bombardment, and controlled deposition in the formation of thin films using the RF sputtering technique."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 8,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": [
+                        "The experiment provided practical understanding of the RF sputtering technique, which is an important method for depositing thin films in semiconductor and electronic device fabrication. It demonstrated how process parameters such as RF power, gas flow rate, and deposition conditions influence the thin-film formation process. The experiment also helped in understanding the importance of vacuum systems, plasma generation, and target-substrate interaction in physical vapour deposition. Overall, the experiment enhanced practical knowledge of thin-film fabrication and the working principle of a sputtering system."
+                    ]
+                }
+            ]
+        }
+    ]
+}
