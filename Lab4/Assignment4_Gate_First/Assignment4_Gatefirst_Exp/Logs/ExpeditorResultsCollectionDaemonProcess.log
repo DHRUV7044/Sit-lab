@@ -1,0 +1,16 @@
+2026-10-16 13:38:26.713; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Ignoring SIGNINT. Parent process will be responsible for killing this process
+2026-10-16 13:43:17.615; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Run header = [(0, 'Run'), (1, '19.5:time')]
+2026-10-16 13:43:17.615; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Step Names header = [(0, '#Step Names'), (1, 'Diffusion (Requires Advanced Modeling)')]
+2026-10-16 13:44:24.425; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; variables header = ['19.5:time']
+2026-10-16 13:44:26.420; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Sorted variables header excluding commented ones = ['19.5:time']
+2026-10-16 13:44:28.426; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Last row reached. Exiting the reader
+2026-10-16 13:44:28.447; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-6
+2026-10-16 13:44:28.466; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-2
+2026-10-16 13:44:28.475; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-5
+2026-10-16 13:44:28.485; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-4
+2026-10-16 13:44:28.495; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-1
+2026-10-16 13:44:28.504; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-7
+2026-10-16 13:44:28.591; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-0
+2026-10-16 13:44:28.602; SHOW_USER; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; Completed collecting results for Run-8
+2026-10-16 13:44:30.626; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; process shutting down
+2026-10-16 13:44:30.629; INFO; 13988; ExpeditorResultsCollectionDaemonProcess; MainThread; process exiting with exitcode 0

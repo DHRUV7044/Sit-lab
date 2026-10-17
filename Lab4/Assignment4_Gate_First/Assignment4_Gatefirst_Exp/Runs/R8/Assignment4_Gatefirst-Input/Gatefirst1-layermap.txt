@@ -1,0 +1,8 @@
+metal_NMOS_PMOS_S_D         8     0  
+Source_Drain_NMOS           6     0  
+NMOS_metal_pattern          3     0  
+PMOS_metal_pattern          4     0  
+Source_Drain_PMOS           7     0  
+STI_Trench                  1     0  
+Gate_both_NMOS_PMOS         5     0  
+layer1                      2     0  

@@ -1,0 +1,3 @@
+cd_width = 5.0234375
+cd_inflection = 4.74636101978831
+thickness_spacer = 53.8217391371727

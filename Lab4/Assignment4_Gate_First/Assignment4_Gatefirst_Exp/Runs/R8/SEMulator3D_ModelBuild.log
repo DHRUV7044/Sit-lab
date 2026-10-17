@@ -1,0 +1,27 @@
+13:42:48 INFO : License server value is 54015@172.23.244.37.
+13:42:48 INFO : Platform is Windows, 64-bit.
+13:42:48 INFO : PRODUCT_NAME             SEMulator3D
+13:42:48 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:42:48 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:42:48 INFO : 
+
+13:42:51 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+Traceback (most recent call last):
+  File "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R8\__semu_R8.py", line 104, in <module>
+    procDoc = CProcessData.ProcessDocument()
+RuntimeError: ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+

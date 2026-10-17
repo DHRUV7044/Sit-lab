@@ -1,0 +1,153 @@
+13:39:58 INFO : License server value is 54015@172.23.244.37.
+13:39:58 INFO : Platform is Windows, 64-bit.
+13:39:58 INFO : PRODUCT_NAME             SEMulator3D
+13:39:58 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:39:58 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:39:58 INFO : 
+
+13:42:26 INFO : 1:	Running WaferSetup ("Wafer Setup")
+13:42:29 INFO : 2:	Running Deposit ("Pad Oxide Deposition")
+13:42:29 INFO : 3:	Running Deposit ("SiN hardmask")
+13:42:29 INFO : 4:	Sequence ("STI_Trench_Lithography")
+13:42:29 INFO : 4.1:	Running Deposit ("Photo Resist coating")
+13:42:30 INFO : 4.2:	Running ExposeMaterial ("Expose STI_Trench")
+13:42:30 INFO : 5:	Sequence ("Etching trench")
+13:42:30 INFO : 5.1:	Running Etch ("SiN hardmask etch")
+13:42:30 INFO : 5.2:	Running Etch ("pad oxide Etch")
+13:42:30 INFO : 5.3:	Running Etch ("substrate silicon Etch")
+13:42:30 INFO : 6:	Running RemoveMaterials ("resist removal")
+13:42:30 INFO : 7:	Running InterfaceGrowth ("Thermal Oxidation of opened trench")
+13:42:30 INFO : 8:	Running Deposit ("Filling trench with CVD oxide")
+13:42:31 INFO : 9:	Running Polish ("STI oxide CMP")
+13:42:31 INFO : 10:	Running Etch ("Removal of SiN hard mask")
+13:42:31 INFO : 11:	Running MultiEtch ("Pad_oxide ramoval")
+13:42:43 INFO : 12:	Running Deposit ("Gate oxide deposition")
+13:42:43 INFO : 13:	Running Deposit ("High k deposition for Gate")
+13:42:43 INFO : 14:	Running Deposit ("NMOS gate metal")
+13:42:43 INFO : 15:	Sequence ("gate patterning")
+13:42:43 INFO : 15.1:	Sequence ("NMOS Gate_Lithography")
+13:42:43 INFO : 15.1.1:	Running Deposit ("Photo Resist coating")
+13:42:43 INFO : 15.1.2:	Running ExposeMaterial ("Expose for NMOS gate ")
+13:42:43 INFO : 15.2:	Running Etch ("NMOS Metal Removal to pattern PMOS gate")
+13:42:43 INFO : 15.3:	Running RemoveMaterials ("resist removal after NMOS gate pattern")
+13:42:43 INFO : 16:	Running Deposit ("gate metal deposition")
+13:42:43 INFO : 17:	Sequence ("NMOS PMOS gates final pattern")
+13:42:43 INFO : 17.1:	Running Deposit ("Final Gate metal deposition")
+13:42:44 INFO : 17.2:	Running Deposit ("patterning NMOS AND PMOS  gates")
+13:42:44 INFO : 17.3:	Running ExposeMaterial ("Expose for NMOS gate ")
+13:42:44 INFO : 17.4:	Running Etch ("W Etch")
+13:42:44 INFO : 17.5:	Running Etch ("TiN/TiAl Etch")
+13:42:44 INFO : 17.6:	Running Etch ("high k Etch")
+13:42:44 INFO : 17.7:	Running Etch ("Gate oxide Etch")
+13:42:44 INFO : 17.8:	Running RemoveMaterials ("resist removal after gate pattern")
+13:42:45 INFO : 18:	Sequence ("NMOS source and Drain ")
+13:42:45 INFO : 18.1:	Running Deposit ("Conformal Deposit")
+13:42:45 INFO : 18.2:	Running Etch ("Basic Etch")
+13:42:45 INFO : 18.3:	Running Deposit ("Resist pattern for Nmos source and Drain")
+13:42:45 INFO : 18.4:	Running ExposeMaterial ("Expose resist for source and drain")
+13:42:45 INFO : 18.5:	Running Implant ("NMOS source and drain doping")
+13:40:54 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:41:18 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:41:29 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:42:05 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:42:25 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:42:29 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 898, in Implant
+RuntimeError: ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelerDopants
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 898, in Implant
+RuntimeError: Model build failed at step 18.5.  ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelerDopants
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R0\__semu_R0.py", line 133, in <module>
+    success = modeler.BuildModel(procDoc, analysisDoc, spw)
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 223, in BuildModel
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 294, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 639, in _RunSequenceImpl
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 898, in Implant
+RuntimeError: Model build failed at step 18.5.  ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelerDopants
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+

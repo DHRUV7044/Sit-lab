@@ -1,0 +1,428 @@
+
+D:\U24EV057\Lab4\Assignment4_Gate_First>rem Copyright 2009-2013 Coventor, Inc. 
+
+D:\U24EV057\Lab4\Assignment4_Gate_First>rem All rights reserved. 
+
+D:\U24EV057\Lab4\Assignment4_Gate_First>rem  
+SEMulator3D Installation dir :-  C:\Coventor\SEMulator3D13
+SEMulator3D project folder is /.
+13:36:29 INFO : License server value is 54015@172.23.244.37.
+13:36:29 INFO : Platform is Windows, 64-bit.
+13:36:29 INFO : PRODUCT_NAME             SEMulator3D
+13:36:29 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:36:29 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:36:29 INFO : 
+
+13:36:38 MainProcess SHOW_USER: EXPEDITOR
+13:36:38 MainProcess SHOW_USER: Copyright (c) 2012-15, Coventor, Inc. All rights reserved.
+13:36:38 MainProcess SHOW_USER: Overwriting Assignment4_Gatefirst_Exp
+13:36:38 MainProcess SHOW_USER: Logs will be written to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Logs
+13:36:38 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:36:45 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:37:26 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+13:37:29 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:37:30 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:37:30 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:37:31 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:37:31 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:37:32 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:37:32 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:37:33 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:37:33 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:37:34 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:37:34 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:37:35 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:37:35 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:37:36 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:37:36 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:37:55 MainProcess SHOW_USER: Creating layout directory Gatefirst1
+13:37:57 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.zam to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+13:37:57 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\gate_first_analysis.vanalysis to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+13:37:57 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.vproc to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+13:37:57 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\SEMulator3DMatDB_80.vmpd to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+13:37:57 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1\Assignment4_Gatefirst.zam".
+13:38:23 MainProcess SHOW_USER: Expeditor will use the default build launcher
+13:38:23 MainProcess SHOW_USER: The number of concurrent builds is 10
+13:38:23 MainProcess SHOW_USER: Expeditor will not delete the directories of the individual runs.
+13:38:24 INFO : License server value is 54015@172.23.244.37.
+13:38:24 INFO : Platform is Windows, 64-bit.
+13:38:24 INFO : PRODUCT_NAME             SEMulator3D
+13:38:24 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:38:24 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:38:24 INFO : 
+
+13:38:25 MainProcess SHOW_USER: Creating 1 ExpeditorProcesses
+13:38:25 MainProcess SHOW_USER: 0 processes will be responsible for 64 builds each, 1 last process will be responsible for 10 builds
+13:38:26 INFO : License server value is 54015@172.23.244.37.
+13:38:26 INFO : Platform is Windows, 64-bit.
+13:38:26 INFO : PRODUCT_NAME             SEMulator3D
+13:38:26 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:38:26 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:38:26 INFO : 
+
+13:38:26 INFO : License server value is 54015@172.23.244.37.
+13:38:26 INFO : Platform is Windows, 64-bit.
+13:38:26 INFO : PRODUCT_NAME             SEMulator3D
+13:38:26 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:38:26 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:38:26 INFO : 
+
+13:38:26 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-0
+13:38:26 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-0. Starting full build.
+13:38:26 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R0\Assignment4_Gatefirst.zam
+13:38:32 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R0/gate_first_analysis.vanalysis
+13:39:35 ERROR   Failed to obtain feature list: Timeout.
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,10013.
+13:39:50 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R0/Assignment4_Gatefirst.vproc
+13:39:50 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R0/SEMulator3DMatDB_80.vmpd
+13:39:56 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R0\Assignment4_Gatefirst.zam".
+13:39:56 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R0\Assignment4_Gatefirst.zam".
+13:39:58 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-1
+13:39:58 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-1. Starting full build.
+13:39:58 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R1\Assignment4_Gatefirst.zam
+13:39:58 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R1/gate_first_analysis.vanalysis
+13:39:59 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R1/Assignment4_Gatefirst.vproc
+13:39:59 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R1/SEMulator3DMatDB_80.vmpd
+13:40:15 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R1\Assignment4_Gatefirst.zam".
+13:40:16 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R1\Assignment4_Gatefirst.zam".
+13:40:17 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-2
+13:40:17 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-2. Starting full build.
+13:40:17 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R2\Assignment4_Gatefirst.zam
+13:40:17 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R2/gate_first_analysis.vanalysis
+13:40:18 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R2/Assignment4_Gatefirst.vproc
+13:40:18 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R2/SEMulator3DMatDB_80.vmpd
+13:40:30 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R2\Assignment4_Gatefirst.zam".
+13:40:30 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R2\Assignment4_Gatefirst.zam".
+13:40:31 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-3
+13:40:31 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-3. Starting full build.
+13:40:31 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R3\Assignment4_Gatefirst.zam
+13:40:32 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R3/gate_first_analysis.vanalysis
+13:40:33 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R3/Assignment4_Gatefirst.vproc
+13:40:33 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R3/SEMulator3DMatDB_80.vmpd
+COV_ModelBuilderAPI: ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:40:53 ERROR   License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:40:53 ExpeditorProcess-0 ERROR: Unable to generate the model build script for Run-3
+13:40:53 ExpeditorProcess-0 ERROR: Run-3 will be skipped
+13:40:53 ExpeditorProcess-0 ERROR: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 249, in schedulerProcess.SchedulerProcess.__runPreRunHooks
+  File "preRunHooks.py", line 385, in preRunHooks.generateModelBuildScript
+  File "preRunHooks.py", line 381, in preRunHooks.generateModelBuildScript
+RuntimeError: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:40:53 ExpeditorProcess-0 SHOW_USER: Run-3 will be skipped as a pre-Run hook has failed.
+13:40:53 ExpeditorProcess-0 ERROR: Pre-run hook for Run-3 has failed. Skipping as unable to launch build
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 139, in schedulerProcess.SchedulerProcess.__launchNextTaskAsync
+RuntimeError: Pre-run hook for Run-3 has failed. Skipping as unable to launch build
+13:40:53 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-4
+13:40:53 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-4. Starting full build.
+13:40:53 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R4\Assignment4_Gatefirst.zam
+13:40:53 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R4/gate_first_analysis.vanalysis
+13:40:54 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R4/Assignment4_Gatefirst.vproc
+13:40:55 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R4/SEMulator3DMatDB_80.vmpd
+13:41:11 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R4\Assignment4_Gatefirst.zam".
+13:41:11 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R4\Assignment4_Gatefirst.zam".
+13:41:12 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-5
+13:41:12 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-5. Starting full build.
+13:41:12 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R5\Assignment4_Gatefirst.zam
+13:41:13 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R5/gate_first_analysis.vanalysis
+13:41:14 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R5/Assignment4_Gatefirst.vproc
+13:41:14 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R5/SEMulator3DMatDB_80.vmpd
+13:41:29 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R5\Assignment4_Gatefirst.zam".
+13:41:29 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R5\Assignment4_Gatefirst.zam".
+13:41:31 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-6
+13:41:31 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-6. Starting full build.
+13:41:31 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R6\Assignment4_Gatefirst.zam
+13:41:31 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R6/gate_first_analysis.vanalysis
+13:41:32 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R6/Assignment4_Gatefirst.vproc
+COV_Expeditor: Trying to reconnect to the license server.
+Attempt 1 of 9
+13:41:32 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R6/SEMulator3DMatDB_80.vmpd
+13:41:57 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R6\Assignment4_Gatefirst.zam".
+13:41:57 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R6\Assignment4_Gatefirst.zam".
+13:41:58 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-7
+13:41:58 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-7. Starting full build.
+13:41:58 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R7\Assignment4_Gatefirst.zam
+13:41:58 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R7/gate_first_analysis.vanalysis
+13:41:59 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R7/Assignment4_Gatefirst.vproc
+13:42:00 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R7/SEMulator3DMatDB_80.vmpd
+13:42:34 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R7\Assignment4_Gatefirst.zam".
+13:42:34 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R7\Assignment4_Gatefirst.zam".
+13:42:35 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-8
+13:42:35 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-8. Starting full build.
+13:42:35 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R8\Assignment4_Gatefirst.zam
+13:42:35 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R8/gate_first_analysis.vanalysis
+13:42:36 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R8/Assignment4_Gatefirst.vproc
+13:42:37 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R8/SEMulator3DMatDB_80.vmpd
+13:42:46 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R8\Assignment4_Gatefirst.zam".
+13:42:46 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R8\Assignment4_Gatefirst.zam".
+13:42:48 ExpeditorProcess-0 SHOW_USER: ExpeditorProcess-0 starting Run-9
+13:42:48 ExpeditorProcess-0 SHOW_USER: There are no completed runs for Run-9. Starting full build.
+13:42:48 INFO   Loading Assembly file: D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R9\Assignment4_Gatefirst.zam
+13:42:48 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R9/gate_first_analysis.vanalysis
+13:42:49 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R9/Assignment4_Gatefirst.vproc
+13:42:49 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Runs/R9/SEMulator3DMatDB_80.vmpd
+COV_ModelBuilderAPI: ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:43:10 ERROR   License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:43:10 ExpeditorProcess-0 ERROR: Unable to generate the model build script for Run-9
+13:43:10 ExpeditorProcess-0 ERROR: Run-9 will be skipped
+13:43:10 ExpeditorProcess-0 ERROR: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 249, in schedulerProcess.SchedulerProcess.__runPreRunHooks
+  File "preRunHooks.py", line 385, in preRunHooks.generateModelBuildScript
+  File "preRunHooks.py", line 381, in preRunHooks.generateModelBuildScript
+RuntimeError: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-9 will be skipped as a pre-Run hook has failed.
+13:43:10 ExpeditorProcess-0 ERROR: Pre-run hook for Run-9 has failed. Skipping as unable to launch build
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 139, in schedulerProcess.SchedulerProcess.__launchNextTaskAsync
+RuntimeError: Pre-run hook for Run-9 has failed. Skipping as unable to launch build
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-6 completed
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-2 completed
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-5 completed
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-4 completed
+13:43:10 ExpeditorProcess-0 SHOW_USER: Run-1 completed
+13:43:17 ExpeditorProcess-0 SHOW_USER: Run-7 completed
+13:43:17 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:43:17 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:43:23 ExpeditorProcess-0 SHOW_USER: Run-0 completed
+13:43:27 ERROR   Failed to obtain feature list: Cannot read data from license server system.
+ The license server system appears to be running, but is not
+responding.  If this persists, notify the System Administrator.
+(The license server manager (lmgrd) and vendor daemon processes
+should be terminated and restarted.)
+Hostname:      172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-16,287.
+13:43:48 ERROR   Failed to obtain feature list: Timeout.
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,10013.
+13:43:49 ExpeditorProcess-0 SHOW_USER: Run-8 completed
+13:43:51 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:43:54 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:44:12 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+13:44:22 ERROR   Failed to obtain feature list: Cannot read data from license server system.
+ The license server system appears to be running, but is not
+responding.  If this persists, notify the System Administrator.
+(The license server manager (lmgrd) and vendor daemon processes
+should be terminated and restarted.)
+Hostname:      172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-16,287.
+13:44:23 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:44:23 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:44:24 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:44:24 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:44:25 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:44:25 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:44:26 INFO   Loading Assembly file: Assignment4_Gatefirst.zam
+13:44:26 INFO   Loading Analysis file: D:/U24EV057/Lab4/Assignment4_Gate_First/gate_first_analysis.vanalysis
+13:44:27 INFO   Loading Process file: D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst.vproc
+13:44:27 INFO   Loading Material file: D:/U24EV057/Lab4/Assignment4_Gate_First/SEMulator3DMatDB_80.vmpd
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-6
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-2
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-5
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-4
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-1
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-7
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-0
+13:44:28 ExpeditorResultsCollectionDaemonProcess SHOW_USER: Completed collecting results for Run-8
+13:44:42 MainProcess SHOW_USER: Archiving input files snapshot in .\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.zam to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\gate_first_analysis.vanalysis to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.vproc to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\SEMulator3DMatDB_80.vmpd to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Gatefirst1.cat to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 MainProcess SHOW_USER: Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.csv to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+13:44:42 INFO   Saving assembly file "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs\Assignment4_Gatefirst.zam".
+COV_ProcessData: ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+
+13:45:04 MainProcess ERROR: The afterSchedulerHook copyInputFileSnapshotLambda has failed
+13:45:04 MainProcess ERROR: ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+Traceback (most recent call last):
+  File "scheduler.py", line 242, in scheduler.Scheduler.runAfterSchedulerHooks
+  File "afterSchedulerHooks.py", line 396, in afterSchedulerHooks.copyInputFileSnapshot
+  File "expeditorHelpers.py", line 230, in expeditorHelpers.copyAndLinkRequiredFiles
+  File "expeditorHelpers.py", line 202, in expeditorHelpers.relinkAnalysisProcessFilesToLocalDependencies
+  File "expeditorHelpers.py", line 213, in expeditorHelpers.relinkAnalysisProcessFilesToLocalDependencies
+RuntimeError: ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+
+13:45:04 MainProcess ERROR: Continuing.
+13:45:04 MainProcess SHOW_USER: The following runs have failed:
+13:45:04 MainProcess SHOW_USER: 	Run-0
+13:45:04 MainProcess SHOW_USER: 	Run-1
+13:45:04 MainProcess SHOW_USER: 	Run-2
+13:45:04 MainProcess SHOW_USER: 	Run-3
+13:45:04 MainProcess SHOW_USER: 	Run-4
+13:45:04 MainProcess SHOW_USER: 	Run-5
+13:45:04 MainProcess SHOW_USER: 	Run-6
+13:45:04 MainProcess SHOW_USER: 	Run-7
+13:45:04 MainProcess SHOW_USER: 	Run-8
+13:45:04 MainProcess SHOW_USER: 	Run-9
+13:45:04 MainProcess SHOW_USER: Expeditor Run Time Statistics
+13:45:04 MainProcess SHOW_USER: ---------------------------------
+13:45:04 MainProcess SHOW_USER: 0 runs succeeded out of 10, 10 runs failed
+13:45:04 MainProcess SHOW_USER: Avg. Run time = 0:02:25 (H:M:S)
+13:45:04 MainProcess SHOW_USER: Total time = 0:08:33 (H:M:S)

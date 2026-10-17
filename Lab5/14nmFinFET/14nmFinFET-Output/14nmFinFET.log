@@ -1,0 +1,467 @@
+14:55:34 INFO   Loading Assembly file: D:/U24EV057/Lab5/14nmFinFET/14nmFinFET.zam
+14:55:38 INFO   Loading Analysis file: 
+14:55:38 INFO   Loading Process file: D:/U24EV057/Lab5/14nmFinFET/14nmFinFET.vproc
+14:56:10 INFO   Loading Material file: D:/U24EV057/Lab5/14nmFinFET/14nmFinFET.vmpd
+14:56:27 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:56:29 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:56:29 INFO   Saving build script: D:\U24EV057\Lab5\14nmFinFET\__semu_14nmFinFET.py
+14:56:34 INFO : License server value is 54015@172.23.244.37.
+14:56:34 INFO : Platform is Windows, 64-bit.
+14:56:34 INFO : PRODUCT_NAME             SEMulator3D
+14:56:34 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+14:56:34 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+14:56:34 INFO : 
+
+14:56:44 INFO   Default number of parallel workers = 8
+14:56:44 INFO   Adding new input file path: D:\U24EV057\Lab5\14nmFinFET\
+14:57:04 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+14:57:07 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032.
+14:57:27 INFO : 1:	Running WaferSetup ("Wafer Setup1")
+14:57:27 INFO   Voxel Wafer resolution is 1 nm.
+14:57:37 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+14:57:37 INFO   Model bounds for new wafer are 216 by 172 voxels.
+14:57:37 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:57:37 INFO : 2:	Sequence ("FEOL")
+14:57:37 INFO : 2.1:	Sequence ("Fin")
+14:57:37 INFO : 2.1.1:	Running Deposit ("DEP PadOx")
+14:57:38 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:57:38 INFO : 2.1.2:	Running Metrology ("MEA THK PadOx")
+14:58:09 INFO : METROLOGY RESULTS:
+14:58:09 INFO : Film thickness measurement for ('/Oxides/SiO2_HDP', '/Oxides/SiO2_HTO', '/Oxides/SiO2_LTO', '/Oxides/SiO2_Thermal') at (540.000000,172.000000):
+14:58:09 INFO :   THK_PADOX_DEP = 3.000000
+14:58:09 INFO : Results are stored in output file D:/U24EV057/Lab5/14nmFinFET/14nmFinFET-Output/metrology.txt.
+14:58:09 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:09 INFO : 2.1.3:	Running Deposit ("DEP PadNit")
+14:58:10 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:10 INFO : 2.1.4:	Running Metrology ("MEA THK PadNit")
+14:58:10 INFO : METROLOGY RESULTS:
+14:58:10 INFO : Film thickness measurement for ('/Nitrides/Si3N4_LPCVD', '/Nitrides/Si3N4_MLD', '/Nitrides/Si3N4_PECVD') at (540.000000,172.000000):
+14:58:10 INFO :   THK_PADNIT_DEP = 30.000000
+14:58:10 INFO : Results are stored in output file D:/U24EV057/Lab5/14nmFinFET/14nmFinFET-Output/metrology.txt.
+14:58:10 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:10 INFO : 2.1.5:	Running Deposit ("DEP Mandrel Silicon")
+14:58:10 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:10 INFO : 2.1.6:	Running Deposit ("DEP MandODL")
+14:58:10 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:10 INFO : 2.1.7:	Running Deposit ("DEP MandSiARC")
+14:58:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:11 INFO : 2.1.8:	Running Deposit ("DEP MandRes")
+14:58:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:11 INFO : 2.1.9:	Running ExposeMaterial ("LTH Mand")
+14:58:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:11 INFO : 2.1.10:	Skipping Metrology ("MEA CD MandDev"); skip mask "CD_MAND" is empty
+14:58:11 INFO : 2.1.11:	Sequence ("RIE Mand")
+14:58:11 INFO : 2.1.11.1:	Running Etch ("RIE SiARC")
+14:58:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:11 INFO : 2.1.11.2:	Running Etch ("RIE ODL")
+14:58:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:11 INFO : 2.1.11.3:	Sequence ("RIE Poly - Pick One")
+14:58:11 INFO : 2.1.11.3.1:	Running Etch ("RIE Poly - Basic")
+14:58:12 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:12 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:12 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:12 INFO : 2.1.12:	Skipping Metrology ("MEA CD MandFin"); skip mask "CD_MAND" is empty
+14:58:12 INFO : 2.1.13:	Skipping Metrology ("MEA SH MandFin"); skip mask "CD_MAND" is empty
+14:58:12 INFO : 2.1.14:	Running Etch ("RIE MandRes")
+14:58:12 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:12 INFO : 2.1.15:	Running Deposit ("DEP FinSpcrOx")
+14:58:13 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:13 INFO : 2.1.16:	Sequence ("RIE FinSpcrOx - Pick One")
+14:58:13 INFO : 2.1.16.1:	Running Etch ("RIE FinSpcrOx")
+14:58:13 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:13 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:13 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:13 INFO : 2.2:	Sequence ("FinCut")
+14:58:13 INFO : 2.2.1:	Running Deposit ("DEP FinCutRes")
+14:58:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:14 INFO : 2.2.2:	Running ExposeMaterial ("LTH FinCut")
+14:58:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:14 INFO : 2.2.3:	Running Etch ("RIE FinCutSpcrOx")
+14:58:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:14 INFO : 2.2.4:	Running RemoveMaterials ("RIE FinCutRes")
+14:58:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:14 INFO : 2.2.5:	Running Etch ("RIE MandSiRem")
+14:58:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:15 INFO : 2.2.6:	Running Etch ("RIE PadNit")
+14:58:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:15 INFO : 2.2.7:	Running Etch ("RIE PlanActRes")
+14:58:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:15 INFO : 2.2.8:	Running Etch ("RIE PadOx")
+14:58:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:15 INFO : 2.2.9:	Sequence ("RIE FinSi - Pick One")
+14:58:15 INFO : 2.2.9.1:	Sequence ("RIE FinSi - Simple")
+14:58:15 INFO : 2.2.9.1.1:	Running Etch ("RIE Fin Si - Anisotropic")
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO : 2.2.9.1.2:	Running Etch ("RIE Fin Si - Taper")
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO : 2.2.10:	Skipping Metrology ("MEA SP FinNNBotDeep"); skip mask "SP_FINNP" is empty
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO : 2.3:	Sequence ("Wells")
+14:58:16 INFO : 2.3.1:	Running Deposit ("DEP Screen Oxide")
+14:58:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:16 INFO : 2.3.2:	Running Deposit ("DEP PSPD Poly")
+14:58:17 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:17 INFO : 2.3.3:	Running Deposit ("DEP PWell Resist")
+14:58:19 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:19 INFO : 2.3.4:	Running ExposeMaterial ("LTH NWell")
+14:58:19 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:19 INFO : 2.3.5:	Running Etch ("RIE PSPD Poly")
+14:58:20 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:20 INFO : 2.3.6:	Running RemoveMaterials ("RIE Resist")
+14:58:20 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:20 INFO : 2.3.7:	Running Deposit ("DEP NSPD Poly")
+14:58:21 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:21 INFO : 2.3.8:	Running Etch ("RIE NSPD Poly")
+14:58:22 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:58:22 INFO : 2.3.9:	Running Diffusion ("RTP Well Drive")
+14:58:41 INFO   The value of Diffusivity of /NType/As in /Silicon/SiGe is:2.73967e-14cm^2/sec
+14:58:41 INFO   The value of Diffusivity of /NType/As in /Silicon/SiARC is:2.73967e-14cm^2/sec
+14:58:41 INFO   The value of Diffusivity of /NType/As in /Silicon/SiC is:2.73967e-14cm^2/sec
+14:58:41 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Amorph is:2.73967e-14cm^2/sec
+14:58:41 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Xtal is:2.73967e-14cm^2/sec
+14:58:41 INFO   Before /NType/As diffusion: min/max = 0, 5e+19	atoms/cm^3
+14:58:41 INFO   Total amount of dopant atoms = 34429.8
+14:58:41 INFO   Diffusion Solver 0.0% complete.
+14:58:42 INFO   Diffusion Solver 10.1% complete.
+14:58:43 INFO   Diffusion Solver 20.2% complete.
+14:58:44 INFO   Diffusion Solver 30.3% complete.
+14:58:46 INFO   Diffusion Solver 40.6% complete.
+14:58:46 INFO   Diffusion Solver 51.1% complete.
+14:58:46 INFO   Diffusion Solver 61.6% complete.
+14:58:46 INFO   Diffusion Solver 72.1% complete.
+14:58:46 INFO   Diffusion Solver 82.5% complete.
+14:58:46 INFO   Diffusion Solver 93.0% complete.
+14:58:47 INFO   Total amount of dopant atoms = 35217.9
+14:58:47 INFO   After /NType/As diffusion: min/max = 0, 4.92187e+19	atoms/cm^3 (change made)
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:1.64067e-15cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Amorph is:2.99608e-13cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HTO is:1.64067e-15cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_LTO is:1.64067e-15cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiGe is:2.99608e-13cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiARC is:2.99608e-13cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:1.64067e-15cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiC is:2.99608e-13cm^2/sec
+14:58:47 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:2.99608e-13cm^2/sec
+14:58:47 INFO   Before /PType/B diffusion: min/max = 0, 5e+18	atoms/cm^3
+14:58:47 INFO   Total amount of dopant atoms = 2079.55
+14:58:47 INFO   Diffusion Solver 0.0% complete.
+14:59:01 INFO   Diffusion Solver 10.0% complete.
+14:59:03 INFO   Diffusion Solver 20.1% complete.
+14:59:05 INFO   Diffusion Solver 30.1% complete.
+14:59:07 INFO   Diffusion Solver 40.2% complete.
+14:59:08 INFO   Diffusion Solver 50.3% complete.
+14:59:10 INFO   Diffusion Solver 60.4% complete.
+14:59:10 INFO   Diffusion Solver 70.5% complete.
+14:59:10 INFO   Diffusion Solver 80.7% complete.
+14:59:10 INFO   Diffusion Solver 90.8% complete.
+14:59:10 INFO   Total amount of dopant atoms = 2112.12
+14:59:10 INFO   After /PType/B diffusion: min/max = 0, 1.69325e+18	atoms/cm^3 (change made)
+14:59:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:11 INFO : 2.3.10:	Running Etch ("RIE SPD Poly")
+14:59:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:11 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:11 INFO : 2.4:	Sequence ("STI")
+14:59:11 INFO : 2.4.1:	Running Deposit ("DEP STI HDP")
+14:59:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:14 INFO : 2.4.2:	Running Polish ("CMP HDP")
+14:59:14 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:14 INFO : 2.4.3:	Running Etch ("RIE STI Recess1")
+14:59:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:15 INFO : 2.4.4:	Running Etch ("WET HDP Clean")
+14:59:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:15 INFO : 2.4.5:	Running Etch ("WET PadNit Strip")
+14:59:15 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:15 INFO : 2.4.6:	Running Etch ("RIE STI Recess2")
+14:59:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:16 INFO : 2.5:	Sequence ("Gate")
+14:59:16 INFO : 2.5.1:	Running Deposit ("DEP SacOx")
+14:59:16 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:16 INFO : 2.5.2:	Skipping Metrology ("MEA SacOx THK"); skip mask "CD_MAND" is empty
+14:59:16 INFO : 2.5.3:	Running Deposit ("DEP SacGate")
+14:59:18 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:18 INFO : 2.5.4:	Running Polish ("CMP SacGate")
+14:59:18 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:18 INFO : 2.5.5:	Running Deposit ("DEP GateCapNit")
+14:59:18 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:18 INFO : 2.5.6:	Running Deposit ("DEP GateCapOx")
+14:59:18 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:18 INFO : 2.5.7:	Running Deposit ("DEP GateODL")
+14:59:19 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:19 INFO : 2.5.8:	Running Deposit ("DEP GateSiARC")
+14:59:19 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:19 INFO : 2.5.9:	Running Deposit ("DEP GateRes")
+14:59:19 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:19 INFO : 2.5.10:	Running ExposeMaterial ("LTH Gate")
+14:59:20 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:20 INFO : 2.5.11:	Sequence ("RIE Gate Hard Mask")
+14:59:20 INFO : 2.5.11.1:	Running Etch ("RIE SiARC")
+14:59:20 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:20 INFO : 2.5.11.2:	Running Etch ("RIE ODL")
+14:59:20 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:20 INFO : 2.5.11.3:	Running Etch ("RIE Oxide BT")
+14:59:21 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:21 INFO : 2.5.11.4:	Sequence ("RIE Nitride - Pick One")
+14:59:21 INFO : 2.5.11.4.1:	Running Etch ("RIE Nitride")
+14:59:21 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:21 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:21 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:21 INFO : 2.5.12:	Running Etch ("RIE GateRes")
+14:59:22 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:22 INFO : 2.5.13:	Running Deposit ("DEP GateCutODL")
+14:59:22 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:22 INFO : 2.5.14:	Running Deposit ("DEP GateCutSiARC")
+14:59:22 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:22 INFO : 2.5.15:	Running Deposit ("DEP GateCutRes")
+14:59:23 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:23 INFO : 2.5.16:	Running ExposeMaterial ("LTH GateCut")
+14:59:23 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:23 INFO : 2.5.17:	Sequence ("RIE GateCut")
+14:59:23 INFO : 2.5.17.1:	Running Etch ("RIE GateCut SiARC")
+14:59:23 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:23 INFO : 2.5.17.2:	Running Etch ("RIE GateCut ODL")
+14:59:24 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:24 INFO : 2.5.17.3:	Running Etch ("RIE GateCut Oxide BT")
+14:59:24 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:24 INFO : 2.5.17.4:	Running Etch ("RIE GateCut Nitride")
+14:59:25 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:25 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:25 INFO : 2.5.18:	Running Etch ("RIE GateCutRes")
+14:59:26 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:26 INFO : 2.5.19:	Sequence ("RIE GateFinal - Pick One")
+14:59:26 INFO : 2.5.19.1:	Running Etch ("RIE GateFinal - Simple")
+14:59:27 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:27 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:27 INFO : 2.5.20:	Running Etch ("WET Clean")
+14:59:28 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:28 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:28 INFO : 2.6:	Sequence ("Source/Drain")
+14:59:28 INFO : 2.6.1:	Sequence ("PSD")
+14:59:28 INFO : 2.6.1.1:	Running Deposit ("DEP PSpacerOx")
+14:59:29 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:29 INFO : 2.6.1.2:	Running Deposit ("DEP PSpacerNit")
+14:59:31 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:31 INFO : 2.6.1.3:	Running Deposit ("DEP PSpacerRes")
+14:59:32 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:32 INFO : 2.6.1.4:	Running ExposeMaterial ("LTH PSpacer")
+14:59:32 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:32 INFO : 2.6.1.5:	Running Etch ("RIE PSpacer")
+14:59:33 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:33 INFO : 2.6.1.6:	Sequence ("RIE PSD Recess - Pick One")
+14:59:33 INFO : 2.6.1.6.1:	Running Etch ("RIE PSD Recess - Simple")
+14:59:35 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:35 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:35 INFO : 2.6.1.7:	Running Etch ("RIE PSpacerRes")
+14:59:37 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:37 INFO : 2.6.1.8:	Running CrystalEtch ("WET PRecess")
+14:59:49 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+14:59:49 INFO   Plane dependent etch: initializing ...
+14:59:53 INFO   Crystal Etch 0.0% complete.
+14:59:53 INFO   Crystal Etch 10.2% complete.
+14:59:54 INFO   Crystal Etch 21.0% complete.
+14:59:54 INFO   Crystal Etch 31.7% complete.
+14:59:54 INFO   Crystal Etch 41.9% complete.
+14:59:54 INFO   Crystal Etch 52.2% complete.
+14:59:55 INFO   Crystal Etch 62.4% complete.
+14:59:55 INFO   Crystal Etch 72.8% complete.
+14:59:55 INFO   Crystal Etch 83.0% complete.
+14:59:55 INFO   Crystal Etch 93.3% complete.
+14:59:56 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+14:59:56 INFO : 2.6.1.9:	Running Growth ("EPI SiGe")
+15:00:01 INFO   Selective Epitaxy: growing material "/Silicon/SiGe" to depth 115 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.4.
+	<111> family rate is 0.01.
+	<113> family rate is 0.622108(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+15:00:01 INFO   Epitaxial growth: initializing ...
+15:00:08 INFO   Epi Growth 0.0% complete.
+15:00:11 INFO   Epi Growth 10.1% complete.
+15:00:14 INFO   Epi Growth 20.1% complete.
+15:00:17 INFO   Epi Growth 30.1% complete.
+15:00:21 INFO   Epi Growth 40.2% complete.
+15:00:25 INFO   Epi Growth 50.3% complete.
+15:00:29 INFO   Epi Growth 60.4% complete.
+15:00:33 INFO   Epi Growth 70.5% complete.
+15:00:37 INFO   Epi Growth 80.6% complete.
+15:00:42 INFO   Epi Growth 90.7% complete.
+15:00:47 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:47 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:47 INFO : 2.6.2:	Sequence ("NSD")
+15:00:47 INFO : 2.6.2.1:	Running Deposit ("DEP NSpacerNit")
+15:00:49 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:49 INFO : 2.6.2.2:	Running Deposit ("DEP NSpacerRes")
+15:00:50 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:50 INFO : 2.6.2.3:	Running ExposeMaterial ("LTH NSpacer")
+15:00:50 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:50 INFO : 2.6.2.4:	Running Etch ("RIE NSpacer")
+15:00:52 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:52 INFO : 2.6.2.5:	Sequence ("RIE NSD Recess - Pick One")
+15:00:52 INFO : 2.6.2.5.1:	Running Etch ("RIE NSD Recess - Simple")
+15:00:53 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:53 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:53 INFO : 2.6.2.6:	Running Etch ("RIE NSpacerRes")
+15:00:55 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:00:55 INFO : 2.6.2.7:	Running CrystalEtch ("WET NRecess")
+15:01:02 INFO   Plane dependent etch: etching material(s) "(/Silicon/SiARC,/Silicon/SiC,/Silicon/SiGe,/Silicon/Si_Amorph,/Silicon/Si_Xtal,)" to depth 10.
+	<100> family rate is 1.
+	<110> family rate is 0.5.
+	<111> family rate is 0.2.
+	<113> family rate is 0.667308(calculated).
+	Overgrowth materials are:
+ 	 /Oxides/SiO2_HDP Rate:0.02
+ 	 /Oxides/SiO2_HTO Rate:0.02
+ 	 /Oxides/SiO2_LTO Rate:0.02
+ 	 /Oxides/SiO2_Thermal Rate:0.02.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+15:01:02 INFO   Plane dependent etch: initializing ...
+15:01:06 INFO   Crystal Etch 0.0% complete.
+15:01:07 INFO   Crystal Etch 10.7% complete.
+15:01:07 INFO   Crystal Etch 21.5% complete.
+15:01:07 INFO   Crystal Etch 32.1% complete.
+15:01:07 INFO   Crystal Etch 42.3% complete.
+15:01:08 INFO   Crystal Etch 52.4% complete.
+15:01:08 INFO   Crystal Etch 62.6% complete.
+15:01:08 INFO   Crystal Etch 72.8% complete.
+15:01:09 INFO   Crystal Etch 83.0% complete.
+15:01:09 INFO   Crystal Etch 93.2% complete.
+15:01:10 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:10 INFO : 2.6.2.8:	Running Growth ("EPI SiC")
+15:01:14 INFO   Selective Epitaxy: growing material "/Silicon/SiC" to depth 40 nm on wafer top.
+	<100> family rate is 1.
+	<110> family rate is 0.8.
+	<111> family rate is 0.5.
+	<113> family rate is 0.806597(calculated).
+	Overgrowth materials are: none.
+	Crystalline growth materials are: /Silicon/SiARC /Silicon/SiC /Silicon/SiGe /Silicon/Si_Amorph /Silicon/Si_Xtal.
+	Wafer surface: <100>
+	Wafer notch: <110>
+	Notch direction: +X
+
+15:01:14 INFO   Epitaxial growth: initializing ...
+15:01:22 INFO   Epi Growth 0.0% complete.
+15:01:23 INFO   Epi Growth 10.0% complete.
+15:01:24 INFO   Epi Growth 20.0% complete.
+15:01:25 INFO   Epi Growth 30.1% complete.
+15:01:27 INFO   Epi Growth 40.4% complete.
+15:01:29 INFO   Epi Growth 50.6% complete.
+15:01:32 INFO   Epi Growth 60.8% complete.
+15:01:35 INFO   Epi Growth 71.0% complete.
+15:01:38 INFO   Epi Growth 81.3% complete.
+15:01:41 INFO   Epi Growth 91.5% complete.
+15:01:46 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:46 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:46 INFO : 2.6.3:	Running Diffusion ("RTA")
+15:01:47 INFO   The value of Diffusivity of /NType/As in /Silicon/SiGe is:2.11266e-13cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /NType/As in /Silicon/SiARC is:2.11266e-13cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /NType/As in /Silicon/SiC is:2.11266e-13cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Amorph is:2.11266e-13cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Xtal is:2.11266e-13cm^2/sec
+15:01:47 INFO   Before /NType/As diffusion: min/max = 0, 3.9954e+19	atoms/cm^3
+15:01:47 INFO   Total amount of dopant atoms = 2863.78
+15:01:47 INFO   Diffusion Solver 0.0% complete.
+15:01:47 INFO   Diffusion Solver 36.4% complete.
+15:01:47 INFO   Diffusion Solver 72.8% complete.
+15:01:47 INFO   Diffusion Solver 100.0% complete.
+15:01:47 INFO   Total amount of dopant atoms = 2863.79
+15:01:47 INFO   After /NType/As diffusion: min/max = 0, 3.9954e+19	atoms/cm^3 (change made)
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:9.49636e-15cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Amorph is:2.48932e-12cm^2/sec
+15:01:47 WARN   The value of diffusivity of /PType/B in /Silicon/Si_Amorph is too high and may cause the diffusion step to run very slow.
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HTO is:9.49636e-15cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_LTO is:9.49636e-15cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiGe is:2.48932e-12cm^2/sec
+15:01:47 WARN   The value of diffusivity of /PType/B in /Silicon/SiGe is too high and may cause the diffusion step to run very slow.
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiARC is:2.48932e-12cm^2/sec
+15:01:47 WARN   The value of diffusivity of /PType/B in /Silicon/SiARC is too high and may cause the diffusion step to run very slow.
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:9.49636e-15cm^2/sec
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Silicon/SiC is:2.48932e-12cm^2/sec
+15:01:47 WARN   The value of diffusivity of /PType/B in /Silicon/SiC is too high and may cause the diffusion step to run very slow.
+15:01:47 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:2.48932e-12cm^2/sec
+15:01:47 WARN   The value of diffusivity of /PType/B in /Silicon/Si_Xtal is too high and may cause the diffusion step to run very slow.
+15:01:47 INFO   Before /PType/B diffusion: min/max = 0, 1e+20	atoms/cm^3
+15:01:47 INFO   Total amount of dopant atoms = 8698.05
+15:01:47 INFO   Diffusion Solver 0.0% complete.
+15:01:47 INFO   Diffusion Solver 12.4% complete.
+15:01:48 INFO   Diffusion Solver 24.7% complete.
+15:01:48 INFO   Diffusion Solver 37.1% complete.
+15:01:48 INFO   Diffusion Solver 49.4% complete.
+15:01:49 INFO   Diffusion Solver 61.8% complete.
+15:01:49 INFO   Diffusion Solver 74.2% complete.
+15:01:49 INFO   Diffusion Solver 86.5% complete.
+15:01:50 INFO   Diffusion Solver 98.9% complete.
+15:01:50 INFO   Total amount of dopant atoms = 8697.47
+15:01:50 INFO   After /PType/B diffusion: min/max = 0, 9.99995e+19	atoms/cm^3 (change made)
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HDP is:2.74041e-15cm^2/sec
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Amorph is:2.48932e-12cm^2/sec
+15:01:50 WARN   The value of diffusivity of /NType/P in /Silicon/Si_Amorph is too high and may cause the diffusion step to run very slow.
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HTO is:2.74041e-15cm^2/sec
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_LTO is:2.74041e-15cm^2/sec
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Silicon/SiGe is:2.48932e-12cm^2/sec
+15:01:50 WARN   The value of diffusivity of /NType/P in /Silicon/SiGe is too high and may cause the diffusion step to run very slow.
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Silicon/SiARC is:2.48932e-12cm^2/sec
+15:01:50 WARN   The value of diffusivity of /NType/P in /Silicon/SiARC is too high and may cause the diffusion step to run very slow.
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_Thermal is:2.74041e-15cm^2/sec
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Silicon/SiC is:2.48932e-12cm^2/sec
+15:01:50 WARN   The value of diffusivity of /NType/P in /Silicon/SiC is too high and may cause the diffusion step to run very slow.
+15:01:50 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Xtal is:2.48932e-12cm^2/sec
+15:01:50 WARN   The value of diffusivity of /NType/P in /Silicon/Si_Xtal is too high and may cause the diffusion step to run very slow.
+15:01:50 INFO   Before /NType/P diffusion: min/max = 0, 1e+20	atoms/cm^3
+15:01:50 INFO   Total amount of dopant atoms = 20065.1
+15:01:50 INFO   Diffusion Solver 0.0% complete.
+15:01:50 INFO   Diffusion Solver 12.4% complete.
+15:01:50 INFO   Diffusion Solver 24.7% complete.
+15:01:51 INFO   Diffusion Solver 37.1% complete.
+15:01:51 INFO   Diffusion Solver 49.4% complete.
+15:01:51 INFO   Diffusion Solver 61.8% complete.
+15:01:51 INFO   Diffusion Solver 74.2% complete.
+15:01:51 INFO   Diffusion Solver 86.5% complete.
+15:01:51 INFO   Diffusion Solver 98.9% complete.
+15:01:51 INFO   Total amount of dopant atoms = 20078
+15:01:51 INFO   After /NType/P diffusion: min/max = 0, 1e+20	atoms/cm^3 (change made)
+15:01:52 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:52 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:52 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:52 INFO   Saving assembly file "D:\U24EV057\Lab5\14nmFinFET\14nmFinFET.zam".
+15:01:52 INFO : Build process completed.
+15:01:52 INFO : Elapsed Time 317 seconds.
+Build log file moved to : D:/U24EV057/Lab5/14nmFinFET/14nmFinFET-Output/14nmFinFET.log

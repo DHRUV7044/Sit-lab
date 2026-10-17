@@ -1,0 +1,89 @@
+
+<___Document DocApp="SEMulator3D" DocBuildTag="" DocType="vanalysis" DocVersion="13.1.0.0">
+
+  <___Properties isEnable="true">
+    <masterPassword ___text=""/>
+    <filePassword ___text="" readonly="true"/>
+    <fileAccessRestriction ___text="" readonly="true"/>
+    <processFile RelativeFileName="./Assignment4_Gatefirst.vproc" ___text="D:/U24EV057/Lab4/Assignment4_Gate_First/Assignment4_Gatefirst_Exp/Inputs/Assignment4_Gatefirst.vproc"/>
+  </___Properties>
+
+  <___CustomConfiguration/>
+
+  <___Parser UUID="d6fe45de-ee82-47b1-9773-a3631036b730" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+    <___Item Automatic="true" UUID="f7236b6d-4429-4d85-9828-bda60950f3ba" ___Name="Auto" ___Type="VariableGroup">
+      <___Item Automatic="true" UUID="5d7b3a8a-5bcc-42b9-acc2-9668f43551ab" ___Name="ModelResolution" ___Type="Variable">
+        <___Properties isEnable="true">
+          <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <isExposed ___expression="false"/>
+        </___Properties>
+      </___Item>
+    </___Item>
+  </___Parser>
+
+  <___DocumentTree UUID="6c4c37e7-af6d-4e96-a478-58cbebca3b62" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
+    <___Properties isEnable="true">
+      <stepName ___text=""/>
+      <stepAction ___text="" readonly="true"/>
+      <skipMask isEnable="false" showHeader="true">
+        <name ___text="" readonly="true"/>
+      </skipMask>
+      <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      <uiProcessStepSpacer ___text="" extraSpace="true"/>
+    </___Properties>
+    <___Item UUID="ae6368f9-6834-49cb-9889-c000a7d8474e" ___Name="Profile Export1" ___Type="ProfileExport">
+      <___Properties VersionNumber="13.1.0.0" isEnable="true">
+        <stepName ___text="AL CONCENTRATION"/>
+        <stepAction ___text="Dopant Profile Export (Automation)" icon=":/icons/ProfileExport" readonly="true" stepType="ProfileExport"/>
+        <skipMask isEnable="false" showHeader="true">
+          <name ___text="" readonly="true"/>
+        </skipMask>
+        <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <runAfterStep UUID="daeea3d0-6bee-4ddd-80b3-ca316492b810" ___text="21: Final CMP of ILD"/>
+        <uiProcessStepSpacer ___text="" extraSpace="true"/>
+        <wafer VersionNumber="13.1.0.0" ___text="Wafer1"/>
+        <uiWaferSetupSpacer ___text="" extraSpace="true"/>
+        <showViewer ___expression="true"/>
+        <uiSpacer1 ___text="" extraSpace="true"/>
+        <type ___activeMember="dopantProfile ">
+          <surfaceProfile isEnable="true">
+            <mask ___text=""/>
+          </surfaceProfile>
+          <dopantProfile isEnable="true">
+            <type ___activeMember="axisCoordinates ">
+              <useMask isEnable="true">
+                <mask ___text=""/>
+                <startZ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <endZ ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </useMask>
+              <axisCoordinates isEnable="true">
+                <startPoint isEnable="true" showHeader="true">
+                  <x ___expression="-30" ___lastKnownValue="-30.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <y ___expression="24" ___lastKnownValue="24.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <z ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </startPoint>
+                <endPoint isEnable="true" showHeader="true">
+                  <x ___expression="-25" ___lastKnownValue="-25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <y ___expression="24" ___lastKnownValue="24.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <z ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </endPoint>
+              </axisCoordinates>
+            </type>
+            <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true">
+              <_DopantNodeType_Neutrals_DopantLeafType_Al UserDefinedName="/Neutrals/Al" isEnable="true"/>
+            </dopants>
+            <ExportNProfile ___expression="false"/>
+            <ExportPProfile ___expression="false"/>
+            <ExportNMinusPProfile ___expression="false"/>
+          </dopantProfile>
+          <surfaceProfileLegacy isEnable="true">
+            <mask ___text=""/>
+          </surfaceProfileLegacy>
+        </type>
+        <uiSpacer2 ___text="" extraSpace="true"/>
+        <includeVoids ___expression="false"/>
+      </___Properties>
+    </___Item>
+  </___DocumentTree>
+
+</___Document>

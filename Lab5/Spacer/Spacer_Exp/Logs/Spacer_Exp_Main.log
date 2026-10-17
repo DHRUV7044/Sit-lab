@@ -1,0 +1,21 @@
+2026-10-16 16:35:28.363; INFO; 6588; MainProcess; MainThread; Given Pause Flag File is D:\U24EV057\Lab5\Spacer\expeditor_pause_flag_file{fb39f3a1-ac36-4cf8-a73e-27b46f7d9f91}.txt
+2026-10-16 16:35:28.363; INFO; 6588; MainProcess; MainThread; Given Kill Flag File is None
+2026-10-16 16:36:19.554; SHOW_USER; 6588; MainProcess; PauseResumeDaemon; Expeditor will PAUSE after currently running runs are completed
+2026-10-16 16:36:19.555; SHOW_USER; 6588; MainProcess; PauseResumeDaemon; If the runs are being setup, Expeditor will PAUSE after the setup
+2026-10-16 16:36:19.557; INFO; 6588; MainProcess; MainThread; Run header = [(0, 'Run'), (1, 'Analysis.2:type.criticalDimension.elevation.relative.relativePosition.percentage.value')]
+2026-10-16 16:36:19.558; INFO; 6588; MainProcess; MainThread; Step Names header = [(0, '#Step Names'), (1, 'Cal_inflection_spacer')]
+2026-10-16 16:36:20.656; INFO; 6588; MainProcess; MainThread; variables header = ['Analysis.2:type.criticalDimension.elevation.relative.relativePosition.percentage.value']
+2026-10-16 16:36:21.749; INFO; 6588; MainProcess; MainThread; Sorted variables header excluding commented ones = ['Analysis.2:type.criticalDimension.elevation.relative.relativePosition.percentage.value']
+2026-10-16 16:36:22.832; INFO; 6588; MainProcess; MainThread; Last row reached. Exiting the reader
+2026-10-16 16:36:22.833; INFO; 6588; MainProcess; MainThread; Runs directory = .\Spacer_Exp\Runs
+2026-10-16 16:36:43.298; INFO; 6588; MainProcess; MainThread; No Layer Map file has been provided for D:\U24EV057\Lab5\Spacer\spacer.cat
+2026-10-16 16:36:43.298; INFO; 6588; MainProcess; MainThread; Default layout is LayoutFiles(LayoutFile='D:\\U24EV057\\Lab5\\Spacer\\spacer.cat', LayerMapFile=None)
+2026-10-16 16:36:43.299; SHOW_USER; 6588; MainProcess; MainThread; Creating layout directory spacer
+2026-10-16 16:36:43.299; INFO; 6588; MainProcess; MainThread; Original Mask file is D:\U24EV057\Lab5\Spacer\spacer.cat
+2026-10-16 16:36:43.299; INFO; 6588; MainProcess; MainThread; New Mask file is D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer\spacer.gds
+2026-10-16 16:36:43.299; INFO; 6588; MainProcess; MainThread; New Map file is D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer\spacer-layermap.txt
+2026-10-16 16:36:44.881; SHOW_USER; 6588; MainProcess; MainThread; Copying D:\U24EV057\Lab5\Spacer\Spacer.zam to D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer
+2026-10-16 16:36:44.882; SHOW_USER; 6588; MainProcess; MainThread; Copying D:\U24EV057\Lab5\Spacer\Spacer_CD.vanalysis to D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer
+2026-10-16 16:36:44.883; SHOW_USER; 6588; MainProcess; MainThread; Copying D:\U24EV057\Lab5\Spacer\Spacer.vproc to D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer
+2026-10-16 16:36:44.885; SHOW_USER; 6588; MainProcess; MainThread; Copying D:\U24EV057\Lab5\Spacer\SEMulator3DMaterialsDatabase11.vmpd to D:\U24EV057\Lab5\Spacer\Spacer_Exp\Runs\spacer
+2026-10-16 16:37:05.515; SHOW_USER; 6588; MainProcess; MainThread; Expeditor has been PAUSED. Waiting for RESUME event

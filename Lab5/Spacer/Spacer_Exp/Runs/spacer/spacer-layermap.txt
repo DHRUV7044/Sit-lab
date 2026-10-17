@@ -1,0 +1,7 @@
+sidewall_layer              6     0  
+Gate                        3     0  
+spacer                      4     0  
+Fin_Pattern                 0     0  
+spacer_CD                   5     0  
+S_D_implantation            2     0  
+boundary                    1     0  

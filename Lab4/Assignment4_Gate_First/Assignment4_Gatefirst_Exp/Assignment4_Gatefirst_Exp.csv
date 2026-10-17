@@ -1,0 +1,21 @@
+# Command,Expeditor Assignment4_Gatefirst.csv -dir Assignment4_Gatefirst_Exp -overwrite -keep -save all -nocollect -reorder  -killflagfile C:/Users/INP/AppData/Local/Temp/semuKillFileKZSJun -pauseflagfile D:\U24EV057\Lab4\Assignment4_Gate_First\expeditor_pause_flag_file{7a88eb87-5a6d-445a-98a8-a90008d688bf}.txt
+# Started,2026-10-16 13:36:30
+# Output folder,D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp
+
+# Assembly File,Assignment4_Gatefirst.zam
+
+#Step Names,Diffusion (Requires Advanced Modeling)
+Run,19.5:time,Duration
+Run-0,6,0:04:56 (H:M:S)
+Run-1,6.02,0:03:12 (H:M:S)
+Run-2,6.04,0:02:52 (H:M:S)
+Run-3,6.06,
+Run-4,6.08,0:02:16 (H:M:S)
+Run-5,6.1,0:01:57 (H:M:S)
+Run-6,6.12,0:01:38 (H:M:S)
+Run-7,6.14,0:01:18 (H:M:S)
+Run-8,6.16,0:01:13 (H:M:S)
+Run-9,6.18,
+
+# Finished,2026-10-16 13:44:28
+# Run time,0:07:58 (H:M:S)

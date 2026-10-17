@@ -1,0 +1,31 @@
+13:40:32 INFO : License server value is 54015@172.23.244.37.
+13:40:32 INFO : Platform is Windows, 64-bit.
+13:40:32 INFO : PRODUCT_NAME             SEMulator3D
+13:40:32 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+13:40:32 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+13:40:32 INFO : 
+
+13:40:44 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+Traceback (most recent call last):
+  File "D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R2\__semu_R2.py", line 84, in <module>
+    modeler = VoxelModeler(voxDoc)
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 78, in __init__
+RuntimeError: ***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_VoxelModeler
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+

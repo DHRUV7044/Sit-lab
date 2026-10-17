@@ -1,0 +1,44 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="spacer.cat" TopCell="spacer1"/>
+    <ProcessFile Filename="Spacer_CD.vanalysis"/>
+    <Zones Number="1"/>
+    <Output Directory="Spacer-Output" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="sushm" AutoRev="true" Comments="" CreatedOn="Friday September 08, 2023 14:52:50" LastModified="Friday September 08, 2023 14:52:50" Revision="3148" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,45,315)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)">
+    <Camera FocalPoint="(25,30,13.5)" Name="" Position="(64.6059,52.3308,4.50778)" ProjType="Orthographic" UpVector="(-0.408248,0.408248,0.816497)" ViewHeight="89.20342254638672"/>
+  </View>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-1()" StepNumber="1" StepUUID="4b11cb8c-f178-4fbd-88ec-32ccf55f631c" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-2()" StepNumber="2" StepUUID="5d605599-7016-4807-95a7-056a984415ca" Transparency="0.0" Visibility="false"/>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-3()" StepNumber="3" StepUUID="da741197-76a9-49fc-82f6-5ee3f30d9df6" Transparency="0.0" Visibility="false"/>
+  </Analyses>
+
+</SceneGraph>

@@ -1,0 +1,241 @@
+2026-10-16 13:38:26.866; INFO; 13732; ExpeditorProcess-0; MainThread; Ignoring SIGNINT. Parent process will be responsible for killing this process
+2026-10-16 13:38:26.872; INFO; 13732; ExpeditorProcess-0; MainThread; Launching 10 builds per process asynchronously
+2026-10-16 13:38:26.872; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-0
+2026-10-16 13:38:26.875; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:38:26.876; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-0
+2026-10-16 13:38:26.876; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-0
+2026-10-16 13:38:26.876; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-0. Starting full build.
+2026-10-16 13:38:26.876; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-0
+2026-10-16 13:38:26.877; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.000999; Id=Run-0
+2026-10-16 13:38:26.877; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R0 for Run-0
+2026-10-16 13:39:51.144; INFO; 13732; ExpeditorProcess-0; MainThread; Run-0: No completed runs to rebuild from
+2026-10-16 13:39:57.945; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=91.068283; Id=Run-0
+2026-10-16 13:39:57.945; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:39:58.44; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-1
+2026-10-16 13:39:58.46; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:39:58.47; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-1
+2026-10-16 13:39:58.47; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-1
+2026-10-16 13:39:58.47; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-1. Starting full build.
+2026-10-16 13:39:58.47; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-1
+2026-10-16 13:39:58.47; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-1
+2026-10-16 13:39:58.47; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R1 for Run-1
+2026-10-16 13:40:00.134; INFO; 13732; ExpeditorProcess-0; MainThread; Run-1: No completed runs to rebuild from
+2026-10-16 13:40:17.451; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=19.404157; Id=Run-1
+2026-10-16 13:40:17.452; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:40:17.469; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-2
+2026-10-16 13:40:17.470; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:40:17.471; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-2
+2026-10-16 13:40:17.471; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-2
+2026-10-16 13:40:17.471; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-2. Starting full build.
+2026-10-16 13:40:17.471; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-2
+2026-10-16 13:40:17.471; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-2
+2026-10-16 13:40:17.471; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R2 for Run-2
+2026-10-16 13:40:19.584; INFO; 13732; ExpeditorProcess-0; MainThread; Run-2: No completed runs to rebuild from
+2026-10-16 13:40:31.955; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=14.483583; Id=Run-2
+2026-10-16 13:40:31.955; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:40:31.973; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-3
+2026-10-16 13:40:31.975; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:40:31.976; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-3
+2026-10-16 13:40:31.976; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-3
+2026-10-16 13:40:31.976; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-3. Starting full build.
+2026-10-16 13:40:31.976; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-3
+2026-10-16 13:40:31.976; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-3
+2026-10-16 13:40:31.976; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R3 for Run-3
+2026-10-16 13:40:34.94; INFO; 13732; ExpeditorProcess-0; MainThread; Run-3: No completed runs to rebuild from
+2026-10-16 13:40:53.695; ERROR; 13732; ExpeditorProcess-0; MainThread; Unable to generate the model build script for Run-3
+2026-10-16 13:40:53.695; ERROR; 13732; ExpeditorProcess-0; MainThread; Run-3 will be skipped
+2026-10-16 13:40:53.772; ERROR; 13732; ExpeditorProcess-0; MainThread; License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 249, in schedulerProcess.SchedulerProcess.__runPreRunHooks
+  File "preRunHooks.py", line 385, in preRunHooks.generateModelBuildScript
+  File "preRunHooks.py", line 381, in preRunHooks.generateModelBuildScript
+RuntimeError: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+2026-10-16 13:40:53.772; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=21.795944; Id=Run-3
+2026-10-16 13:40:53.773; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-3 will be skipped as a pre-Run hook has failed.
+2026-10-16 13:40:53.773; ERROR; 13732; ExpeditorProcess-0; MainThread; Pre-run hook for Run-3 has failed. Skipping as unable to launch build
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 139, in schedulerProcess.SchedulerProcess.__launchNextTaskAsync
+RuntimeError: Pre-run hook for Run-3 has failed. Skipping as unable to launch build
+2026-10-16 13:40:53.786; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-4
+2026-10-16 13:40:53.788; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:40:53.788; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-4
+2026-10-16 13:40:53.788; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-4
+2026-10-16 13:40:53.788; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-4. Starting full build.
+2026-10-16 13:40:53.788; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-4
+2026-10-16 13:40:53.789; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-4
+2026-10-16 13:40:53.789; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R4 for Run-4
+2026-10-16 13:40:55.954; INFO; 13732; ExpeditorProcess-0; MainThread; Run-4: No completed runs to rebuild from
+2026-10-16 13:41:12.951; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=19.162203; Id=Run-4
+2026-10-16 13:41:12.951; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:41:12.970; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-5
+2026-10-16 13:41:12.971; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:41:12.971; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-5
+2026-10-16 13:41:12.972; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-5
+2026-10-16 13:41:12.972; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-5. Starting full build.
+2026-10-16 13:41:12.972; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-5
+2026-10-16 13:41:12.972; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-5
+2026-10-16 13:41:12.972; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R5 for Run-5
+2026-10-16 13:41:15.253; INFO; 13732; ExpeditorProcess-0; MainThread; Run-5: No completed runs to rebuild from
+2026-10-16 13:41:31.403; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=18.431042; Id=Run-5
+2026-10-16 13:41:31.404; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:41:31.420; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-6
+2026-10-16 13:41:31.421; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:41:31.422; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-6
+2026-10-16 13:41:31.422; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-6
+2026-10-16 13:41:31.422; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-6. Starting full build.
+2026-10-16 13:41:31.422; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-6
+2026-10-16 13:41:31.422; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-6
+2026-10-16 13:41:31.422; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R6 for Run-6
+2026-10-16 13:41:33.667; INFO; 13732; ExpeditorProcess-0; MainThread; Run-6: No completed runs to rebuild from
+2026-10-16 13:41:58.745; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=27.323113; Id=Run-6
+2026-10-16 13:41:58.745; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:41:58.762; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-7
+2026-10-16 13:41:58.764; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:41:58.764; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-7
+2026-10-16 13:41:58.765; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.001; Id=Run-7
+2026-10-16 13:41:58.765; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-7. Starting full build.
+2026-10-16 13:41:58.765; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-7
+2026-10-16 13:41:58.765; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-7
+2026-10-16 13:41:58.765; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R7 for Run-7
+2026-10-16 13:42:00.906; INFO; 13732; ExpeditorProcess-0; MainThread; Run-7: No completed runs to rebuild from
+2026-10-16 13:42:35.696; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=36.930741; Id=Run-7
+2026-10-16 13:42:35.696; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:42:35.712; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-8
+2026-10-16 13:42:35.714; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:42:35.715; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-8
+2026-10-16 13:42:35.715; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-8
+2026-10-16 13:42:35.715; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-8. Starting full build.
+2026-10-16 13:42:35.715; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-8
+2026-10-16 13:42:35.715; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-8
+2026-10-16 13:42:35.715; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R8 for Run-8
+2026-10-16 13:42:37.859; INFO; 13732; ExpeditorProcess-0; MainThread; Run-8: No completed runs to rebuild from
+2026-10-16 13:42:48.5; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=12.290812; Id=Run-8
+2026-10-16 13:42:48.5; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Pre-run hooks
+2026-10-16 13:42:48.24; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0 starting Run-9
+2026-10-16 13:42:48.26; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Pre-Run hooks.
+2026-10-16 13:42:48.26; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=statusUpdate; Duration=0.0; Id=Run-9
+2026-10-16 13:42:48.26; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=setStartTime; Duration=0.0; Id=Run-9
+2026-10-16 13:42:48.27; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; There are no completed runs for Run-9. Starting full build.
+2026-10-16 13:42:48.27; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=internalSetupIncrementalRebuild; Duration=0.0; Id=Run-9
+2026-10-16 13:42:48.27; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=functools.partial based hook; Duration=0.0; Id=Run-9
+2026-10-16 13:42:48.27; INFO; 13732; ExpeditorProcess-0; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1 to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\R9 for Run-9
+2026-10-16 13:42:50.129; INFO; 13732; ExpeditorProcess-0; MainThread; Run-9: No completed runs to rebuild from
+2026-10-16 13:43:10.315; ERROR; 13732; ExpeditorProcess-0; MainThread; Unable to generate the model build script for Run-9
+2026-10-16 13:43:10.315; ERROR; 13732; ExpeditorProcess-0; MainThread; Run-9 will be skipped
+2026-10-16 13:43:10.390; ERROR; 13732; ExpeditorProcess-0; MainThread; License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 249, in schedulerProcess.SchedulerProcess.__runPreRunHooks
+  File "preRunHooks.py", line 385, in preRunHooks.generateModelBuildScript
+  File "preRunHooks.py", line 381, in preRunHooks.generateModelBuildScript
+RuntimeError: License checkout failed; model builder will exit:
+***********Error*************
+
+Licensing error:
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       COV_ModelBuilderAPI
+Server name:   172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-15,10032
+
+*****************************
+
+2026-10-16 13:43:10.391; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PreRun; Hook=generateModelBuildScript; Duration=22.363475; Id=Run-9
+2026-10-16 13:43:10.391; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-9 will be skipped as a pre-Run hook has failed.
+2026-10-16 13:43:10.392; ERROR; 13732; ExpeditorProcess-0; MainThread; Pre-run hook for Run-9 has failed. Skipping as unable to launch build
+Traceback (most recent call last):
+  File "schedulerProcess.py", line 139, in schedulerProcess.SchedulerProcess.__launchNextTaskAsync
+RuntimeError: Pre-run hook for Run-9 has failed. Skipping as unable to launch build
+2026-10-16 13:43:10.402; INFO; 13732; ExpeditorProcess-0; MainThread; ExpeditorProcess-0: Exiting.
+2026-10-16 13:43:10.402; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:10.403; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.001003; Id=Run-6
+2026-10-16 13:43:10.403; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-6
+2026-10-16 13:43:10.403; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-6
+2026-10-16 13:43:10.403; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:10.413; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-6 completed
+2026-10-16 13:43:10.413; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:10.414; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.001; Id=Run-2
+2026-10-16 13:43:10.414; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-2
+2026-10-16 13:43:10.414; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-2
+2026-10-16 13:43:10.414; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:10.423; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-2 completed
+2026-10-16 13:43:10.424; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:10.424; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-5
+2026-10-16 13:43:10.424; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-5
+2026-10-16 13:43:10.424; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-5
+2026-10-16 13:43:10.424; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:10.433; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-5 completed
+2026-10-16 13:43:10.433; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:10.434; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-4
+2026-10-16 13:43:10.434; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-4
+2026-10-16 13:43:10.434; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-4
+2026-10-16 13:43:10.434; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:10.442; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-4 completed
+2026-10-16 13:43:10.442; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:10.443; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-1
+2026-10-16 13:43:10.443; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-1
+2026-10-16 13:43:10.443; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-1
+2026-10-16 13:43:10.443; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:10.452; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-1 completed
+2026-10-16 13:43:17.509; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:17.510; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-7
+2026-10-16 13:43:17.510; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-7
+2026-10-16 13:43:17.510; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-7
+2026-10-16 13:43:17.510; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:17.520; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-7 completed
+2026-10-16 13:43:23.521; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:23.521; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-0
+2026-10-16 13:43:23.521; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-0
+2026-10-16 13:43:23.521; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-0
+2026-10-16 13:43:23.522; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:23.532; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-0 completed
+2026-10-16 13:43:49.533; INFO; 13732; ExpeditorProcess-0; MainThread; Started running Post-Run hooks.
+2026-10-16 13:43:49.533; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=statusUpdate; Duration=0.0; Id=Run-8
+2026-10-16 13:43:49.533; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setEndTime; Duration=0.0; Id=Run-8
+2026-10-16 13:43:49.533; PROFILE; 13732; ExpeditorProcess-0; MainThread; Type=PostRun; Hook=setDuration; Duration=0.0; Id=Run-8
+2026-10-16 13:43:49.534; INFO; 13732; ExpeditorProcess-0; MainThread; Finished running all the Post-run hooks
+2026-10-16 13:43:49.543; SHOW_USER; 13732; ExpeditorProcess-0; MainThread; Run-8 completed
+2026-10-16 13:43:49.544; INFO; 13732; ExpeditorProcess-0; MainThread; process shutting down
+2026-10-16 13:43:49.547; INFO; 13732; ExpeditorProcess-0; MainThread; process exiting with exitcode 0

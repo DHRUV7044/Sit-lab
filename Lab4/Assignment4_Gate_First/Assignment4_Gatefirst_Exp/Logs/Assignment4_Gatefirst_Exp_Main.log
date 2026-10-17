@@ -1,0 +1,111 @@
+2026-10-16 13:36:38.199; INFO; 10324; MainProcess; MainThread; Given Pause Flag File is D:\U24EV057\Lab4\Assignment4_Gate_First\expeditor_pause_flag_file{7a88eb87-5a6d-445a-98a8-a90008d688bf}.txt
+2026-10-16 13:36:38.199; INFO; 10324; MainProcess; MainThread; Given Kill Flag File is None
+2026-10-16 13:37:31.428; INFO; 10324; MainProcess; MainThread; Run header = [(0, 'Run'), (1, '19.5:time')]
+2026-10-16 13:37:31.428; INFO; 10324; MainProcess; MainThread; Step Names header = [(0, '#Step Names'), (1, 'Diffusion (Requires Advanced Modeling)')]
+2026-10-16 13:37:33.411; INFO; 10324; MainProcess; MainThread; variables header = ['19.5:time']
+2026-10-16 13:37:35.394; INFO; 10324; MainProcess; MainThread; Sorted variables header excluding commented ones = ['19.5:time']
+2026-10-16 13:37:37.381; INFO; 10324; MainProcess; MainThread; Last row reached. Exiting the reader
+2026-10-16 13:37:37.382; INFO; 10324; MainProcess; MainThread; Runs directory = .\Assignment4_Gatefirst_Exp\Runs
+2026-10-16 13:37:55.501; INFO; 10324; MainProcess; MainThread; No Layer Map file has been provided for D:\U24EV057\Lab4\Assignment4_Gate_First\Gatefirst1.cat
+2026-10-16 13:37:55.501; INFO; 10324; MainProcess; MainThread; Default layout is LayoutFiles(LayoutFile='D:\\U24EV057\\Lab4\\Assignment4_Gate_First\\Gatefirst1.cat', LayerMapFile=None)
+2026-10-16 13:37:55.501; SHOW_USER; 10324; MainProcess; MainThread; Creating layout directory Gatefirst1
+2026-10-16 13:37:55.502; INFO; 10324; MainProcess; MainThread; Original Mask file is D:\U24EV057\Lab4\Assignment4_Gate_First\Gatefirst1.cat
+2026-10-16 13:37:55.502; INFO; 10324; MainProcess; MainThread; New Mask file is D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1\Gatefirst1.gds
+2026-10-16 13:37:55.502; INFO; 10324; MainProcess; MainThread; New Map file is D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1\Gatefirst1-layermap.txt
+2026-10-16 13:37:57.65; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.zam to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+2026-10-16 13:37:57.66; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\gate_first_analysis.vanalysis to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+2026-10-16 13:37:57.67; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.vproc to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+2026-10-16 13:37:57.69; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\SEMulator3DMatDB_80.vmpd to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Runs\Gatefirst1
+2026-10-16 13:38:23.764; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-0
+2026-10-16 13:38:23.764; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-1
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-2
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-3
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-4
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-5
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-6
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-7
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-8
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Using default layout file for run Run-9
+2026-10-16 13:38:23.765; INFO; 10324; MainProcess; MainThread; Dependency Tree generated based on input spreadsheet:
+2026-10-16 13:38:23.766; INFO; 10324; MainProcess; MainThread; 
+{('19.5:time',): {('6',): {'$': TrieLeaf(ListOfLabels=['Run-0'])},
+                  ('6.02',): {'$': TrieLeaf(ListOfLabels=['Run-1'])},
+                  ('6.04',): {'$': TrieLeaf(ListOfLabels=['Run-2'])},
+                  ('6.06',): {'$': TrieLeaf(ListOfLabels=['Run-3'])},
+                  ('6.08',): {'$': TrieLeaf(ListOfLabels=['Run-4'])},
+                  ('6.1',): {'$': TrieLeaf(ListOfLabels=['Run-5'])},
+                  ('6.12',): {'$': TrieLeaf(ListOfLabels=['Run-6'])},
+                  ('6.14',): {'$': TrieLeaf(ListOfLabels=['Run-7'])},
+                  ('6.16',): {'$': TrieLeaf(ListOfLabels=['Run-8'])},
+                  ('6.18',): {'$': TrieLeaf(ListOfLabels=['Run-9'])}}}
+2026-10-16 13:38:23.766; INFO; 10324; MainProcess; MainThread; Setting number of threads per run to 3.                                Use -ntpp to override.
+2026-10-16 13:38:23.766; SHOW_USER; 10324; MainProcess; MainThread; Expeditor will use the default build launcher
+2026-10-16 13:38:23.766; SHOW_USER; 10324; MainProcess; MainThread; The number of concurrent builds is 10
+2026-10-16 13:38:23.766; SHOW_USER; 10324; MainProcess; MainThread; Expeditor will not delete the directories of the individual runs.
+2026-10-16 13:38:25.254; SHOW_USER; 10324; MainProcess; MainThread; Creating 1 ExpeditorProcesses
+2026-10-16 13:38:25.254; SHOW_USER; 10324; MainProcess; MainThread; 0 processes will be responsible for 64 builds each, 1 last process will be responsible for 10 builds
+2026-10-16 13:44:09.702; INFO; 10324; MainProcess; MainThread; Results collection process is still running
+2026-10-16 13:44:30.757; INFO; 10324; MainProcess; MainThread; Results collection process has terminated
+2026-10-16 13:44:30.758; INFO; 10324; MainProcess; MainThread; sending shutdown message to manager
+2026-10-16 13:44:42.712; SHOW_USER; 10324; MainProcess; MainThread; Archiving input files snapshot in .\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.712; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.zam to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.715; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\gate_first_analysis.vanalysis to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.716; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.vproc to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.717; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\SEMulator3DMatDB_80.vmpd to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.719; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Gatefirst1.cat to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.721; SHOW_USER; 10324; MainProcess; MainThread; Copying D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst.csv to D:\U24EV057\Lab4\Assignment4_Gate_First\Assignment4_Gatefirst_Exp\Inputs
+2026-10-16 13:44:42.833; INFO; 10324; MainProcess; MainThread; No LayerMapFile has been provided
+2026-10-16 13:45:04.210; ERROR; 10324; MainProcess; MainThread; The afterSchedulerHook copyInputFileSnapshotLambda has failed
+2026-10-16 13:45:04.211; ERROR; 10324; MainProcess; MainThread; ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+Traceback (most recent call last):
+  File "scheduler.py", line 242, in scheduler.Scheduler.runAfterSchedulerHooks
+  File "afterSchedulerHooks.py", line 396, in afterSchedulerHooks.copyInputFileSnapshot
+  File "expeditorHelpers.py", line 230, in expeditorHelpers.copyAndLinkRequiredFiles
+  File "expeditorHelpers.py", line 202, in expeditorHelpers.relinkAnalysisProcessFilesToLocalDependencies
+  File "expeditorHelpers.py", line 213, in expeditorHelpers.relinkAnalysisProcessFilesToLocalDependencies
+RuntimeError: ***********Error*************
+
+Licensing error:
+Timeout.
+Feature:       COV_ProcessData
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-139,11603
+
+*****************************
+
+2026-10-16 13:45:04.211; ERROR; 10324; MainProcess; MainThread; Continuing.
+2026-10-16 13:45:04.211; SHOW_USER; 10324; MainProcess; MainThread; The following runs have failed:
+2026-10-16 13:45:04.211; SHOW_USER; 10324; MainProcess; MainThread; 	Run-0
+2026-10-16 13:45:04.211; SHOW_USER; 10324; MainProcess; MainThread; 	Run-1
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-2
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-3
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-4
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-5
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-6
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-7
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-8
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 	Run-9
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; Expeditor Run Time Statistics
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; ---------------------------------
+2026-10-16 13:45:04.212; SHOW_USER; 10324; MainProcess; MainThread; 0 runs succeeded out of 10, 10 runs failed
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-0, RunDuration=0:04:56 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-1, RunDuration=0:03:12 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-2, RunDuration=0:02:52 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-4, RunDuration=0:02:16 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-5, RunDuration=0:01:57 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-6, RunDuration=0:01:38 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-7, RunDuration=0:01:18 (H:M:S)
+2026-10-16 13:45:04.212; PROFILE; 10324; MainProcess; MainThread; RunId=Run-8, RunDuration=0:01:13 (H:M:S)
+2026-10-16 13:45:04.213; PROFILE; 10324; MainProcess; MainThread; Maximum Run Duration (S)=296.645016
+2026-10-16 13:45:04.213; PROFILE; 10324; MainProcess; MainThread; Minimum Run Duration(S)=73.818305
+2026-10-16 13:45:04.213; SHOW_USER; 10324; MainProcess; MainThread; Avg. Run time = 0:02:25 (H:M:S)
+2026-10-16 13:45:04.213; SHOW_USER; 10324; MainProcess; MainThread; Total time = 0:08:33 (H:M:S)
+2026-10-16 13:45:04.284; INFO; 10324; MainProcess; MainThread; process shutting down

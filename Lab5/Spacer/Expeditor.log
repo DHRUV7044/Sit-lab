@@ -1,0 +1,25 @@
+
+D:\U24EV057\Lab5\Spacer>rem Copyright 2009-2013 Coventor, Inc. 
+
+D:\U24EV057\Lab5\Spacer>rem All rights reserved. 
+
+D:\U24EV057\Lab5\Spacer>rem  
+SEMulator3D Installation dir :-  C:\Coventor\SEMulator3D13
+SEMulator3D project folder is /.
+16:37:33 INFO : License server value is 54015@172.23.244.37.
+16:37:33 INFO : Platform is Windows, 64-bit.
+16:37:33 INFO : PRODUCT_NAME             SEMulator3D
+16:37:33 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+16:37:33 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+16:37:33 INFO : 
+
+16:37:38 MainProcess SHOW_USER: EXPEDITOR
+16:37:38 MainProcess SHOW_USER: Copyright (c) 2012-15, Coventor, Inc. All rights reserved.
+16:37:38 MainProcess SHOW_USER: Overwriting Spacer_Exp
+16:38:23 MainProcess ERROR: [WinError 32] The process cannot access the file because it is being used by another process: 'Spacer_Exp\\Logs\\Spacer_Exp_Main.log'
+16:38:23 MainProcess ERROR: Directory Spacer_Exp cannot be deleted.
+16:38:23 MainProcess ERROR: This could happen if a previous SEMulator3D/Expeditor/python process is still running, a file is still open, or a directory is open in the file browser.
+16:38:23 MainProcess ERROR: Unable to delete the Spacer_Exp
+16:38:23 MainProcess ERROR: Make sure that any the file(s) in this directory is NOT open in another program/process
+16:38:23 MainProcess ERROR: Make sure that permissions are set appropriately
+16:38:23 MainProcess ERROR: Something is preventing Spacer_Exp from being deleted. Cannot continue.
