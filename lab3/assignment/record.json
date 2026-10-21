@@ -1,0 +1,358 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057",
+        "date": "18/9/2026"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "images/locos_principle.png",
+            "title": "LOCOS Process Flow"
+        },
+        {
+            "id": 2,
+            "path": "images/process_editor.png",
+            "title": "Steps involved in LOCOS Process (Process Editor)"
+        },
+        {
+            "id": 3,
+            "path": "images/step1_wafer_setup.png",
+            "title": "1. Wafer Setup"
+        },
+        {
+            "id": 4,
+            "path": "images/step2_pad_oxide.png",
+            "title": "2. Pad Oxide Deposition"
+        },
+        {
+            "id": 5,
+            "path": "images/step3_sin_hardmask.png",
+            "title": "3. Silicon Nitride Deposition"
+        },
+        {
+            "id": 6,
+            "path": "images/step4_lithography.png",
+            "title": "4. Lithography"
+        },
+        {
+            "id": 7,
+            "path": "images/step5_etch.png",
+            "title": "5. Etch"
+        },
+        {
+            "id": 8,
+            "path": "images/step6_thermal_oxidation.png",
+            "title": "6. Thermal Oxidation"
+        },
+        {
+            "id": 9,
+            "path": "images/step7_sin_strip.png",
+            "title": "7. Nitride Strip"
+        },
+        {
+            "id": 10,
+            "path": "images/step8_multi_etch.png",
+            "title": "8. Multi Etch (Final LOCOS Structure)"
+        },
+        {
+            "id": 11,
+            "path": "images/locos_annotated_dimensions.png",
+            "title": "Simulated Gate and Isolation Oxide Dimensions"
+        },
+        {
+            "id": 12,
+            "path": "images/graph_isolation_vs_gatelength.png",
+            "title": "Variation of Gate Length vs. Isolation Oxide Thickness"
+        },
+        {
+            "id": 13,
+            "path": "images/graph_gatepitch_vs_gatelength.png",
+            "title": "Variation of Planned Gate Pitch vs. Gate Length"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 7,
+            "type": "Assignment 3",
+            "title": "OXIDE ISOLATION (LOCOS & STI)",
+            "date": "18/9/2026",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim & Objectives",
+                    "new_page": false,
+                    "text": [
+                        "1. To study and analyze Local Oxidation of Silicon (LOCOS) and Shallow Trench Isolation (STI) techniques using Semulator3D.",
+                        "2. To study the effect of isolation thickness on device performance, determine the optimal active area, and measure optimal gate area and isolation oxide thickness (Assignment 3.1.a).",
+                        "3. To study the relationship between planned gate pitch and gate length, determine the smallest achievable gate pitch, and report the corresponding gate length (Assignment 3.1.b)."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool",
+                    "new_page": false,
+                    "text": "Coventor Semulator3D (3D Process Modeling and Virtual Fabrication Software)"
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Question 1: LOCOS",
+                    "new_page": false,
+                    "text": [
+                        "Isolation in a device is required for providing electrical isolation, minimizing leakage current, and offering structural support. It is a fundamental building block that ensures the smooth operation of complex electronic devices.",
+                        "This assignment explores transistor design by investigating two key isolation techniques: LOCOS and STI. We analyze the impact of oxide thicknesses and gate pitch on LOCOS performance.",
+                        "The first task for this assignment is to identify isolation oxide, gate oxide, gate length, gate pitch and bird's beak during the LOCOS process. Also, we analyze the change in achieved gate length with respect to planned gate length by plotting characteristic graphs.",
+                        "Local Oxidation of Silicon (LOCOS) is a traditional technique to create isolation regions between transistors and other devices on a silicon wafer. It essentially grows a thick oxide layer in specific areas of the silicon wafer, electrically isolating them from the surrounding silicon.",
+                        "Silicon nitride acts like an oxidation mask, preventing oxide from forming on covered areas. A thin layer of oxide, called the pad oxide (15 nm), is added between the silicon and nitride to prevent mechanical stress during the process."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "Steps involved in LOCOS Process (Process Editor)",
+                    "new_page": true,
+                    "tables": [
+                        {
+                            "custom_caption": "Table: Steps involved in LOCOS Process (Process Editor Recipe)",
+                            "csv": "table_process_editor.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 4,
+                    "title": "",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    2
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Simulated LOCOS Process Steps (3D & 2D Views)",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "4x2",
+                                "elements": [
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Thickness Specification & Device Dimensions",
+                    "new_page": true,
+                    "text": [
+                        "Gate oxide is pad oxide deposited before the nitride layer on the region above the active area of the device, while isolation oxide is a thick layer of thermally grown oxide which provides insulation between adjacent devices.",
+                        "Table 1 defines the desired nominal specifications compared against the measured dimensions extracted from the Semulator3D simulation model."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 6,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "number": 1,
+                            "title": "Thickness Specification",
+                            "csv": "table_baseline.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 6,
+                    "title": "",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    11
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "1. Question 1(a) : Optimal Active Area",
+                    "new_page": true,
+                    "text": [
+                        "LOCOS takes advantage of the different oxidation rates of silicon and silicon nitride to create isolated regions on a silicon wafer. Silicon nitride acts like an oxidation mask, preventing oxide from forming on covered areas. A thin layer of oxide, called the pad oxide, is added between the silicon and nitride to prevent mechanical stress during thermal oxidation.",
+                        "The final product is an insulating layer (isolation oxide) surrounding the desired active regions. However, due to the pad oxide, lateral oxidant diffusion occurs under the nitride mask edge, forming a tapered oxide wedge known as the bird's beak.",
+                        "Limitations of LOCOS:",
+                        "1. Bird's Beak Formation: Lateral oxidant diffusion through the pad oxide lifts the nitride layer from the corners, consuming silicon beneath the active mask.",
+                        "2. Scalability Problem: As device geometries scale to smaller dimensions, lateral oxidation severely encroaches into the active area, causing the electrical gate length to become significantly less than the drawn mask dimension.",
+                        "To overcome these limitations, thermal oxidation can be performed at higher temperatures (where oxidation rate increases faster than lateral diffusion), or modern manufacturing transitions to Shallow Trench Isolation (STI) which replaces thermal field oxidation with etched vertical trenches filled with deposited oxide and planarized by chemical mechanical polishing.",
+                        "This section deals with finding the optimal active area, that is, where field oxide thickness provides the required dielectric isolation without excessive active gate length encroachment. Active gate length depends on several critical layout and process parameters, including planned gate pitch, isolation oxide thickness, and isolation length."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 7,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "number": 2,
+                            "title": "Case for finding optimal active area",
+                            "csv": "table_isolation_variation.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 8,
+                    "title": "Assignment 3.1.(a) : Effect of Isolation Thickness",
+                    "new_page": true,
+                    "text": [
+                        "Study the effect of isolation thickness on device performance:",
+                        "1. Simulation Procedure: Simulations were conducted across desired isolation oxide thicknesses from 100 nm to 320 nm (Table 2).",
+                        "2. Gate Length Variation Trend: As measured isolation depth increases from 80.0 nm to 300.0 nm, measured active gate length shrinks monotonically from 400.84 nm down to 180.72 nm. This active channel reduction is directly caused by lateral oxidant diffusion lifting the nitride hardmask edges.",
+                        "3. Optimal Gate Area and Isolation Oxide Thickness: The optimal isolation oxide thickness is determined to be 180.0 nm (nominal recipe target 200 nm), yielding an active gate length of 300.34 nm and an isolation length of 505.41 nm. At this operating point, robust inter-device electrical isolation is achieved while maintaining the planned 300 nm active channel dimensions."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 8,
+                    "title": "",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    12
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 9,
+                    "title": "2. Question 1(b) / Assignment 3.1.(b) : Planned Gate Pitch vs. Gate Length",
+                    "new_page": true,
+                    "text": [
+                        "In this part, we analyze the variation in gate length with changes in mask layout. The distance between two trenches (planned gate pitch) in layout is varied from 350 nm down to 150 nm, as shown in Table 3.",
+                        "• Isolation oxide thickness entered = 100 nm."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 9,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "number": 3,
+                            "title": "Cases for Variation of Planned Gate pitch vs gate length",
+                            "csv": "table_pitch_variation.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 9,
+                    "title": "",
+                    "new_page": false,
+                    "text": [
+                        "Study the relationship between planned gate pitch and gate length:",
+                        "1. Scaling Relationship: Across planned gate pitches from 350 nm to 150 nm, the achieved gate length scales linearly according to Planned Gate Pitch = Gate Length + 93.65 nm. The constant offset of ~93.65 nm represents the necessary process margin between active gates.",
+                        "2. Smallest Achievable Gate Pitch: The smallest achievable gate pitch determined from the analysis is 144.49 nm, which corresponds to a gate length of 50.84 nm.",
+                        "3. Physical Scaling Limit: Below 50 nm gate length, opposing bird's beak encroachment fronts merge, resulting in complete pinch-off and loss of active silicon area."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 9,
+                    "title": "",
+                    "new_page": false,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    13
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 10,
+                    "title": "Observations & Discussion",
+                    "new_page": true,
+                    "text": [
+                        "1. Stress Relief and Lateral Diffusion Trade-Off: The 15 nm pad oxide layer successfully relieves interfacial mechanical stress between silicon and silicon nitride. However, it concurrently acts as a lateral diffusion channel for oxidant species during high-temperature field oxidation.",
+                        "2. Isolation Oxide vs. Active Dimension Trade-Off: Increasing isolation thickness enhances dielectric isolation and inter-device breakdown voltage, but severely reduces effective active gate length from 400.84 nm to 180.72 nm. Optimal baseline balance is achieved at 180.0 nm isolation depth with 300.34 nm gate length.",
+                        "3. Pitch Scaling Boundary: Gate pitch scales linearly with gate length down to 144.49 nm at a gate length of 50.84 nm. Below this physical limit, lateral oxidation encroachment destroys device functionality."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 11,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": [
+                        "The Local Oxidation of Silicon (LOCOS) fabrication sequence was successfully modeled and analyzed using Coventor Semulator3D. The 8-step virtual fabrication demonstrated selective thermal oxidation and lateral encroachment formation.",
+                        "Quantitative parameter extraction validated that thicker field oxide reduces active channel length due to lateral oxide encroachment. The optimal operating point was identified as 180.0 nm isolation oxide thickness and 300.34 nm gate length.",
+                        "Pitch variation confirmed that the smallest achievable gate pitch is 144.49 nm at a 50.84 nm gate length. These findings clearly demonstrate the fundamental scaling limitations of LOCOS and highlight why advanced semiconductor technology nodes adopt Shallow Trench Isolation (STI) for dense integrated circuits."
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+S.No.,Parameter,Desired Value (nm),Measured Value (nm)
+01.,Wafer,400,398.0
+02.,Gate Oxide (Pad Oxide),15,15.0
+03.,Isolation Oxide,100,180.0
+04.,Gate Length,300,300.34
+05.,Gate Pitch,350,494.59
+06.,Isolation Length,50*2,505.41

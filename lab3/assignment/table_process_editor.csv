@@ -1,0 +1,14 @@
+Step,Action,Step Name,Material(s),Depth (nm),Mask,Mask Polarity
+1,Wafer Setup,Wafer Setup,/Silicon/Si_Xtal,400,-,-
+2,Conformal Deposit,pad oxide deposition,/Oxides/Silicon_Oxide_Thermal,15,-,-
+3,Conformal Deposit,sin hard mask deposition,/Nitrides/Silicon_Nitride_LPCVD,100,-,-
+4,Sequence,lithography,-,-,-,-
+4.1,Planarizing Deposit,Deposit,/Organics/Resist,200,-,-
+4.2,Expose Material,uv exposure,/Organics/Resist,0,LOCOS_Trench,Dark
+5,Sequence,etch,-,-,-,-
+5.1,Enhanced Basic Etch,SiN hardmask etch,"/Nitrides/, /Organics/, /Oxides/",100,-,-
+5.2,Enhanced Basic Etch,pad oxide etch,"/Nitrides/, /Organics/, /Oxides/",15,-,-
+5.3,Remove Materials,resist removal,/Organics/Resist,-,-,-
+6,Interface Growth,thermal oxidation,"/Air, /Silicon/Si_Xtal",-,-,-
+7,Enhanced Basic Etch,sin hardmask strip,/Nitrides/Silicon_Nitride_LPCVD,105,-,-
+8,Multi Etch,Multi Etch,/Oxides/Silicon_Oxide_Thermal,18,-,-
