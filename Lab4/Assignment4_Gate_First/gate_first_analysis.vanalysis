@@ -10,9 +10,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="d6fe45de-ee82-47b1-9773-a3631036b730" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+  <___Parser UUID="645144ab-3e61-4515-8743-eb9dfdc8e1e3" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="f7236b6d-4429-4d85-9828-bda60950f3ba" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="7263faca-b90b-492d-b233-569025a5b83f" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="50a8273e-cd74-4744-921e-a4fab582eeb5" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -21,7 +21,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="6c4c37e7-af6d-4e96-a478-58cbebca3b62" ___Name="Analysis Root" ___Type="AnalysisRoot" isExpanded="true">
+  <___DocumentTree UUID="29f81d33-9b96-46e0-adee-846d2afa0602" ___Name="Analysis Root" ___Type="AnalysisRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -58,14 +58,14 @@
               </useMask>
               <axisCoordinates isEnable="true">
                 <startPoint isEnable="true" showHeader="true">
-                  <x ___expression="-30" ___lastKnownValue="-30.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <y ___expression="24" ___lastKnownValue="24.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <z ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <x ___expression="-28.5" ___lastKnownValue="-28.5" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <y ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <z ___expression="23" ___lastKnownValue="23.0" ___unitConversionExpr="" ___unitName="nounit"/>
                 </startPoint>
                 <endPoint isEnable="true" showHeader="true">
-                  <x ___expression="-25" ___lastKnownValue="-25.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <y ___expression="24" ___lastKnownValue="24.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <z ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <x ___expression="-28.5" ___lastKnownValue="-28.5" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <y ___expression="25" ___lastKnownValue="25.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <z ___expression="24.5" ___lastKnownValue="24.5" ___unitConversionExpr="" ___unitName="nounit"/>
                 </endPoint>
               </axisCoordinates>
             </type>
