@@ -11,18 +11,24 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="962c5bb9-5681-4d40-ad65-d07bcd7f8e14" ___Name="Variables" ___Type="VariableRoot">
-    <___Item Automatic="true" UUID="1578022d-a167-42a7-b9b7-163a00dfa254" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="47db75e5-29d9-4635-91e1-99ae012ef0b5" ___Name="ModelResolution" ___Type="Variable">
+  <___Parser UUID="72ea2d05-2f52-45d1-b82d-e88e05615a03" ___Name="Variables" ___Type="VariableRoot">
+    <___Item Automatic="true" UUID="1578022d-a167-42a7-b9b7-163a00dfa254" ___Name="Auto" ___Type="VariableGroup" isExpanded="true">
+      <___Item Automatic="true" UUID="9ff36b07-de64-45b3-9f36-32a9520882a2" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
         </___Properties>
       </___Item>
     </___Item>
+    <___Item UUID="f44d99d9-38e2-4f07-ac07-e7b82674d281" ___Name="time" ___Type="Variable" isExpanded="true">
+      <___Properties isEnable="true">
+        <value ___expression="12" ___lastKnownValue="12.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <isExposed ___expression="false"/>
+      </___Properties>
+    </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="fc541fe7-dfec-4641-98bb-8212f32fb42f" ___Name="Process Library" ___Type="ProcessRoot">
+  <___DocumentTree UUID="7928e35d-bf76-45c1-97f8-2c34f43524bb" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -3849,7 +3855,7 @@
           <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_HDP UserDefinedName="/Oxides/SiO2_HDP" isEnable="true"/>
         </material>
         <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-        <thickness ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
+        <thickness ___expression="0.9" ___lastKnownValue="0.9" ___unitConversionExpr="" ___unitName="nounit"/>
         <uiDepositSpacer ___text="" extraSpace="true"/>
         <type ___activeMember="conformal ">
           <straight isEnable="true">
@@ -8980,7 +8986,7 @@
             <_DopantNodeType_PType_DopantLeafType_B UserDefinedName="/PType/B" isEnable="true"/>
           </dopants>
           <uiDiffusionSpacer2 ___text="" extraSpace="true"/>
-          <time ___expression="6.2" ___lastKnownValue="6.2" ___unitConversionExpr="" ___unitName="nounit"/>
+          <time ___expression="time" ___lastKnownValue="12.0" ___unitConversionExpr="" ___unitName="nounit"/>
           <temperature ___expression="900" ___lastKnownValue="900.0" ___unitConversionExpr="" ___unitName="nounit"/>
         </___Properties>
       </___Item>
