@@ -1,0 +1,158 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057",
+        "date": "16/10/2026"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "images/three_zone_tube_furnace.jpeg",
+            "title": "Three-Zone Tube Furnace"
+        },
+        {
+            "id": 2,
+            "path": "images/furnace_control_panel.jpeg",
+            "title": "Control Parameters Display"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 9,
+            "title": "DEMONSTRATION OF CHEMICAL VAPOR DEPOSITION (CVD)",
+            "date": "16/10/2026",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To deposit Bismuth Oxyiodide (BiOI) thin film using Thermal Chemical Vapor Deposition (t-CVD) by transporting BiI<sub>3</sub> precursor vapors through a quartz tube under Ar/O<sub>2</sub> flow."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Apparatus Required",
+                    "new_page": false,
+                    "text": [
+                        "The following apparatus were used for the experiment:",
+                        "• Three-zone tube furnace",
+                        "• Quartz tube",
+                        "• Ceramic crucible",
+                        "• BiI<sub>3</sub> precursor powder (approximately 500 mg)",
+                        "• Argon (Ar) gas as carrier gas",
+                        "• Oxygen (O<sub>2</sub>) gas as oxidant",
+                        "• Microscope glass slide (substrate)",
+                        "• Silver paste for fixing the substrate",
+                        "• Mass Flow Controllers (MFCs)"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Theory",
+                    "new_page": false,
+                    "text": [
+                        "Chemical Vapor Deposition (CVD):",
+                        "Chemical Vapor Deposition (CVD) is a thin-film deposition technique in which volatile precursor materials are transported in the vapor phase to a heated substrate, where chemical reactions take place and form a thin film.",
+                        "In thermal CVD (t-CVD), the precursor is vaporized by heating. The vapor is transported through the quartz tube using a carrier gas and reacts with the supplied reactant gas to form the required material on the substrate.",
+                        "BiOI Formation:",
+                        "Bismuth Oxyiodide (BiOI) is formed when vaporized BiI<sub>3</sub> reacts with oxygen. In this experiment, BiI<sub>3</sub> powder acts as the precursor, while oxygen acts as the oxidant. The reaction takes place in the reaction region of the quartz tube, resulting in the formation of a BiOI thin film:",
+                        "2 BiI<sub>3</sub> (g) + O<sub>2</sub> (g) → 2 BiOI (s) + 2 I<sub>2</sub> (g)",
+                        "Role of Temperature Zones:",
+                        "The three-zone tube furnace provides different temperature conditions for precursor vaporization, chemical reaction, and deposition:",
+                        "• Zone 1 (Precursor Zone): Maintained at a higher temperature of 360 °C to vaporize the BiI<sub>3</sub> precursor.",
+                        "• Zone 2 (Reaction Zone): Maintained at 150 °C, where the transported BiI<sub>3</sub> vapor reacts with oxygen to form BiOI. The substrate is positioned in this zone.",
+                        "• Zone 3 (Downstream Zone): Maintained at room temperature or mild heating. Temperature gradients in this region influence the deposition of the material.",
+                        "The temperature gradient along the quartz tube helps in controlling the vapor transport and deposition process. A ring-type deposition pattern can naturally form in the downstream region under suitable deposition conditions."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Procedure",
+                    "new_page": false,
+                    "text": [
+                        "1. Preparation of Substrate",
+                        "• Microscope glass slides were cleaned and dried.",
+                        "• Substrates were attached to the glass slide using silver paste.",
+                        "• The slide was loaded into the quartz tube at the downstream side.",
+                        "• The substrate was positioned at a distance of 14.5 cm from the precursor, in Zone 2.",
+                        "2. Loading of Precursor",
+                        "• About 500 mg of BiI<sub>3</sub> powder was placed in a ceramic crucible.",
+                        "• The crucible was placed in Zone 1 of the tube furnace.",
+                        "3. System Setup and Gas Flow",
+                        "• The quartz tube was assembled and sealed.",
+                        "• A mixture of Ar (19 mL/min) and O<sub>2</sub> (4.5 mL/min) was set using MFCs.",
+                        "• The gas flow was allowed to purge the tube.",
+                        "4. Temperature Setting",
+                        "The three temperature zones were set as follows:",
+                        "• Zone 1 (precursor zone): 360 °C",
+                        "• Zone 2 (reaction zone): 150 °C",
+                        "• Zone 3 (downstream zone): Room temperature to mild heating.",
+                        "5. Deposition Process",
+                        "• The furnace was ramped to the set temperatures.",
+                        "• BiI<sub>3</sub> was vaporized in Zone 1 and carried by Ar/O<sub>2</sub> through Zone 2.",
+                        "• The vapor reacted with oxygen, forming BiOI.",
+                        "• Deposition occurred naturally at the substrate position in Zone 2, forming a visible ring-type BiOI film.",
+                        "6. Cooling",
+                        "• After the process duration (typically 30–60 minutes), the furnace was turned off.",
+                        "• The system was allowed to cool before handling the deposited substrate."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Equipment Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "row",
+                                "elements": [
+                                    1,
+                                    2
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 6,
+                    "title": "Parameters",
+                    "new_page": true,
+                    "text": "The following parameters were used during the BiOI thin-film deposition process:",
+                    "tables": [
+                        {
+                            "custom_caption": "Table 1: Parameters Used for BiOI Thin-Film Deposition",
+                            "csv": "parameters.csv"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Observations",
+                    "new_page": false,
+                    "text": [
+                        "During the experiment, BiI<sub>3</sub> precursor powder was heated in Zone 1 of the three-zone tube furnace, producing vapors that were transported through the quartz tube with the help of argon and oxygen gas. The vapor reacted with oxygen in Zone 2, resulting in the formation of Bismuth Oxyiodide (BiOI).",
+                        "The substrate was positioned at a distance of 14.5 cm from the precursor in Zone 2, which was maintained at 150 °C. A visible ring-type deposition pattern of BiOI was observed on the substrate. The experiment demonstrated the effect of temperature zones, gas flow, and substrate position on the thin-film deposition process."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 8,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": [
+                        "The experiment provided practical understanding of thermal Chemical Vapor Deposition (t-CVD) for the preparation of BiOI thin films. It demonstrated the importance of precursor vaporization, carrier and oxidant gas flow, and temperature control in the deposition process. The use of a three-zone furnace helped in understanding how different temperature regions contribute to precursor transport, chemical reaction, and thin-film formation. The experiment also provided insight into the formation of ring-type deposition and the influence of substrate positioning on the deposition process."
+                    ]
+                }
+            ]
+        }
+    ]
+}

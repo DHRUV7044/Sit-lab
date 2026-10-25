@@ -1,0 +1,12 @@
+Module / Step,Operation Name,Step Type,Material,Function in 14 nm FinFET
+Step 2.6.1.1,DEP PSpacerOx,Conformal Deposit,Silicon Dioxide (SiO<sub>2</sub>),Interfacial stress relief & etch-stop
+Step 2.6.1.2,DEP PSpacerNit,Conformal Deposit,Silicon Nitride (Si<sub>3</sub>N<sub>4</sub>),Primary PMOS sidewall spacer
+Step 2.6.1.3,DEP PSpacerRes,Planar Deposit,Photoresist,PMOS regional protection mask
+Step 2.6.1.4,LTH PSpacer,Expose / Develop,Photoresist,Patterning PMOS spacer window
+Step 2.6.1.5,RIE PSpacer,Anisotropic Etch,Nitride + 10% Overetch,Directional etch forming PMOS spacer
+Step 2.6.1.7,RIE PSpacerRes,Material Strip,Photoresist,Resist removal prior to SiGe epitaxy
+Step 2.6.2.1,DEP NSpacerNit,Conformal Deposit,Silicon Nitride (Si<sub>3</sub>N<sub>4</sub>),Primary NMOS sidewall spacer
+Step 2.6.2.2,DEP NSpacerRes,Planar Deposit,Photoresist,NMOS regional protection mask
+Step 2.6.2.3,LTH NSpacer,Expose / Develop,Photoresist,Patterning NMOS spacer window
+Step 2.6.2.4,RIE NSpacer,Anisotropic Etch,Nitride + 10% Overetch,Directional etch forming NMOS spacer
+Step 2.6.2.6,RIE NSpacerRes,Material Strip,Photoresist,Resist removal prior to NSD implants

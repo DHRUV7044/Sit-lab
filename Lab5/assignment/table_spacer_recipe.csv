@@ -1,0 +1,24 @@
+Step,Action,Step Name,Material(s),Depth,Mask,Polarity
+1,Wafer Setup,Wafer Setup,/Silicon/Si_Xtal,100,–,–
+2,Sequence,Fin Formation,–,–,–,–
+2.1,Conformal Deposit,Silicon Nitride Hard Mask,/Nitrides/Si3N4,20,–,–
+2.2,Planarizing Deposit,Resist for SiN Hard Mask,/Organics/Resist,20,–,–
+2.3,Expose Material,Expose Resist,/Organics/Resist,20,Fin_Pattern,Light
+2.4,Enhanced Basic Etch,SiN Hard Mask Etch,/Nitrides/Si3N4,20,–,–
+2.5,Remove Material,Remove Resist,/Organics/Resist,–,–,–
+2.6,Taper Etch,Etch for Fin Formation,/Silicon/,60,–,–
+2.7,Remove Material,Remove SiN Hard Mask,/Nitrides/Si3N4,–,–,–
+3,Sequence,STI,–,–,–,–
+3.1,Planarizing Deposit,Planar Deposit,/Oxides/SiO2,0,–,–
+3.2,Enhanced Basic Etch,Basic Etch,/Oxides/SiO2,30,–,–
+4,Sequence,Gate Metal Patterning,–,–,–,–
+4.1,Conformal Deposit,Gate High-K,/Oxides/HfOx,2,–,–
+4.2,Conformal Deposit,Gate Metal Deposition,/Metals/TiN,5,–,–
+4.3,Planarizing Deposit,Gate Metal Deposition,/Metals/W,20,–,–
+4.4,Planarizing Deposit,Resist for Gate Patterning,/Organics/Resist,100,–,–
+4.5,Expose Material,Expose Resist,/Organics/Resist,0,Gate,Light
+4.6,Enhanced Basic Etch,Metal Etch,/Metals/TiN,60,–,–
+4.7,Remove Material,Remove Resist,/Organics/Resist,–,–,–
+5,Sequence,Spacer Pattern,–,–,–,–
+5.1,Conformal Deposit,Spacer Deposition,/Nitrides/Si3N4,spacer_thk,–,–
+5.2,Enhanced Basic Etch,Spacer Etch,/Nitrides/Si3N4,spacer_thk*1.1,–,–
