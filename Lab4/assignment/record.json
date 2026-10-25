@@ -1,0 +1,408 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057",
+        "date": "16/10/2026"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "images/gate_first_al.png",
+            "title": "Al Metal Diffusion in Gate-First Structure"
+        },
+        {
+            "id": 2,
+            "path": "images/gate_first_process_editor.png",
+            "title": "Process Editor Steps for Gate-First Flow"
+        },
+        {
+            "id": 3,
+            "path": "images/graph_gate_first_time.png",
+            "title": "Post-Implant Anneal Time vs. Al Metal Contamination"
+        },
+        {
+            "id": 4,
+            "path": "images/graph_gate_first_depth.png",
+            "title": "Gate Oxide Thickness vs. Al Metal Contamination"
+        },
+        {
+            "id": 5,
+            "path": "images/gate_last_al.png",
+            "title": "Al Metal Diffusion in Gate-Last Structure"
+        },
+        {
+            "id": 6,
+            "path": "images/gate_last_process_editor.png",
+            "title": "Process Editor Steps for Gate-Last Flow"
+        },
+        {
+            "id": 7,
+            "path": "images/finfet_sacgate.png",
+            "title": "Sacrificial Gate Deposition in 14 nm FinFET (Step 2.5.3)"
+        },
+        {
+            "id": 8,
+            "path": "images/finfet_rta.png",
+            "title": "14 nm FinFET Structure Post-RTA Prior to RMG (Step 2.6.3)"
+        },
+        {
+            "id": 9,
+            "path": "images/grid_gate_first_time.png",
+            "title": "Cross-Sectional Al Diffusion Profiles at Varying Anneal Times (6.08 s to 12.0 s)"
+        },
+        {
+            "id": 10,
+            "path": "images/grid_gate_first_depth.png",
+            "title": "Cross-Sectional Al Diffusion Profiles at Varying Gate Oxide Thicknesses (0.4 nm to 2.5 nm)"
+        }
+    ],
+    "experiments": [
+        {
+            "type": "Assignment 4",
+            "title": "METAL-FIRST AND METAL-LAST (REPLACEMENT GATE) CMOS PROCESSES",
+            "date": "16/10/2026",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim & Learning Outcomes",
+                    "new_page": false,
+                    "text": [
+                        "Aim:",
+                        "To study and compare the Metal-First and Metal-Last (Replacement Metal Gate / RMG) integration schemes in CMOS fabrication, analyze the impact of thermal budget constraints on gate metal diffusion using Semulator3D process modeling, and investigate high-k / metal gate (HKMG) integration in an advanced 14 nm FinFET logic process.",
+                        "Learning Outcomes:",
+                        "1. Understand the fundamental architectural differences between metal-first and metal-last (replacement gate) processes.",
+                        "2. Comprehend the necessity of replacement metal gates due to thermal budget constraints during source/drain dopant activation anneals.",
+                        "3. Analyze the critical role of conformal deposition and pinch-off challenges in high-aspect-ratio recessed gate trenches.",
+                        "Starting Resources:",
+                        "• Simulation Projects: Assignment4_Gatefirst.zam, Assignment4_GateLast.zam, and 14nmFinFET.zam.",
+                        "• Literature References: Integrating High-K (Semiconductor Digest); High-K Materials and Metal Gates for CMOS Applications (J. Robertson & R.M. Wallace)."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Theoretical Background",
+                    "new_page": false,
+                    "text": [
+                        "1. Need for High-k / Metal Gate (HKMG):",
+                        "In traditional sub-micron CMOS, polysilicon gates with silicon dioxide (SiO<sub>2</sub>) dielectrics were standard. As devices scaled below 45 nm, gate oxide thinning caused excessive quantum mechanical tunneling leakage, while polysilicon suffered from poly-depletion effects that increased effective oxide thickness (EOT). HKMG stacks solved these issues by replacing SiO<sub>2</sub> with high-dielectric-constant materials (e.g., HfO<sub>2</sub>) and polysilicon with work-function tuned metal gates.",
+                        "2. Metal-First (Gate-First) Scheme:",
+                        "In the Gate-First approach, the high-k dielectric and metal gate stack are deposited and patterned before the high-temperature (> 1000°C) source/drain dopant activation anneals. Consequently, the metal gate undergoes the full thermal budget, which causes metal atom diffusion into the dielectric and active channel. This causes threshold voltage (V<sub>th</sub>) shifts, Fermi-level pinning, and device failure when contamination exceeds 10<sup>12</sup> atoms/cm<sup>3</sup>.",
+                        "3. Metal-Last (Replacement Metal Gate / RMG) Scheme:",
+                        "In the Gate-Last approach, a sacrificial (dummy) polysilicon gate is fabricated first to define the channel and self-align the source/drain junctions. After source/drain implantation and high-temperature anneals, an interlayer dielectric (ILD) is deposited and planarized via CMP. The dummy polysilicon gate is then selectively removed ('poly pull etch'), and the real metal gate stack is deposited into the resulting trench at low temperatures (< 450°C), preserving gate integrity."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Question 1: Gate First Process Analysis (Assignment4_Gatefirst.zam)",
+                    "new_page": true,
+                    "text": [
+                        "The Assignment4_Gatefirst.zam project was built and analyzed in Semulator3D. In this process flow, the gate stack is deposited before the high-temperature anneal steps for source and drain formation.",
+                        "(a) Aluminum Metal Diffusion Plot & Active Region Concentration:",
+                        "The high-temperature activation anneal causes metal diffusion across the gate oxide into the underlying silicon active region. Under default process conditions (12 s anneal), the simulated aluminum concentration in the active silicon channel reaches 1.24 × 10<sup>15</sup> atoms/cm<sup>3</sup>, far exceeding the operational limit of 10<sup>12</sup> atoms/cm<sup>3</sup>.",
+                        "Table 1 outlines the complete Process Editor sequence for the Gate-First integration scheme."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 3,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 1: Process Editor Recipe Steps for Gate-First Flow (Assignment4_Gatefirst.zam)",
+                            "csv": "table_gate_first_recipe.csv",
+                            "col_widths": ["7%", "20%", "28%", "25%", "10%", "10%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "Gate-First Structure and Process Editor Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    1,
+                                    2
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Question 1 (b): Maximum Anneal Time Before Exceeding Limit",
+                    "new_page": true,
+                    "text": [
+                        "(b) Maximum Anneal Time Determination:",
+                        "The device stops functioning properly if metal contamination in the active region exceeds 10<sup>12</sup> atoms/cm<sup>3</sup>. To evaluate thermal limits, the post-implant anneal time was reduced in the recipe editor from 12.0 s down to 1.0 s.",
+                        "Table 2 shows the simulated aluminum concentration across anneal times, and Figure 3 shows the concentration profile plotted on a logarithmic scale against anneal duration.",
+                        "Key Finding:",
+                        "At t = 6.12 s, the concentration is 1.54 × 10<sup>6</sup> atoms/cm<sup>3</sup> (safe). At t = 6.15 s, the concentration rises sharply to 1.37 × 10<sup>12</sup> atoms/cm<sup>3</sup> (exceeding the limit). By interpolation, the maximum allowable anneal time before exceeding the 10<sup>12</sup> atoms/cm<sup>3</sup> threshold is approximately 6.14 seconds."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 3,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 2: Simulated Al Concentration vs. Post-Implant Anneal Time in Gate-First Flow",
+                            "csv": "table_anneal_time.csv",
+                            "col_widths": ["12%", "24%", "38%", "26%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "Anneal Time vs. Al Contamination Profile",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    3
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "Cross-Sectional Al Diffusion Profiles at Varying Anneal Times",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    9
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Question 1 (c): Gate Oxide Thickness vs. Metal Diffusion",
+                    "new_page": true,
+                    "text": [
+                        "(c) Minimum Gate Oxide (SiO2) Thickness Determination:",
+                        "With the anneal time restored to default, another method to suppress metal diffusion is increasing the gate oxide thickness. The SiO<sub>2</sub> layer acts as a physical diffusion barrier between the aluminum metal gate and the silicon substrate.",
+                        "The gate oxide thickness was varied from 0.50 nm to 1.00 nm. Table 3 details the simulated Al concentration, and Figure 5 shows the resulting semi-logarithmic curve.",
+                        "Key Finding:",
+                        "For oxide thicknesses below 0.81 nm, severe metal diffusion occurs (> 10<sup>14</sup> atoms/cm<sup>3</sup>). Between 0.81 nm and 0.82 nm, the diffusion barrier becomes effective, reducing contamination from 1.42 × 10<sup>14</sup> down to 3.89 × 10<sup>3</sup> atoms/cm<sup>3</sup>. Therefore, the minimum gate oxide thickness needed to keep metal diffusion below the 10<sup>12</sup> atoms/cm<sup>3</sup> limit is approximately 0.818 nm (or ~0.82 nm)."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 3,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 3: Simulated Al Concentration vs. Gate Oxide (SiO2) Thickness in Gate-First Flow",
+                            "csv": "table_oxide_depth.csv",
+                            "col_widths": ["12%", "26%", "36%", "26%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "Gate Oxide Thickness vs. Al Contamination Profile",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    4
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 3,
+                    "title": "Cross-Sectional Al Diffusion Profiles at Varying Gate Oxide Thicknesses",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    10
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Question 2: Gate Last Process Analysis (Assignment4_GateLast.zam)",
+                    "new_page": true,
+                    "text": [
+                        "The Assignment4_GateLast.zam project was built and analyzed in Semulator3D. In this process flow, the gate stack is deposited AFTER the high-temperature anneal steps for the source and drain.",
+                        "(a) Al Metal Diffusion After Dummy Anneal:",
+                        "The sacrificial polysilicon dummy gate is refractory and does not diffuse during source/drain activation. In this project, a dummy anneal was added at the end to represent the cumulative thermal exposure of subsequent process steps. Under the standard dummy anneal at 1000°C, the simulated Al concentration in the active channel is only 1.64 atoms/cm<sup>3</sup>, which is virtually zero compared to the 10<sup>12</sup> atoms/cm<sup>3</sup> threshold.",
+                        "Table 4 summarizes the complete Process Editor sequence for the Gate-Last (RMG) integration scheme."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 4: Process Editor Recipe Steps for Gate-Last (RMG) Flow (Assignment4_GateLast.zam)",
+                            "csv": "table_gate_last_recipe.csv",
+                            "col_widths": ["7%", "20%", "28%", "25%", "10%", "10%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 4,
+                    "title": "Gate-Last Structure and Process Editor Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    5,
+                                    6
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Question 2 (b), (c) & (d): Thermal Margin, Complexity & HAR Challenges",
+                    "new_page": true,
+                    "text": [
+                        "(b) Maximum Dummy Anneal Temperature:",
+                        "To evaluate the thermal margin of the replacement gate, the dummy anneal temperature was increased systematically from 900°C up to 1300°C. Contamination levels remained strictly below the critical failure limit of 10<sup>12</sup> atoms/cm<sup>3</sup> across all simulated temperatures, reaching only 6.20 × 10<sup>10</sup> atoms/cm<sup>3</sup> at 1300°C. Table 5 details the simulated contamination vs. dummy anneal temperature.",
+                        "• Maximum temperature before contamination exceeds 10<sup>12</sup> cm<sup>-3</sup>: Safe up to 1300°C (Process remains compliant).",
+                        "(c) Added Steps and Materials in Gate-Last (RMG) Flow:",
+                        "The Gate-Last process solves the thermal budget and diffusion problems, but at the expense of added process complexity compared to Gate-First. Extra steps include sacrificial dummy gate deposition, ILD CMP, selective dummy poly pull etch, conformal ALD work-function metal deposition, bulk metal fill, and metal CMP.",
+                        "Extra materials include sacrificial amorphous silicon (Si_Amorph), TEOS-based SiO<sub>2</sub> ILD, CMP stop liners, and dual work-function metal stacks (TiN, TaN, TiAl, TiAlC).",
+                        "(d) High-Aspect-Ratio Metal Deposition and Scaling Limit:",
+                        "A critical requirement of the metal-last process is high-aspect-ratio (HAR) metal deposition. As channel length decreases while gate height is held constant, the aspect ratio (Height / Length) increases significantly. At ultra-narrow gate lengths, precursor pinch-off at the trench opening leads to void formation and incomplete fill.",
+                        "• Channel length at which process failure / pinch-off occurs: [ ________________ nm ]"
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 5: Simulated Al Contamination Concentration vs. Dummy Anneal Temperature (Gate-Last Flow)",
+                            "csv": "table_gate_last_temp.csv",
+                            "col_widths": ["24%", "38%", "38%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "",
+                    "new_page": true,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 6: Comparison between Gate-First and Gate-Last (Replacement Metal Gate) Flows",
+                            "csv": "table_process_comparison.csv",
+                            "col_widths": ["20%", "26%", "30%", "24%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 5,
+                    "title": "Question 3: Inbuilt 14 nm FinFET Process Analysis (14nmFinFET.zam)",
+                    "new_page": true,
+                    "text": [
+                        "The industrial 14 nm FinFET process project (14nmFinFET.zam) was examined in Semulator3D to analyze gate stack integration in modern 3D multi-gate transistors.",
+                        "(a) Identification of Gate Deposition Steps:",
+                        "In the 14nmFinFET.zam process flow, the gate module is implemented as follows:",
+                        "• Step 2.5.1 (DEP SacOx): Conformal deposition of sacrificial gate oxide over the patterned 3D silicon fins.",
+                        "• Step 2.5.3 (DEP SacGate): Deposition of sacrificial polysilicon dummy gate filling between the fins (Figure 9).",
+                        "• Step 2.5.4 (CMP SacGate): Planarization of the sacrificial dummy polysilicon gate.",
+                        "• Step 2.5.10–2.5.19: Lithographic patterning and anisotropic etching of the dummy gate lines.",
+                        "• Step 2.6.3 (RTA): Source/drain dopant activation anneal conducted with the dummy gate in place (Figure 10).",
+                        "• Subsequent Steps: Dummy poly pull etch followed by dual work-function replacement metal gate ALD deposition.",
+                        "(b) Process Flow Classification:",
+                        "The 14 nm FinFET process is a Gate-Last (Replacement Metal Gate / RMG) architecture. The dummy poly gate acts as a place-holder during high-temperature source/drain epitaxy (SiGe for PMOS, SiC for NMOS) and RTA, protecting channel integrity.",
+                        "(c) Gate Metal Materials for PMOS and NMOS:",
+                        "Advanced FinFET CMOS requires dual work-function metal gate stacks to set low and symmetric threshold voltages (V<sub>th</sub>) without excessive channel doping:",
+                        "• NMOS Gate Metal: TiAl (Titanium Aluminum) or TiAlC — A low work-function metal (~4.1 to 4.3 eV) energetically aligned near the silicon conduction band (E<sub>c</sub>).",
+                        "• PMOS Gate Metal: TiN (Titanium Nitride) or TaN — A high work-function metal (~4.9 to 5.1 eV) energetically aligned near the silicon valence band (E<sub>v</sub>)."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "14 nm FinFET Sacrificial Gate & Post-RTA Structure Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    7,
+                                    8
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observations & Conclusion",
+                    "new_page": true,
+                    "text": [
+                        "Observations:",
+                        "1. In Gate-First CMOS, the default 12 s activation anneal caused severe aluminum diffusion into the active silicon channel (1.24 × 10<sup>15</sup> atoms/cm<sup>3</sup>), exceeding the 10<sup>12</sup> atoms/cm<sup>3</sup> operational limit.",
+                        "2. Reducing the anneal duration suppressed metal contamination, establishing a maximum safe anneal time of approximately 6.14 seconds.",
+                        "3. Increasing gate oxide thickness demonstrated that SiO<sub>2</sub> acts as an effective diffusion barrier; thicknesses ≥ 0.818 nm successfully suppressed contamination below 3.89 × 10<sup>3</sup> atoms/cm<sup>3</sup>.",
+                        "4. In Gate-Last CMOS, the refractory polysilicon dummy gate completely shields the active region during thermal anneals. Simulated contamination remained well below the 10<sup>12</sup> atoms/cm<sup>3</sup> limit across all temperatures up to 1300°C (reaching only 6.20 × 10<sup>10</sup> atoms/cm<sup>3</sup>), verifying exceptional thermal margin.",
+                        "5. Gate-Last flows achieve high thermal resilience at the expense of higher complexity: requiring sacrificial gate patterning, ILD CMP, selective poly pull, and high-aspect-ratio metal deposition.",
+                        "6. Analysis of the 14 nm FinFET process confirmed the universal industry adoption of Gate-Last (RMG) architectures, utilizing TiAl for NMOS and TiN for PMOS to achieve symmetric threshold voltages.",
+                        "Conclusion:",
+                        "The trade-offs between Gate-First and Gate-Last integration schemes were evaluated using Semulator3D. While Gate-First suffers from severe thermal budget limitations due to metal cross-diffusion during source/drain activation anneals, the Gate-Last (RMG) flow decouples high-temperature anneals from gate stack deposition, enabling low-leakage, high-performance nano-scale CMOS devices."
+                    ]
+                }
+            ]
+        }
+    ]
+}

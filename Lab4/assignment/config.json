@@ -1,0 +1,68 @@
+{
+    "page": {
+        "size": "A4",
+        "margin": {
+            "top": 20,
+            "bottom": 20,
+            "left": 22,
+            "right": 22
+        }
+    },
+    "fonts": {
+        "body": "Times-Roman",
+        "heading": "Helvetica-Bold",
+        "title": "Helvetica-Bold",
+        "caption": "Helvetica-Bold",
+        "header": "Helvetica-Bold",
+        "code": "Courier"
+    },
+    "font_sizes": {
+        "header": 11,
+        "experiment_title": 14,
+        "section_heading": 11.5,
+        "body": 10.5,
+        "table_cell": 8.5,
+        "table_header": 8.5,
+        "caption": 9.5
+    },
+    "experiment_header": {
+        "font_size": 13,
+        "exp_no_offset_y": -16,
+        "date_offset_y": -26,
+        "rule_offset_y": -32,
+        "spacing_after": 12,
+        "show_date": true,
+        "show_rule": true,
+        "student_offset_y": 8,
+        "layout_style": "centered"
+    },
+    "paragraph": {
+        "line_spacing": 1.2,
+        "spacing_after": 4,
+        "spacing_before": 0
+    },
+    "table": {
+        "number_format": "Table {table_num} : {title}",
+        "numbering_style": "sequential",
+        "font_size": 7.5,
+        "border_width": 0.5,
+        "cell_padding": 2.0,
+        "header_bold": true,
+        "header_background": "#f1f5f9",
+        "spacing_after": 4
+    },
+    "figure": {
+        "number_format": "Figure {figure_num} : {title}",
+        "numbering_style": "sequential"
+    },
+    "image": {
+        "default_gap": 3,
+        "caption_font_size": 9.5,
+        "caption_spacing": 3,
+        "alignment": "center"
+    },
+    "header": {
+        "show_header": true,
+        "rule": true
+    }
+}

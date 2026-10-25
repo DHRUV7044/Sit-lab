@@ -1,0 +1,7 @@
+Anneal Temperature (°C),Contamination Concentration (cm<sup>-3</sup>),Status
+900,4.00 × 10<sup>2</sup> (400),Below Limit (Passes)
+1000,5.97 × 10<sup>5</sup>,Below Limit (Passes)
+1200,2.50 × 10<sup>9</sup>,Below Limit (Passes)
+1250,1.32 × 10<sup>10</sup>,Below Limit (Passes)
+1275,2.90 × 10<sup>10</sup>,Below Limit (Passes)
+1300,6.20 × 10<sup>10</sup>,Below Limit (Passes - Max Safe Temp Tested)

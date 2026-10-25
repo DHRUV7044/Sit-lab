@@ -29,6 +29,10 @@ pdftk sit_lab7_lab3_image_ppt.pdf cat 1 2 5 output lab7_no_image.pdf
 pdftk sit_lab9_cvd.pdf cat 3 output lab9_image.pdf
 pdftk sit_lab9_cvd.pdf cat 1 2 4 output lab9_no_image.pdf
 
+# Assignment 4 (Metal-First/Metal-Last)
+pdftk sit_assignment4.pdf cat 3 5 7 9 11 output assignment4_image.pdf
+pdftk sit_assignment4.pdf cat 1 2 4 6 8 10 12 output assignment4_no_image.pdf
+
 # Assignment 5 (Spacer)
 pdftk sit_assignment5.pdf cat 4 6 8 output assignment5_image.pdf
 pdftk sit_assignment5.pdf cat 1 2 3 5 7 9 output assignment5_no_image.pdf

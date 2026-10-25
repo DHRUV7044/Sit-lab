@@ -1,0 +1,7 @@
+Category,Gate-First Flow,Gate-Last (Replacement Gate) Flow,Remarks / Impact
+Gate Stack Deposition,Deposited before S/D high-temp anneal,Sacrificial poly gate first; metal gate deposited after S/D anneal,Eliminates metal thermal degradation
+Thermal Budget Constraint,Severe (Metal must withstand > 1000°C),High (Metal deposited after high-temp steps),Allows lower-work-function & low-k materials
+Extra Process Steps,None (Conventional self-aligned gate),"Sacrificial poly deposition, ILD CMP, Poly pull etch, Metal fill, Metal CMP",Higher lithography & CMP complexity
+Additional Materials,"Standard gate metals (TiN, TiAl, W)","Sacrificial Polysilicon, Sacrificial Oxide, ILD Oxide, Polish stop layers",Requires highly selective etch chemistries
+High-Aspect-Ratio Challenge,None (Gate patterned subtractively),Critical (Must void-free fill narrow trenches),Requires atomic layer deposition (ALD)
+Threshold Voltage Stability,V<sub>th</sub> shift due to metal diffusion & reaction,High V<sub>th</sub> stability and precise work function tuning,Standard choice for ≤ 14 nm logic nodes

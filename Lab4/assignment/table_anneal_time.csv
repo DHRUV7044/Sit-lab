@@ -1,0 +1,16 @@
+Sr. No.,Anneal Time (s),Al Concentration (atoms/cm<sup>3</sup>),Status / Remark
+1,1.0,1.84 × 10<sup>-6</sup>,Safe (Negligible)
+2,2.0,7.52,Safe
+3,3.0,49.41,Safe
+4,4.0,148.54,Safe
+5,5.0,323.08,Safe
+6,6.0,587.84,Safe
+7,6.10,1.53 × 10<sup>6</sup>,Safe (Rapid onset)
+8,6.12,1.54 × 10<sup>6</sup>,Safe (Pre-threshold)
+9,6.14 (Critical),1.00 × 10<sup>12</sup>,Critical Threshold Limit
+10,6.15,1.37 × 10<sup>12</sup>,Failed (> 10<sup>12</sup> limit)
+11,6.20,1.69 × 10<sup>13</sup>,Failed
+12,7.0,2.58 × 10<sup>14</sup>,Failed
+13,8.0,5.22 × 10<sup>14</sup>,Failed
+14,10.0,9.37 × 10<sup>14</sup>,Failed
+15,12.0 (Default),1.24 × 10<sup>15</sup>,Severe Contamination
