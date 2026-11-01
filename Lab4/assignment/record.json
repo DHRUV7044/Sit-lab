@@ -314,8 +314,7 @@
                         "The Gate-Last process solves the thermal budget and diffusion problems, but at the expense of added process complexity compared to Gate-First. Extra steps include sacrificial dummy gate deposition, ILD CMP, selective dummy poly pull etch, conformal ALD work-function metal deposition, bulk metal fill, and metal CMP.",
                         "Extra materials include sacrificial amorphous silicon (Si_Amorph), TEOS-based SiO<sub>2</sub> ILD, CMP stop liners, and dual work-function metal stacks (TiN, TaN, TiAl, TiAlC).",
                         "(d) High-Aspect-Ratio Metal Deposition and Scaling Limit:",
-                        "A critical requirement of the metal-last process is high-aspect-ratio (HAR) metal deposition. As channel length decreases while gate height is held constant, the aspect ratio (Height / Length) increases significantly. At ultra-narrow gate lengths, precursor pinch-off at the trench opening leads to void formation and incomplete fill.",
-                        "• Channel length at which process failure / pinch-off occurs: [ ________________ nm ]"
+                        "A critical requirement of the metal-last process is high-aspect-ratio (HAR) metal deposition. As channel length decreases while gate height is held constant, the aspect ratio (Height / Length) increases significantly. At ultra-narrow gate lengths, precursor pinch-off at the trench opening leads to void formation and incomplete fill."
                     ]
                 },
                 {
