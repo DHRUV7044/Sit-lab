@@ -1,0 +1,269 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="RMG.cat" TopCell="RMG_Cell"/>
+    <ProcessFile Filename="RMG_metrology.vanalysis"/>
+    <Zones Number="1"/>
+    <Output Directory="V2_ReplacementGate-Output/" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="Boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="Smart" AutoRev="true" Comments="" CreatedOn="Tuesday December 05, 2023 11:41:16" LastModified="Tuesday December 05, 2023 11:41:16" Revision="1413" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <material MaterialID="1" blue="192" green="192" name="/Metals/TiAl" red="192" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="2" blue="128" green="128" name="/Metals/TiN" red="128" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="3" blue="60" green="66" name="/Metals/W" red="50" transparency="0.0" type="Conductor" visibility="true"/>
+
+  <material MaterialID="4" blue="0" green="128" name="/Nitrides/Si3N4_LPCVD" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="5" blue="128" green="128" name="/Nitrides/Si3N4_PECVD" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="6" blue="128" green="0" name="/Organics/Resist" red="128" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="7" blue="0" green="255" name="/Oxides/HfOx" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="8" blue="255" green="255" name="/Oxides/SiO2_HDP" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="9" blue="255" green="0" name="/Oxides/SiO2_Thermal" red="0" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="10" blue="149" green="0" name="/Silicon/SiARC" red="149" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="11" blue="0" green="0" name="/Silicon/Si_Amorph" red="193" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <material MaterialID="12" blue="0" green="0" name="/Silicon/Si_Xtal" red="255" transparency="0.0" type="Dielectric" visibility="true"/>
+
+  <Dopants>
+    <Dopant Name="/NType/As">
+      <___Properties isEnable="true">
+        <type ___activeMember="donor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="13.1.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.56" ___lastKnownValue="3.56" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="0.32" ___lastKnownValue="0.32" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/NType/P">
+      <___Properties isEnable="true">
+        <type ___activeMember="donor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="13.1.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="1.1" ___lastKnownValue="1.1" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="1.59e-11" ___lastKnownValue="1.59e-11" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides>
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.69" ___lastKnownValue="3.69" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10.5" ___lastKnownValue="10.5" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/PType/B">
+      <___Properties isEnable="true">
+        <type ___activeMember="acceptor"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="13.1.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.06" ___lastKnownValue="3.06" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="2.8e-4" ___lastKnownValue="0.00028" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides>
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" isMaterialGroup="true" showHeader="true">
+            <activationEnergy ___expression="3.69" ___lastKnownValue="3.69" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="10.5" ___lastKnownValue="10.5" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <atomicWeight ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      </___Properties>
+    </Dopant>
+    <Dopant Name="/Aluminium">
+      <___Properties isEnable="true">
+        <type ___activeMember="neutral"/>
+        <displayScaleType ___activeMember="logarithmic" uiHidden="true"/>
+        <diffusionProperties VersionNumber="13.1.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Metals UserDefinedName="/Metals/" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="3.35" ___lastKnownValue="3.35" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="1e-3" ___lastKnownValue="0.001" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Metals>
+          <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="3.35" ___lastKnownValue="3.35" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="1e-2" ___lastKnownValue="0.01" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Oxides>
+          <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true" showHeader="true">
+            <activationEnergy ___expression="3.35" ___lastKnownValue="3.35" ___unitConversionExpr="" ___unitName="nounit"/>
+            <maxDiffusionCoefficient ___expression="5" ___lastKnownValue="5.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </_MaterialNodeType_Silicon>
+        </diffusionProperties>
+        <atomicNumber ___expression="13" ___lastKnownValue="13.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <atomicWeight ___expression="27" ___lastKnownValue="27.0" ___unitConversionExpr="" ___unitName="nounit"/>
+      </___Properties>
+    </Dopant>
+  </Dopants>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,45,315)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)" XCCenter0="(100.5,50.5,0.5)" XCCenter1="(100.5,50.5,0.5)" XCCenter2="(100.5,50.5,0.5)" XCDopantName="/Aluminium" XCDopantViewEnabled="true" XCNormal0="(0,0,0)" XCNormal1="(0,0,0)" XCNormal2="(0,0,0)" XCOutlineEnabled="true" XCSurfaceFieldEnabled="false" XCSurfaceFieldShadingEnabled="true" XCUpDir0="(0,0,1)" XCUpDir1="(0,0,1)" XCUpDir2="(0,0,1)">
+    <Camera FocalPoint="(100,50,28)" Name="" Position="(140.744,78.5249,43.5312)" ProjType="Orthographic" UpVector="(0,0,1)" ViewHeight="136.3231506347656"/>
+  </View>
+
+  <InternalSceneGraphNode Comments="" Name="Default Zone" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 1(Wafer Setup)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 4 52 V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf 52 V2_ReplacementGate-Output/Default Zone/CSIMEH2N.nwaf 52 V2_ReplacementGate-Output/Default Zone/WYTN5AX6.swaf 52 V2_ReplacementGate-Output/Default Zone/I4Q0A1UB.vwaf&#xA;" StepNumber="1" StepUUID="1dfea890-9890-4b2a-a193-a00a43502b8e" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/I4Q0A1UB.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/I4Q0A1UB.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 2(Enable Void Tracking)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/7DYQSAVF.vwaf&#xA;" StepNumber="2" StepUUID="b9b6e6eb-eef9-45b4-9b42-3661db89bf59" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/7DYQSAVF.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/7DYQSAVF.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 3(Dummy Gate)" StepNumber="3" StepUUID="faf9b1f4-baa5-4350-af21-3e88fdd22660" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.1(Gate oxide Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/PLRKRQTQ.vwaf&#xA;" StepNumber="1" StepUUID="4b0f7cf5-b167-4e7a-8f27-a13af15a22d5" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PLRKRQTQ.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PLRKRQTQ.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PLRKRQTQ.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.2(Gate polysilicon Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/PMYLDU1U.vwaf&#xA;" StepNumber="2" StepUUID="0cb30adb-1a42-4015-b243-ca6dc3cd39a5" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PMYLDU1U.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PMYLDU1U.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PMYLDU1U.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/PMYLDU1U.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.3(SiARC Deposition)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf&#xA;" StepNumber="3" StepUUID="8cfcdf04-2c51-4658-951e-0d0784354bf0" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QH5QUD1B.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.4(dummy gate resist pattern)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf&#xA;" StepNumber="4" StepUUID="99c1ff30-bfaf-4811-92b6-21c3ca73e30a" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/LCG2C8RP.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.5(Expose resist for gate oxide etch)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf&#xA;" StepNumber="5" StepUUID="9639738e-30e3-452a-b33a-79ce61a1c7bf" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_LPCVD" MaterialID="4" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_LPCVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/QI5C3WR9.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="&#xA;Unknown Step Properties: &#xA;name: hdm&#xA;Num. of attributes: 3&#xA;&#x9;VersionNumber : 12.2.0.0&#xA;&#x9;uiHidden : true&#xA;&#x9;uiHideChildNodes : true&#xA;name: simultaneousDeposit&#xA;Num. of attributes: 1&#xA;&#x9;isEnable : false&#xA;name: depositMaterial&#xA;Num. of attributes: 3&#xA;&#x9;VersionNumber : 12.2.0.0&#xA;&#x9;readonly : true&#xA;&#x9;uiHideChildNodes : true&#xA;name: depositRatio&#xA;Num. of attributes: 5&#xA;&#x9;___expression : &#xA;&#x9;___lastKnownValue : nan.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;name: depositIsotropicRatio&#xA;Num. of attributes: 5&#xA;&#x9;___expression : 0&#xA;&#x9;___lastKnownValue : 0.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;name: depositLateralRatio&#xA;Num. of attributes: 5&#xA;&#x9;___expression : 1&#xA;&#x9;___lastKnownValue : 1.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;name: depositSourceSigma&#xA;Num. of attributes: 5&#xA;&#x9;___expression : 100.0&#xA;&#x9;___lastKnownValue : 100.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;name: depositTransport&#xA;Num. of attributes: 2&#xA;&#x9;isEnable : false&#xA;&#x9;readonly : true&#xA;name: conformality&#xA;Num. of attributes: 5&#xA;&#x9;___expression : 0.1&#xA;&#x9;___lastKnownValue : 0.1&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;name: depositTiltAndTwist&#xA;Num. of attributes: 2&#xA;&#x9;___activeMember : sameAsEtch &#xA;&#x9;readonly : true&#xA;name: sameAsEtch&#xA;Num. of attributes: 2&#xA;&#x9;isEnable : true&#xA;&#x9;readonly : true&#xA;name: fixed&#xA;Num. of attributes: 1&#xA;&#x9;isEnable : true&#xA;name: tilt&#xA;Num. of attributes: 4&#xA;&#x9;___expression : 0&#xA;&#x9;___lastKnownValue : 0.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;name: twist&#xA;Num. of attributes: 4&#xA;&#x9;___expression : 0&#xA;&#x9;___lastKnownValue : 0.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;name: rotating&#xA;Num. of attributes: 1&#xA;&#x9;isEnable : true&#xA;name: tilt&#xA;Num. of attributes: 4&#xA;&#x9;___expression : 0&#xA;&#x9;___lastKnownValue : 0.0&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;name: transport&#xA;Num. of attributes: 1&#xA;&#x9;isEnable : false&#xA;name: conformality&#xA;Num. of attributes: 5&#xA;&#x9;___expression : 0.1&#xA;&#x9;___lastKnownValue : 0.1&#xA;&#x9;___unitConversionExpr : &#xA;&#x9;___unitName : nounit&#xA;&#x9;readonly : true&#xA;" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.6(Multi Etch (Requires Advanced Modeling))" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf&#xA;" StepNumber="6" StepUUID="703626fa-bf52-413f-8b85-dc00e4abf8cf" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 3.7(Remove organics)" RestartWafers="" StepNumber="7" StepUUID="d701b400-2ac5-4d61-af0d-baebdc822acb" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/6AI7O1SX.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="true" ModifiedSinceLastBuild="false" Name="Step 4(Source Drain formation)" StepNumber="4" StepUUID="ee045190-8e0b-408c-8984-5eae06a508b8" Transparency="0.0" Visibility="false">
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.1(Conformal Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf&#xA;" StepNumber="1" StepUUID="e16308b5-8279-4cac-9e62-ad13693f0ddd" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/UBN5BIJ4.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.2(source drain pattern)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf&#xA;" StepNumber="2" StepUUID="1bcaf342-8ff1-4db6-a012-1be5dc1b1361" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/JTMD7PS6.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.3(Expose resit for ILD etch)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf&#xA;" StepNumber="3" StepUUID="3d1f7d2f-1ab7-4ce6-8299-ce3f54ec75cc" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/3QXLS4OE.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.4(Basic Etch)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf&#xA;" StepNumber="4" StepUUID="bde4ab1d-b68e-4e85-9de2-cb3af624e5b2" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/CP12X0BG.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.5(Implant (Requires Advanced Modeling))" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf&#xA;" StepNumber="5" StepUUID="25a442c3-d719-4e08-a630-f64d314024fd" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Organics/Resist" MaterialID="6" MaterialType="Dielectric" MicronScale="1.0" Name="/Organics/Resist" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/CPE4ROGM.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.6(Remove resist)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf&#xA;" StepNumber="6" StepUUID="e6366643-97c0-4371-827e-9125506a165f" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/ISK0Y7DQ.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/H7ENPT3W.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.7(Conformal Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 2 52 V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf 52 V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf&#xA;" StepNumber="7" StepUUID="844c5bee-65ae-4fdc-8f22-ae808c55965b" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Oxides/SiO2_HDP" MaterialID="8" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_HDP" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Oxides/SiO2_Thermal" MaterialID="9" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/SiO2_Thermal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Amorph" MaterialID="11" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Amorph" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="true"/>
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Nitrides/Si3N4_PECVD" MaterialID="5" MaterialType="Dielectric" MicronScale="1.0" Name="/Nitrides/Si3N4_PECVD" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/X5MJR4UE.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+      <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 4.8(Stopping CMP)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/8NEV53EH.vwaf&#xA;" StepNumber="8" StepUUID="aa7d7db3-3901-40ee-b68a-60f6a7610c06" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/8NEV53EH.vwaf" Visibility="false">
+        <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/8NEV53EH.vwaf" Visibility="true"/>
+      </InternalSceneGraphNode>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 5(Dummy gate cap removal Etch)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/WSNOZCNB.vwaf&#xA;" StepNumber="5" StepUUID="a6e5ed57-c17c-4fcf-a9a6-09bc961cda0e" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/WSNOZCNB.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/WSNOZCNB.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 6(Dummy gate silicon removal Etch)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/5OVTTX61.vwaf&#xA;" StepNumber="6" StepUUID="9afeeae2-4975-419b-b7c4-cf42c6ca97c2" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/5OVTTX61.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/5OVTTX61.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 7(Gate high k Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/R57N83EW.vwaf&#xA;" StepNumber="7" StepUUID="c8ddcff3-46cf-44ab-8cbf-d59e285a7f84" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/R57N83EW.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Oxides/HfOx" MaterialID="7" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/HfOx" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/R57N83EW.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/3XQA4R5X.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/R57N83EW.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 8(Visibility Deposit (Requires Advanced Modeling))" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 2 52 V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf 52 V2_ReplacementGate-Output/Default Zone/J7KUETME.vwaf&#xA;" StepNumber="8" StepUUID="2e09113c-a05f-462e-b92d-1d7148fbb0c1" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/J7KUETME.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/TiAl" MaterialID="1" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/TiAl" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/J7KUETME.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Oxides/HfOx" MaterialID="7" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/HfOx" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/J7KUETME.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/J7KUETME.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 9(Visibility Deposit (Requires Advanced Modeling))" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf&#xA;" StepNumber="9" StepUUID="ae5224e7-d7eb-401b-a247-f8ad214ab410" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/TiAl" MaterialID="1" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/TiAl" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Oxides/HfOx" MaterialID="7" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/HfOx" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/TiN" MaterialID="2" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/TiN" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/XRDSXFWP.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" IsSequence="false" ModifiedSinceLastBuild="false" Name="Step 10(Filler gate metal Deposit)" RestartWafers="22 serialization::archive 17 1 1 14 RMG_susbstrate 1 1 52 V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf&#xA;" StepNumber="10" StepUUID="a0471680-63e5-42e5-91f6-64d047782ca1" Transparency="0.0" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="false">
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/TiAl" MaterialID="1" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/TiAl" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/W" MaterialID="3" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/W" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Oxides/HfOx" MaterialID="7" MaterialType="Dielectric" MicronScale="1.0" Name="/Oxides/HfOx" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Silicon/Si_Xtal" MaterialID="12" MaterialType="Dielectric" MicronScale="1.0" Name="/Silicon/Si_Xtal" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="true"/>
+      <LeafSceneGraphNode Filename="" IWAFFilename="V2_ReplacementGate-Output/Default Zone/31LU4S6P.iwaf" Material="/Metals/TiN" MaterialID="2" MaterialType="Conductor" MicronScale="1.0" Name="/Metals/TiN" Transparency="0.0" Type="Splat" VWAFFilename="V2_ReplacementGate-Output/Default Zone/FBY8CNZP.vwaf" Visibility="true"/>
+    </InternalSceneGraphNode>
+  </InternalSceneGraphNode>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-1()" StepNumber="1" StepUUID="e92b5f6f-9155-4466-9a32-879ca9643414" Transparency="0.0" Visibility="false"/>
+  </Analyses>
+
+</SceneGraph>

@@ -10,9 +10,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="04b76ef9-233c-4646-9473-981ba76e057a" ___Name="Variables" ___Type="VariableRoot">
+  <___Parser UUID="354d0503-682e-4287-9c18-36c44baa56dd" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="c809696f-dad4-4786-90cd-f2e319d4eabd" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="27815e61-2633-46d2-9db0-d32df2ebc7e0" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="61e4b2f1-0fe1-4334-ae92-4c19465748bc" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -21,7 +21,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="0434f4ef-d9ae-4ef7-b47d-a1695b166e89" ___Name="Analysis Root" ___Type="AnalysisRoot">
+  <___DocumentTree UUID="d17f8964-ed08-42aa-9c2a-c144564ea24e" ___Name="Analysis Root" ___Type="AnalysisRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>

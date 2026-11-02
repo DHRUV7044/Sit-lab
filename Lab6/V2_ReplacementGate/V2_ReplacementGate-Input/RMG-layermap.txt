@@ -1,0 +1,5 @@
+CD_measure                  5     0  
+Boundary                    0     0  
+Source_Drain                3     0  
+Source_Drain2               4     0  
+Gate_pattern                1     0  

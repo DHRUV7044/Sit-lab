@@ -1,0 +1,42 @@
+
+<SceneGraph ColorMode="Material">
+
+  <DocumentProperties>
+    <ModelProperties IsComplete="false" ModelResolution="1.0" ModelUnits="nm"/>
+    <Version App="SEMulator3D" AppVersion="13.1.0.0" Number="2.2.12.0"/>
+    <LayoutFile Filename="RMG.cat" TopCell="RMG_Cell"/>
+    <ProcessFile Filename="RMG_metrology.vanalysis"/>
+    <Zones Number="1"/>
+    <Output Directory="V2_ReplacementGate-Output/" Enabled="true" ExtractFragments="false"/>
+    <ManagerProperties CropOption="false" LayerMapFileName="" RunType="Start From Blank" StartViewer="true"/>
+    <ModelArea BoundingMask="Boundary" Coordinates="0.0 0.0 0.0 0.0" PadBy="0.0" Type="Single Mask"/>
+    <UserProperties Author="Smart" AutoRev="true" Comments="" CreatedOn="Tuesday December 05, 2023 11:41:16" LastModified="Tuesday December 05, 2023 11:41:16" Revision="1388" Watermark=""/>
+    <SecurityProperties FileAccessRestriction=""/>
+  </DocumentProperties>
+
+  <material blue="50" green="50" name="default" red="50" visibility="true"/>
+
+  <Dopants/>
+
+  <Views/>
+
+  <Lights>
+    <Light Enabled="true" FollowsCamera="true" Intensity="75" Name="Camera Light" Position="(1,45,315)" Specular="true" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 1" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="true" FollowsCamera="false" Intensity="25" Name="Light 2" Position="(1,45,180)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 3" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 4" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 5" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 6" Position="(1,45,315)" Specular="false" Type="0"/>
+    <Light Enabled="false" FollowsCamera="false" Intensity="100" Name="Light 7" Position="(1,45,315)" Specular="false" Type="0"/>
+  </Lights>
+
+  <View Name="" Scale="(1,1,1)" XCCenter0="(100.5,50.5,0.5)" XCCenter1="(100.5,50.5,0.5)" XCCenter2="(100.5,50.5,0.5)" XCDopantName="/Aluminium" XCDopantViewEnabled="true" XCNormal0="(0,0,0)" XCNormal1="(0,0,0)" XCNormal2="(0,0,0)" XCOutlineEnabled="true" XCSurfaceFieldEnabled="false" XCSurfaceFieldShadingEnabled="true" XCUpDir0="(0,0,1)" XCUpDir1="(0,0,1)" XCUpDir2="(0,0,1)">
+    <Camera FocalPoint="(100,50,28)" Name="" Position="(140.744,78.5249,43.5312)" ProjType="Orthographic" UpVector="(0,0,1)" ViewHeight="136.3231506347656"/>
+  </View>
+
+  <Analyses Comments="" Name="" Transparency="0.0" Visibility="true">
+    <InternalSceneGraphNode AtomisticWaferName="" Comments="" IsSequence="false" ModifiedSinceLastBuild="true" Name="Step A-1()" StepNumber="1" StepUUID="e92b5f6f-9155-4466-9a32-879ca9643414" Transparency="0.0" Visibility="false"/>
+  </Analyses>
+
+</SceneGraph>

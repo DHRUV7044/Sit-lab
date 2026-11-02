@@ -1,0 +1,158 @@
+10:57:32 INFO   Loading Assembly file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate.zam
+10:57:37 INFO   Loading Analysis file: D:/U24EV057/Lab6/V2_ReplacementGate/RMG_metrology.vanalysis
+10:58:06 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+10:58:31 INFO   Loading Process file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_Replacement_Gate.vproc
+10:58:31 INFO   Loading Material file: D:/U24EV057/Lab6/V2_ReplacementGate/SEMulator3DMatDB_80.vmpd
+10:58:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+10:58:37 WARN   The assembly file does not contain any 3D model data.  Can't do incremental re-build; proceeding with full re-build.
+10:58:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+10:58:39 INFO   Saving build script: D:\U24EV057\Lab6\V2_ReplacementGate\__semu_V2_ReplacementGate.py
+10:58:40 INFO : License server value is 54015@172.23.244.37.
+10:58:40 INFO : Platform is Windows, 64-bit.
+10:58:40 INFO : PRODUCT_NAME             SEMulator3D
+10:58:40 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+10:58:40 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+10:58:40 INFO : 
+
+10:59:05 INFO   Default number of parallel workers = 8
+10:59:05 INFO   Adding new input file path: D:\U24EV057\Lab6\V2_ReplacementGate\
+10:59:42 ERROR   Failed to obtain feature list: Cannot read data from license server system.
+ The license server system appears to be running, but is not
+responding.  If this persists, notify the System Administrator.
+(The license server manager (lmgrd) and vendor daemon processes
+should be terminated and restarted.)
+Hostname:      172.23.244.37
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-16,287.
+11:00:07 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+ See the system administrator about starting the license server system, or
+ make sure you're referring to the right host (see LM_LICENSE_FILE).
+Hostname:      LAMLICENSEVM
+License path:  54015@172.23.244.37;
+FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
+11:00:07 INFO : 1:	Running WaferSetup ("Wafer Setup")
+11:00:07 INFO   Voxel Wafer resolution is 1 nm.
+11:00:17 INFO   Model bounds for new wafer are 200 by 100 voxels.
+11:00:17 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:17 INFO : 2:	Running WaferOperations ("Enable Void Tracking")
+11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:18 INFO : 3:	Sequence ("Dummy Gate")
+11:00:18 INFO : 3.1:	Running Deposit ("Gate oxide Deposit")
+11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:18 INFO : 3.2:	Running Deposit ("Gate polysilicon Deposit")
+11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:18 INFO : 3.3:	Running Deposit ("SiARC Deposition")
+11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:18 INFO : 3.4:	Running Deposit ("dummy gate resist pattern")
+11:00:19 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:19 INFO : 3.5:	Running ExposeMaterial ("Expose resist for gate oxide etch")
+11:00:19 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:19 INFO : 3.6:	Running MultiEtch ("Multi Etch (Requires Advanced Modeling)")
+11:00:27 INFO   Invoking MultiEtch with etch depth 70 nm on top side.
+11:00:27 INFO   Material-specific parameters (ignoring absent materials):
+11:00:27 INFO   	"/Nitrides/Si3N4_LPCVD": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:00:27 INFO   	"/Organics/Resist": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:00:27 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=0.5, Lateral Ratio=0.05
+11:00:27 INFO   	"/Silicon/Si_Amorph": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:00:27 INFO   	"/Silicon/Si_Xtal": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:00:27 INFO   Etching has no tilt or twist, and no rotation.
+11:00:27 INFO   MultiEtch: initializing ...
+11:00:27 INFO   MultiEtch 0.0% complete.
+11:00:27 INFO   MultiEtch 11.0% complete.
+11:00:27 INFO   MultiEtch 22.0% complete.
+11:00:28 INFO   MultiEtch 33.1% complete.
+11:00:28 INFO   MultiEtch 44.1% complete.
+11:00:29 INFO   MultiEtch 55.1% complete.
+11:00:29 INFO   MultiEtch 66.1% complete.
+11:00:30 INFO   MultiEtch 77.2% complete.
+11:00:30 INFO   MultiEtch 88.2% complete.
+11:00:30 INFO   MultiEtch 99.3% complete.
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 3.7:	Running RemoveMaterials ("Remove organics")
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 4:	Sequence ("Source Drain formation")
+11:00:31 INFO : 4.1:	Running Deposit ("Conformal Deposit")
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 4.2:	Running Deposit ("source drain pattern")
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 4.3:	Running ExposeMaterial ("Expose resit for ILD etch")
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 4.4:	Running Etch ("Basic Etch")
+11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:31 INFO : 4.5:	Running Implant ("Implant (Requires Advanced Modeling)")
+11:00:36 WARN   Not all materials had their Implant profile specified: Si3N4_PECVD, Resist, SiO2_Thermal, Si_Amorph will have their profile set to stop on the surface.
+11:00:36 INFO   Implanting for 1620 surface locations..
+11:00:36 INFO   Implant 0.0% complete.
+11:00:36 INFO   Implant 10.1% complete.
+11:00:36 INFO   Implant 20.2% complete.
+11:00:36 INFO   Implant 30.4% complete.
+11:00:36 INFO   Implant 40.5% complete.
+11:00:36 INFO   Implant 50.6% complete.
+11:00:36 INFO   Implant 60.7% complete.
+11:00:36 INFO   Implant 70.9% complete.
+11:00:36 INFO   Implant 81.0% complete.
+11:00:36 INFO   Implant 91.1% complete.
+11:00:36 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:36 INFO : 4.6:	Running RemoveMaterials ("Remove resist")
+11:00:36 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:36 INFO : 4.7:	Running Deposit ("Conformal Deposit")
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO : 4.8:	Running Polish ("Stopping CMP")
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO : 5:	Running Etch ("Dummy gate cap removal Etch")
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO : 6:	Running Etch ("Dummy gate silicon removal Etch")
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO : 7:	Running Deposit ("Gate high k Deposit")
+11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:37 INFO : 8:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
+11:00:42 INFO   Visibility Deposit: depositing material "/Metals/TiAl" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
+11:00:42 INFO   Visibility Deposit: initializing ....
+11:00:43 INFO   Visibility Deposit 0.0% complete.
+11:00:43 INFO   Visibility Deposit 15.0% complete.
+11:00:43 INFO   Visibility Deposit 30.0% complete.
+11:00:43 INFO   Visibility Deposit 45.0% complete.
+11:00:43 INFO   Visibility Deposit 60.0% complete.
+11:00:43 INFO   Visibility Deposit 75.0% complete.
+11:00:43 INFO   Visibility Deposit 90.0% complete.
+11:00:43 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:43 INFO : 9:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
+11:00:43 INFO   Visibility Deposit: depositing material "/Metals/TiN" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
+11:00:43 INFO   Visibility Deposit: initializing ....
+11:00:43 INFO   Visibility Deposit 0.0% complete.
+11:00:44 INFO   Visibility Deposit 15.0% complete.
+11:00:44 INFO   Visibility Deposit 30.0% complete.
+11:00:44 INFO   Visibility Deposit 45.0% complete.
+11:00:44 INFO   Visibility Deposit 60.0% complete.
+11:00:44 INFO   Visibility Deposit 75.0% complete.
+11:00:44 INFO   Visibility Deposit 90.0% complete.
+11:00:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:44 INFO : 10:	Running Deposit ("Filler gate metal Deposit")
+11:00:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:00:44 INFO : 11:	Running Polish ("Stopping CMP")
+Traceback (most recent call last):
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\U24EV057\Lab6\V2_ReplacementGate\__semu_V2_ReplacementGate.py", line 129, in <module>
+    success = modeler.BuildModel(procDoc, analysisDoc, spw)
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 223, in BuildModel
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
+  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
+RuntimeError: Model build failed at step 11.  CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
+
+Model build has failed (process exit code was 1).
+
+Build log file moved to : D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate-Output/V2_ReplacementGate.log

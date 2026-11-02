@@ -11,9 +11,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="d9a9a5fc-adb3-48fe-a969-6a1cb5445b0a" ___Name="Variables" ___Type="VariableRoot">
+  <___Parser UUID="16888e4c-4bcb-4c78-b60b-2dc5c2ca1e8f" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="1578022d-a167-42a7-b9b7-163a00dfa254" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="53fbe163-c500-434a-907c-72a47c4b568c" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="a4018522-953e-4268-b8e7-157bd5e0560f" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -22,7 +22,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="08aed789-ed1f-41e8-b7e1-4999766948dc" ___Name="Process Library" ___Type="ProcessRoot">
+  <___DocumentTree UUID="b7319f68-9262-4d86-83ab-f13dce9f2b06" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -9534,7 +9534,7 @@
         </dopants>
         <uiDiffusionSpacer2 ___text="" extraSpace="true"/>
         <time ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-        <temperature ___expression="1400" ___lastKnownValue="1400.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <temperature ___expression="1200" ___lastKnownValue="1200.0" ___unitConversionExpr="" ___unitName="nounit"/>
       </___Properties>
     </___Item>
   </___DocumentTree>
