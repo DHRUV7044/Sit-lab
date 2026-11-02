@@ -1,0 +1,11 @@
+Sr. No.,SiO<sub>2</sub> Thickness (nm),Al Concentration (atoms/cm<sup>3</sup>),Status / Remark
+1,0.50,1.24 × 10<sup>15</sup>,Failed (Severe diffusion)
+2,0.60,8.27 × 10<sup>14</sup>,Failed
+3,0.70,5.40 × 10<sup>14</sup>,Failed
+4,0.80,1.77 × 10<sup>14</sup>,Failed
+5,0.81,1.42 × 10<sup>14</sup>,Failed (Pre-barrier)
+6,0.818 (Min.),1.00 × 10<sup>12</sup>,Threshold Limit
+7,0.82,3.89 × 10<sup>3</sup>,Safe (Effective barrier)
+8,0.85,3.50 × 10<sup>3</sup>,Safe
+9,0.90,2.68 × 10<sup>3</sup>,Safe
+10,1.00,10.71,Safe (Negligible diffusion)

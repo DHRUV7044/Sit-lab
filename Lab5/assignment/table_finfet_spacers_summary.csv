@@ -1,0 +1,8 @@
+Sr. No.,Process Step,Action Performed
+1,2.1.15,Conformal deposition of silicon dioxide (SiO<sub>2</sub>) to form the fin spacer oxide layer.
+2,2.1.16,Etching of the deposited fin spacer oxide to retain the required spacer structure.
+3,2.6.1.1,Deposition of silicon dioxide (SiO<sub>2</sub>) for P-type spacer formation.
+4,2.6.1.2,Deposition of silicon nitride (Si<sub>3</sub>N<sub>4</sub>) over the P-type spacer structure.
+5,2.6.1.5,Etching of the deposited P-type spacer nitride layer.
+6,2.6.2.1,Deposition of silicon nitride (Si<sub>3</sub>N<sub>4</sub>) for N-type spacer formation.
+7,2.6.2.4,Etching of the deposited N-type spacer nitride layer.

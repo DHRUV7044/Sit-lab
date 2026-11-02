@@ -1,0 +1,9 @@
+S.No.,Parameter,Value
+1,BiI<sub>3</sub> Precursor Quantity,500 mg
+2,Zone 1 Temperature,360 °C
+3,Zone 2 Temperature,150 °C
+4,Zone 3 Temperature,Room temperature to mild heating
+5,Argon Gas Flow Rate,19 mL/min
+6,Oxygen Gas Flow Rate,4.5 mL/min
+7,Substrate Position,"14.5 cm from precursor, in Zone 2"
+8,Deposition Duration,30–60 minutes

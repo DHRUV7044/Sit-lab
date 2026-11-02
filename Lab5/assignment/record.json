@@ -1,0 +1,303 @@
+{
+    "template": "sit_sw",
+    "document": {
+        "title": "ENGINEERING LAB RECORD",
+        "name": "Dhruv",
+        "roll_number": "U24EV057",
+        "date": "16/10/2026"
+    },
+    "images": [
+        {
+            "id": 1,
+            "path": "images/ref_spacer_diagram.png",
+            "title": "Reference Image"
+        },
+        {
+            "id": 2,
+            "path": "images/sim_spacer_result.png",
+            "title": "Simulated Result"
+        },
+        {
+            "id": 3,
+            "path": "images/spacer_deposition_2d.png",
+            "title": "Spacer Deposition"
+        },
+        {
+            "id": 4,
+            "path": "images/spacer_etching_2d.png",
+            "title": "Spacer Etching"
+        },
+        {
+            "id": 5,
+            "path": "images/graph_cd_profile_dual.png",
+            "title": "CD and ΔCD Variation Along the Spacer Height"
+        },
+        {
+            "id": 6,
+            "path": "images/finfet_step1_2_fin_spacer.png",
+            "title": "Fin Spacer Oxide Deposition and Etching (Steps 1 and 2)"
+        },
+        {
+            "id": 7,
+            "path": "images/finfet_step4_pspacer_dep.png",
+            "title": "P-Type Spacer Nitride Deposition (Step 4)"
+        },
+        {
+            "id": 8,
+            "path": "images/finfet_step5_pspacer_etch.png",
+            "title": "P-Type Spacer Nitride Etching (Step 5)"
+        },
+        {
+            "id": 9,
+            "path": "images/finfet_step6_nspacer_dep.png",
+            "title": "N-Type Spacer Nitride Deposition (Step 6)"
+        },
+        {
+            "id": 10,
+            "path": "images/finfet_step7_nspacer_etch.png",
+            "title": "N-Type Spacer Etching (Step 7)"
+        }
+    ],
+    "experiments": [
+        {
+            "number": 10,
+            "type": "Assignment 5",
+            "title": "SPACER FORMATION AND INTEGRATION",
+            "date": "16/10/2026",
+            "sections": [
+                {
+                    "type": "text",
+                    "number": 1,
+                    "title": "Aim",
+                    "new_page": false,
+                    "text": "To study the importance of spacers in FET fabrication and understand their formation, patterning, and role in advanced semiconductor device structures. To analyze spacer deposition and patterning in the Spacer and 14nm FinFET process flows using Semulator3D."
+                },
+                {
+                    "type": "text",
+                    "number": 2,
+                    "title": "Tool Used",
+                    "new_page": false,
+                    "text": "Semulator3D"
+                },
+                {
+                    "type": "text",
+                    "number": 3,
+                    "title": "Theory (Spacer)",
+                    "new_page": false,
+                    "text": [
+                        "Introduction to Spacer:",
+                        "A spacer is a thin insulating layer formed on the sidewalls of the gate structure in MOSFET and FinFET devices. It is generally made of dielectric materials such as silicon nitride (Si<sub>3</sub>N<sub>4</sub>) or silicon dioxide (SiO<sub>2</sub>).",
+                        "Spacers are formed by depositing a dielectric layer over the gate structure, followed by an etching process that removes material from horizontal surfaces while retaining it along the vertical sidewalls.",
+                        "Importance and Applications of Spacer:",
+                        "Spacers play an important role in semiconductor device fabrication. Their major applications include:",
+                        "• Source/Drain Formation: Help control the position and separation of source/drain regions from the gate.",
+                        "• Implantation Mask: Act as a mask during ion implantation to control dopant placement.",
+                        "• Short Channel Effect Control: Help in controlling source/drain extension dimensions in scaled transistors.",
+                        "• Capacitance Reduction: Reduce unwanted parasitic capacitance between the gate and source/drain regions.",
+                        "• Device Performance: Help maintain proper device dimensions and improve transistor performance.",
+                        "Spacers are widely used in modern MOSFET and FinFET fabrication, particularly in advanced technology nodes where precise control over transistor dimensions is essential."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "Assignment Question 1: Process Editor Steps",
+                    "new_page": true,
+                    "text": "The following table shows the process steps used in the Spacer.zam project.",
+                    "tables": [
+                        {
+                            "custom_caption": "Table: Steps involved in Spacer Formation (Process Editor Recipe)",
+                            "csv": "table_spacer_recipe.csv",
+                            "col_widths": ["8%", "18%", "26%", "20%", "8%", "10%", "10%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Assignment Question 1 (a) & (b)",
+                    "new_page": true,
+                    "text": [
+                        "(a) Deposition Technique Used for Spacer:",
+                        "The deposition technique used for spacer formation is Conformal Deposition. In this process, a thin layer of silicon nitride (Si<sub>3</sub>N<sub>4</sub>) is deposited uniformly over the gate structure, covering both horizontal and vertical surfaces.",
+                        "Importance of Conformality:",
+                        "Conformality is important because it ensures uniform thickness of the deposited layer over the entire structure, including the vertical sidewalls. This helps in obtaining properly shaped and uniform spacers on both sides of the gate.",
+                        "Common Conformal Deposition Techniques:",
+                        "• Chemical Vapour Deposition (CVD)",
+                        "• Low Pressure Chemical Vapour Deposition (LPCVD)",
+                        "• Atomic Layer Deposition (ALD)",
+                        "• Plasma Enhanced Chemical Vapour Deposition (PECVD)",
+                        "(b) Why is Spacer Patterned Without Lithography?",
+                        "Spacer patterning is performed without lithography because it uses an anisotropic etching process. After conformal deposition, the deposited material is etched in the vertical direction. This removes the material from horizontal surfaces while retaining it on the vertical sidewalls of the gate.",
+                        "Therefore, spacers are formed automatically on both sides of the gate without requiring an additional lithography mask. This process is known as self-aligned spacer formation."
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 4,
+                    "title": "Spacer Formation & Cross-Sections",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    {
+                                        "type": "row",
+                                        "elements": [
+                                            1,
+                                            2
+                                        ]
+                                    },
+                                    {
+                                        "type": "row",
+                                        "elements": [
+                                            3,
+                                            4
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 4,
+                    "title": "Assignment Question 1 (c) & (d)",
+                    "new_page": true,
+                    "text": [
+                        "(c) Calculation of CD Difference at 50% Height:",
+                        "The target CD is 7 nm, whereas the simulated CD width obtained from the process simulation is 7.01171875 nm. The CD at 50% of the total spacer thickness is 6.649137126980349 nm.",
+                        "Total spacer thickness: T<sub>spacer</sub> = 53.83402490615845 nm",
+                        "Height at 50% of the total spacer thickness: H<sub>50%</sub> = (50 / 100) × T<sub>spacer</sub> = 26.9170124531 nm",
+                        "CD difference is calculated as:",
+                        "ΔCD = CD<sub>simulated</sub> - CD<sub>50%</sub> = 7.01171875 nm - 6.649137126980349 nm = 0.362582 nm",
+                        "(d) CD Profile Along the Spacer Height:",
+                        "The CD profile represents the variation in critical dimension along the spacer height. The actual height at each position is calculated using the total spacer thickness: H = (Height (%) / 100) × T<sub>spacer</sub>. The CD difference at each height is calculated as: ΔCD = CD<sub>simulated</sub> - CD<sub>at given height</sub>."
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 4,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 1: CD Variation Along the Spacer Height",
+                            "csv": "table_cd_profile_full.csv",
+                            "col_widths": ["14%", "28%", "28%", "30%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 4,
+                    "title": "CD Profile Graph",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    5
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 5,
+                    "title": "Question 2: Process Analysis of 14 nm FinFET",
+                    "new_page": false,
+                    "text": [
+                        "(a) Spacer Deposition and Patterning Process Steps:",
+                        "The following table shows the important process steps involved in spacer deposition and patterning in the 14 nm FinFET structure:"
+                    ]
+                },
+                {
+                    "type": "table",
+                    "number": 5,
+                    "title": "",
+                    "new_page": false,
+                    "tables": [
+                        {
+                            "custom_caption": "Table 2: Spacer deposition and patterning process steps in 14 nm FinFET",
+                            "csv": "table_finfet_spacers_summary.csv",
+                            "col_widths": ["12%", "20%", "68%"]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "number": 5,
+                    "title": "Spacer Deposition and Patterning Images",
+                    "new_page": true,
+                    "subsections": [
+                        {
+                            "title": "",
+                            "layout": {
+                                "type": "column",
+                                "elements": [
+                                    {
+                                        "type": "row",
+                                        "elements": [
+                                            6,
+                                            7
+                                        ]
+                                    },
+                                    {
+                                        "type": "row",
+                                        "elements": [
+                                            8,
+                                            9
+                                        ]
+                                    },
+                                    10
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 5,
+                    "title": "Materials Used for Spacer",
+                    "new_page": true,
+                    "text": [
+                        "(b) Materials Used for Spacer:",
+                        "In the 14 nm FinFET structure, two dielectric materials are used for spacer formation:",
+                        "• Silicon Dioxide (SiO<sub>2</sub>): Used for fin spacer oxide formation and P-type spacer formation.",
+                        "• Silicon Nitride (Si<sub>3</sub>N<sub>4</sub>): Used for P-type and N-type spacer formation."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 6,
+                    "title": "Observations",
+                    "new_page": false,
+                    "text": [
+                        "1. Spacer formation was observed on the vertical sidewalls of the gate structure after conformal deposition and anisotropic etching.",
+                        "2. In Question 1, the simulated CD width was approximately 7.0117 nm. The CD gradually decreased along the spacer height, and the calculated CD loss at 50% of the spacer height was approximately 0.3626 nm.",
+                        "3. In Question 2, the spacer deposition and patterning steps in the 14 nm FinFET process flow were identified.",
+                        "4. Silicon dioxide (SiO<sub>2</sub>) and silicon nitride (Si<sub>3</sub>N<sub>4</sub>) were identified as the dielectric materials used for spacer formation.",
+                        "5. Separate spacer formation steps were observed for fin, P-type, and N-type regions."
+                    ]
+                },
+                {
+                    "type": "text",
+                    "number": 7,
+                    "title": "Conclusion",
+                    "new_page": false,
+                    "text": [
+                        "The spacer formation process was studied using the Spacer.zam project and the inbuilt 14nmFinFET.zam example in Semulator3D. The importance of conformal deposition and anisotropic etching in forming self-aligned spacers was understood.",
+                        "The CD variation along the spacer height was analyzed, and the CD loss at 50% of the spacer height was calculated. The deposition and patterning steps in the 14 nm FinFET process were also identified. The use of silicon dioxide and silicon nitride as spacer materials was studied. Overall, this assignment provided an understanding of spacer formation and its importance in MOSFET and FinFET fabrication."
+                    ]
+                }
+            ]
+        }
+    ]
+}

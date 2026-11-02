@@ -1,0 +1,11 @@
+Elevation (% Height),Critical Dimension (nm),Measured Feature,Status / Profile
+0% (Base),7.012,Base Spacer Footprint,Initial CD Target (7 nm)
+5%,6.972,Lower Sidewall,Near-ideal verticality
+15%,6.746,Lower-mid Sidewall,Uniform Profile
+25%,6.733,Mid-low Sidewall,Uniform Profile
+35%,6.704,Mid Sidewall,Uniform Profile
+50%,6.649,Mid-height (Inflection),Taper Transition
+65%,6.546,Upper-mid Sidewall,Gradual Narrowing
+75%,6.376,Upper Sidewall,Taper Onset
+85%,6.132,Near-top Sidewall,Accelerated Taper
+95% (Top),4.984,Spacer Apex (Corner Rounding),Peak CD Loss (ΔCD = 2.028 nm)
