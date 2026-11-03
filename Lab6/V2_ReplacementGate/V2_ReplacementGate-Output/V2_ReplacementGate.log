@@ -1,158 +1,209 @@
-10:57:32 INFO   Loading Assembly file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate.zam
-10:57:37 INFO   Loading Analysis file: D:/U24EV057/Lab6/V2_ReplacementGate/RMG_metrology.vanalysis
-10:58:06 ERROR   Failed to obtain feature list: License server machine is down or not responding.
+11:29:24 INFO   Loading Assembly file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate.zam
+11:29:29 INFO   Loading Analysis file: D:/U24EV057/Lab6/V2_ReplacementGate/RMG_metrology.vanalysis
+11:30:25 INFO   Loading Process file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_Replacement_Gate.vproc
+11:30:25 INFO   Loading Material file: D:/U24EV057/Lab6/V2_ReplacementGate/SEMulator3DMatDB_80.vmpd
+11:30:30 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:30:30 WARN   The assembly file does not contain any 3D model data.  Can't do incremental re-build; proceeding with full re-build.
+11:30:32 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:30:33 INFO   Saving build script: D:\U24EV057\Lab6\V2_ReplacementGate\__semu_V2_ReplacementGate.py
+11:30:34 INFO : License server value is 54015@172.23.244.37.
+11:30:34 INFO : Platform is Windows, 64-bit.
+11:30:34 INFO : PRODUCT_NAME             SEMulator3D
+11:30:34 INFO : VERSION_BUILD_NUMBER     13.1.0.0
+11:30:34 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
+11:30:34 INFO : 
+
+11:31:06 INFO   Default number of parallel workers = 8
+11:31:06 INFO   Adding new input file path: D:\U24EV057\Lab6\V2_ReplacementGate\
+11:31:32 ERROR   Failed to obtain feature list: License server machine is down or not responding.
  See the system administrator about starting the license server system, or
  make sure you're referring to the right host (see LM_LICENSE_FILE).
 Hostname:      LAMLICENSEVM
 License path:  54015@172.23.244.37;
 FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
-10:58:31 INFO   Loading Process file: D:/U24EV057/Lab6/V2_ReplacementGate/V2_Replacement_Gate.vproc
-10:58:31 INFO   Loading Material file: D:/U24EV057/Lab6/V2_ReplacementGate/SEMulator3DMatDB_80.vmpd
-10:58:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-10:58:37 WARN   The assembly file does not contain any 3D model data.  Can't do incremental re-build; proceeding with full re-build.
-10:58:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-10:58:39 INFO   Saving build script: D:\U24EV057\Lab6\V2_ReplacementGate\__semu_V2_ReplacementGate.py
-10:58:40 INFO : License server value is 54015@172.23.244.37.
-10:58:40 INFO : Platform is Windows, 64-bit.
-10:58:40 INFO : PRODUCT_NAME             SEMulator3D
-10:58:40 INFO : VERSION_BUILD_NUMBER     13.1.0.0
-10:58:40 INFO : VERSION_BUILD_TIMESTAMP  Wed Dec 17 23:32:16 2025
-10:58:40 INFO : 
-
-10:59:05 INFO   Default number of parallel workers = 8
-10:59:05 INFO   Adding new input file path: D:\U24EV057\Lab6\V2_ReplacementGate\
-10:59:42 ERROR   Failed to obtain feature list: Cannot read data from license server system.
- The license server system appears to be running, but is not
-responding.  If this persists, notify the System Administrator.
-(The license server manager (lmgrd) and vendor daemon processes
-should be terminated and restarted.)
-Hostname:      172.23.244.37
+11:32:18 ERROR   Failed to obtain feature list: Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Server name:   172.23.244.37
 License path:  54015@172.23.244.37;
-FlexNet Licensing error:-16,287.
-11:00:07 ERROR   Failed to obtain feature list: License server machine is down or not responding.
- See the system administrator about starting the license server system, or
- make sure you're referring to the right host (see LM_LICENSE_FILE).
-Hostname:      LAMLICENSEVM
-License path:  54015@172.23.244.37;
-FlexNet Licensing error:-96,7.  System Error: 11001 "WinSock: Host not found (HOST_NOT_FOUND)".
-11:00:07 INFO : 1:	Running WaferSetup ("Wafer Setup")
-11:00:07 INFO   Voxel Wafer resolution is 1 nm.
-11:00:17 INFO   Model bounds for new wafer are 200 by 100 voxels.
-11:00:17 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:17 INFO : 2:	Running WaferOperations ("Enable Void Tracking")
-11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:18 INFO : 3:	Sequence ("Dummy Gate")
-11:00:18 INFO : 3.1:	Running Deposit ("Gate oxide Deposit")
-11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:18 INFO : 3.2:	Running Deposit ("Gate polysilicon Deposit")
-11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:18 INFO : 3.3:	Running Deposit ("SiARC Deposition")
-11:00:18 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:18 INFO : 3.4:	Running Deposit ("dummy gate resist pattern")
-11:00:19 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:19 INFO : 3.5:	Running ExposeMaterial ("Expose resist for gate oxide etch")
-11:00:19 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:19 INFO : 3.6:	Running MultiEtch ("Multi Etch (Requires Advanced Modeling)")
-11:00:27 INFO   Invoking MultiEtch with etch depth 70 nm on top side.
-11:00:27 INFO   Material-specific parameters (ignoring absent materials):
-11:00:27 INFO   	"/Nitrides/Si3N4_LPCVD": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
-11:00:27 INFO   	"/Organics/Resist": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
-11:00:27 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=0.5, Lateral Ratio=0.05
-11:00:27 INFO   	"/Silicon/Si_Amorph": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
-11:00:27 INFO   	"/Silicon/Si_Xtal": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
-11:00:27 INFO   Etching has no tilt or twist, and no rotation.
-11:00:27 INFO   MultiEtch: initializing ...
-11:00:27 INFO   MultiEtch 0.0% complete.
-11:00:27 INFO   MultiEtch 11.0% complete.
-11:00:27 INFO   MultiEtch 22.0% complete.
-11:00:28 INFO   MultiEtch 33.1% complete.
-11:00:28 INFO   MultiEtch 44.1% complete.
-11:00:29 INFO   MultiEtch 55.1% complete.
-11:00:29 INFO   MultiEtch 66.1% complete.
-11:00:30 INFO   MultiEtch 77.2% complete.
-11:00:30 INFO   MultiEtch 88.2% complete.
-11:00:30 INFO   MultiEtch 99.3% complete.
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 3.7:	Running RemoveMaterials ("Remove organics")
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 4:	Sequence ("Source Drain formation")
-11:00:31 INFO : 4.1:	Running Deposit ("Conformal Deposit")
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 4.2:	Running Deposit ("source drain pattern")
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 4.3:	Running ExposeMaterial ("Expose resit for ILD etch")
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 4.4:	Running Etch ("Basic Etch")
-11:00:31 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:31 INFO : 4.5:	Running Implant ("Implant (Requires Advanced Modeling)")
-11:00:36 WARN   Not all materials had their Implant profile specified: Si3N4_PECVD, Resist, SiO2_Thermal, Si_Amorph will have their profile set to stop on the surface.
-11:00:36 INFO   Implanting for 1620 surface locations..
-11:00:36 INFO   Implant 0.0% complete.
-11:00:36 INFO   Implant 10.1% complete.
-11:00:36 INFO   Implant 20.2% complete.
-11:00:36 INFO   Implant 30.4% complete.
-11:00:36 INFO   Implant 40.5% complete.
-11:00:36 INFO   Implant 50.6% complete.
-11:00:36 INFO   Implant 60.7% complete.
-11:00:36 INFO   Implant 70.9% complete.
-11:00:36 INFO   Implant 81.0% complete.
-11:00:36 INFO   Implant 91.1% complete.
-11:00:36 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:36 INFO : 4.6:	Running RemoveMaterials ("Remove resist")
-11:00:36 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:36 INFO : 4.7:	Running Deposit ("Conformal Deposit")
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO : 4.8:	Running Polish ("Stopping CMP")
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO : 5:	Running Etch ("Dummy gate cap removal Etch")
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO : 6:	Running Etch ("Dummy gate silicon removal Etch")
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO : 7:	Running Deposit ("Gate high k Deposit")
-11:00:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:37 INFO : 8:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
-11:00:42 INFO   Visibility Deposit: depositing material "/Metals/TiAl" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
-11:00:42 INFO   Visibility Deposit: initializing ....
-11:00:43 INFO   Visibility Deposit 0.0% complete.
-11:00:43 INFO   Visibility Deposit 15.0% complete.
-11:00:43 INFO   Visibility Deposit 30.0% complete.
-11:00:43 INFO   Visibility Deposit 45.0% complete.
-11:00:43 INFO   Visibility Deposit 60.0% complete.
-11:00:43 INFO   Visibility Deposit 75.0% complete.
-11:00:43 INFO   Visibility Deposit 90.0% complete.
-11:00:43 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:43 INFO : 9:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
-11:00:43 INFO   Visibility Deposit: depositing material "/Metals/TiN" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
-11:00:43 INFO   Visibility Deposit: initializing ....
-11:00:43 INFO   Visibility Deposit 0.0% complete.
-11:00:44 INFO   Visibility Deposit 15.0% complete.
-11:00:44 INFO   Visibility Deposit 30.0% complete.
-11:00:44 INFO   Visibility Deposit 45.0% complete.
-11:00:44 INFO   Visibility Deposit 60.0% complete.
-11:00:44 INFO   Visibility Deposit 75.0% complete.
-11:00:44 INFO   Visibility Deposit 90.0% complete.
-11:00:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:44 INFO : 10:	Running Deposit ("Filler gate metal Deposit")
-11:00:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
-11:00:44 INFO : 11:	Running Polish ("Stopping CMP")
-Traceback (most recent call last):
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
-RuntimeError: CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "D:\U24EV057\Lab6\V2_ReplacementGate\__semu_V2_ReplacementGate.py", line 129, in <module>
-    success = modeler.BuildModel(procDoc, analysisDoc, spw)
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 223, in BuildModel
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 458, in RunStep
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelModeler.py", line 391, in RunStep
-  File "E:\BuildAgent\work\rel-13.1.0.0\src\python\modeler\voxelWafer.py", line 652, in Polish
-RuntimeError: Model build failed at step 11.  CMP: No target materials found in model, and no alternate condition specified.  Unable to continue.
-
-Model build has failed (process exit code was 1).
-
+FlexNet Licensing error:-15,10032.
+11:32:23 INFO : 1:	Running WaferSetup ("Wafer Setup")
+11:32:23 INFO   Voxel Wafer resolution is 1 nm.
+11:32:28 INFO   Model bounds for new wafer are 200 by 100 voxels.
+11:32:28 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:28 INFO : 2:	Running WaferOperations ("Enable Void Tracking")
+11:32:28 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:28 INFO : 3:	Sequence ("Dummy Gate")
+11:32:28 INFO : 3.1:	Running Deposit ("Gate oxide Deposit")
+11:32:28 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:28 INFO : 3.2:	Running Deposit ("Gate polysilicon Deposit")
+11:32:28 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:28 INFO : 3.3:	Running Deposit ("SiARC Deposition")
+11:32:29 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:29 INFO : 3.4:	Running Deposit ("dummy gate resist pattern")
+11:32:29 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:29 INFO : 3.5:	Running ExposeMaterial ("Expose resist for gate oxide etch")
+11:32:29 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:29 INFO : 3.6:	Running MultiEtch ("Multi Etch (Requires Advanced Modeling)")
+11:32:34 INFO   Invoking MultiEtch with etch depth 70 nm on top side.
+11:32:34 INFO   Material-specific parameters (ignoring absent materials):
+11:32:34 INFO   	"/Nitrides/Si3N4_LPCVD": type=Basic, Etch Ratio=0.75, Lateral Ratio=0.05
+11:32:34 INFO   	"/Organics/Resist": type=Basic, Etch Ratio=0.5, Lateral Ratio=0.05
+11:32:34 INFO   	"/Oxides/SiO2_Thermal": type=Basic, Etch Ratio=0.5, Lateral Ratio=0.05
+11:32:34 INFO   	"/Silicon/Si_Amorph": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:32:34 INFO   	"/Silicon/Si_Xtal": type=Basic, Etch Ratio=1, Lateral Ratio=0.05
+11:32:34 INFO   Etching has no tilt or twist, and no rotation.
+11:32:34 INFO   MultiEtch: initializing ...
+11:32:34 INFO   MultiEtch 0.0% complete.
+11:32:34 INFO   MultiEtch 11.6% complete.
+11:32:34 INFO   MultiEtch 23.1% complete.
+11:32:35 INFO   MultiEtch 34.6% complete.
+11:32:35 INFO   MultiEtch 45.5% complete.
+11:32:36 INFO   MultiEtch 55.7% complete.
+11:32:36 INFO   MultiEtch 65.7% complete.
+11:32:36 INFO   MultiEtch 75.8% complete.
+11:32:37 INFO   MultiEtch 86.0% complete.
+11:32:37 INFO   MultiEtch 96.1% complete.
+11:32:37 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:37 INFO : 3.7:	Running RemoveMaterials ("Remove organics")
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO : 4:	Sequence ("Source Drain formation")
+11:32:38 INFO : 4.1:	Running Deposit ("Conformal Deposit")
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO : 4.2:	Running Deposit ("source drain pattern")
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO : 4.3:	Running ExposeMaterial ("Expose resit for ILD etch")
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO : 4.4:	Running Etch ("Basic Etch")
+11:32:38 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:38 INFO : 4.5:	Running Implant ("Implant (Requires Advanced Modeling)")
+11:32:44 WARN   Not all materials had their Implant profile specified: Si3N4_LPCVD, Si3N4_PECVD, Resist, SiO2_Thermal, Si_Amorph will have their profile set to stop on the surface.
+11:32:44 INFO   Implanting for 1620 surface locations..
+11:32:44 INFO   Implant 0.0% complete.
+11:32:44 INFO   Implant 10.1% complete.
+11:32:44 INFO   Implant 20.2% complete.
+11:32:44 INFO   Implant 30.4% complete.
+11:32:44 INFO   Implant 40.5% complete.
+11:32:44 INFO   Implant 50.6% complete.
+11:32:44 INFO   Implant 60.7% complete.
+11:32:44 INFO   Implant 70.9% complete.
+11:32:44 INFO   Implant 81.0% complete.
+11:32:44 INFO   Implant 91.1% complete.
+11:32:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:44 INFO : 4.6:	Running RemoveMaterials ("Remove resist")
+11:32:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:44 INFO : 4.7:	Running Deposit ("Conformal Deposit")
+11:32:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:44 INFO : 4.8:	Running Polish ("Stopping CMP")
+11:32:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:44 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:44 INFO : 5:	Running Etch ("Dummy gate cap removal Etch")
+11:32:45 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:45 INFO : 6:	Running Etch ("Dummy gate silicon removal Etch")
+11:32:45 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:45 INFO : 7:	Running Deposit ("Gate high k Deposit")
+11:32:45 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:45 INFO : 8:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
+11:32:55 INFO   Visibility Deposit: depositing material "/Metals/TiAl" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
+11:32:55 INFO   Visibility Deposit: initializing ....
+11:32:55 INFO   Visibility Deposit 0.0% complete.
+11:32:55 INFO   Visibility Deposit 11.3% complete.
+11:32:55 INFO   Visibility Deposit 22.5% complete.
+11:32:55 INFO   Visibility Deposit 33.8% complete.
+11:32:55 INFO   Visibility Deposit 45.0% complete.
+11:32:55 INFO   Visibility Deposit 56.3% complete.
+11:32:56 INFO   Visibility Deposit 67.5% complete.
+11:32:56 INFO   Visibility Deposit 78.8% complete.
+11:32:56 INFO   Visibility Deposit 90.0% complete.
+11:32:56 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:56 INFO : 9:	Running Deposit ("Visibility Deposit (Requires Advanced Modeling)")
+11:32:56 INFO   Visibility Deposit: depositing material "/Metals/TiN" to depth 2 nm on wafer Top with source sigma 0.5, isotropic ratio 0.8, lateral ratio 1, tilt/twist angles = 0/0.
+11:32:56 INFO   Visibility Deposit: initializing ....
+11:32:56 INFO   Visibility Deposit 0.0% complete.
+11:32:56 INFO   Visibility Deposit 11.3% complete.
+11:32:56 INFO   Visibility Deposit 22.5% complete.
+11:32:57 INFO   Visibility Deposit 33.8% complete.
+11:32:57 INFO   Visibility Deposit 45.1% complete.
+11:32:57 INFO   Visibility Deposit 56.3% complete.
+11:32:57 INFO   Visibility Deposit 67.6% complete.
+11:32:57 INFO   Visibility Deposit 78.9% complete.
+11:32:57 INFO   Visibility Deposit 90.1% complete.
+11:32:57 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:57 INFO : 10:	Running Deposit ("Filler gate metal Deposit")
+11:32:57 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:57 INFO : 11:	Running Polish ("Stopping CMP")
+11:32:57 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:57 INFO : 12:	Running Diffusion ("Dummy Anneal")
+11:32:57 INFO   The value of Diffusivity of /NType/As in /Silicon/SiARC is:1.62053e-16cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Amorph is:1.62053e-16cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/As in /Silicon/Si_Xtal is:1.62053e-16cm^2/sec
+11:32:57 INFO   Skipping diffusion of /NType/As, since it is not present in model.
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Xtal is:1.46944e-15cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Oxides/HfOx is:2.98718e-16cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_HDP is:2.98718e-16cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Silicon/SiARC is:1.46944e-15cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Oxides/SiO2_Thermal is:2.98718e-16cm^2/sec
+11:32:57 INFO   The value of Diffusivity of /NType/P in /Silicon/Si_Amorph is:1.46944e-15cm^2/sec
+11:32:57 INFO   Before /NType/P diffusion: min/max = 0, 1.7169e+19	atoms/cm^3
+11:32:57 INFO   Total amount of dopant atoms = 1053.7
+11:32:57 INFO   Diffusion Solver 0.0% complete.
+11:32:57 INFO   Diffusion Solver 10.5% complete.
+11:32:57 INFO   Diffusion Solver 20.9% complete.
+11:32:57 INFO   Diffusion Solver 31.4% complete.
+11:32:57 INFO   Diffusion Solver 41.9% complete.
+11:32:57 INFO   Diffusion Solver 52.3% complete.
+11:32:57 INFO   Diffusion Solver 62.8% complete.
+11:32:57 INFO   Diffusion Solver 73.3% complete.
+11:32:57 INFO   Diffusion Solver 83.8% complete.
+11:32:58 INFO   Diffusion Solver 94.2% complete.
+11:32:58 INFO   Total amount of dopant atoms = 1053.7
+11:32:58 INFO   After /NType/P diffusion: min/max = 0, 1.37685e+19	atoms/cm^3 (change made)
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Xtal is:1.46944e-15cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Oxides/HfOx is:1.99484e-17cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_HDP is:1.99484e-17cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Silicon/SiARC is:1.46944e-15cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Oxides/SiO2_Thermal is:1.99484e-17cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /PType/B in /Silicon/Si_Amorph is:1.46944e-15cm^2/sec
+11:32:58 INFO   Skipping diffusion of /PType/B, since it is not present in model.
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Metals/TiAl is:4.04362e-18cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Silicon/Si_Amorph is:2.02181e-14cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Metals/TiN is:4.04362e-18cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Silicon/SiARC is:2.02181e-14cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Oxides/SiO2_Thermal is:4.04362e-17cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Metals/W is:4.04362e-18cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Silicon/Si_Xtal is:2.02181e-14cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Oxides/HfOx is:4.04362e-17cm^2/sec
+11:32:58 INFO   The value of Diffusivity of /Aluminium in /Oxides/SiO2_HDP is:4.04362e-17cm^2/sec
+11:32:58 INFO   Before /Aluminium diffusion: min/max = 0, 1e+15	atoms/cm^3
+11:32:58 INFO   Total amount of dopant atoms = 0.0194281
+11:32:58 INFO   Diffusion Solver 0.0% complete.
+11:32:58 INFO   Diffusion Solver 10.7% complete.
+11:32:58 INFO   Diffusion Solver 21.3% complete.
+11:32:58 INFO   Diffusion Solver 32.0% complete.
+11:32:58 INFO   Diffusion Solver 42.6% complete.
+11:32:58 INFO   Diffusion Solver 53.3% complete.
+11:32:58 INFO   Diffusion Solver 63.9% complete.
+11:32:58 INFO   Diffusion Solver 74.6% complete.
+11:32:59 INFO   Diffusion Solver 85.2% complete.
+11:32:59 INFO   Diffusion Solver 95.9% complete.
+11:32:59 INFO   Total amount of dopant atoms = 0.0194293
+11:32:59 INFO   After /Aluminium diffusion: min/max = 0, 9.97832e+14	atoms/cm^3 (change made)
+11:32:59 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:32:59 INFO : A-1:	Running Analysis step Metrology ('Virtual Metrology (Requires Automation)') after process step '12';
+11:33:09 INFO : METROLOGY RESULTS:
+11:33:09 INFO : CD measurement at (78.99999999999999, 57.499999999999986, 120.99999999999997, 57.499999999999986):
+11:33:09 INFO :   GateCD = 16.916870
+11:33:09 INFO :   GateCD_xStart = 91.54156494140625
+11:33:09 INFO :   GateCD_yStart = 57.499999999999986
+11:33:09 INFO :   GateCD_zStart = 57.3046875
+11:33:09 INFO :   GateCD_xEnd = 108.45843505859375
+11:33:09 INFO :   GateCD_yEnd = 57.499999999999986
+11:33:09 INFO :   GateCD_zEnd = 57.3046875
+11:33:09 INFO : Results are stored in output file D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate-Output/metrology.txt.
+11:33:09 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:33:09 INFO   Saving assembly file "D:\U24EV057\Lab6\V2_ReplacementGate\V2_ReplacementGate.zam".
+11:33:09 INFO : Build process completed.
+11:33:09 INFO : Elapsed Time 154 seconds.
 Build log file moved to : D:/U24EV057/Lab6/V2_ReplacementGate/V2_ReplacementGate-Output/V2_ReplacementGate.log

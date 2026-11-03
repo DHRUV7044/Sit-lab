@@ -11,9 +11,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="e48194f5-6bec-4b21-a6df-5a921d87f128" ___Name="Variables" ___Type="VariableRoot">
+  <___Parser UUID="3dee3457-581c-451f-8fd5-12d7c3ac980b" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="2a07a954-10b4-4a5e-8ecc-99e0058a6f38" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="5b422b16-fc5d-46fe-a156-88549425e1cb" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="9faa1ee1-876d-4f67-b818-148de1fed388" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -22,7 +22,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="056ae559-1b5a-4402-aa48-5e66c59761e4" ___Name="Process Library" ___Type="ProcessRoot">
+  <___DocumentTree UUID="9175ebef-ba04-45fe-93f6-366148770970" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -525,7 +525,7 @@
           <uiWaferSetupSpacer ___text="" extraSpace="true"/>
           <materials VersionNumber="13.1.0.0" uiHideChildNodes="true" uiIsMultiEtch="true" uiUseMultiEtchMaterialWidget="true">
             <_MaterialNodeType_Nitrides UserDefinedName="/Nitrides/" isEnable="true">
-              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <etchRatio ___expression="0.75" ___lastKnownValue="0.75" ___unitConversionExpr="" ___unitName="nounit"/>
               <lateralRatio ___expression="0.05" ___lastKnownValue="0.05" ___unitConversionExpr="" ___unitName="nounit"/>
               <etchType ___activeMember="basic ">
                 <basic isEnable="true">
@@ -721,7 +721,7 @@
               </etchType>
             </_MaterialNodeType_Nitrides>
             <_MaterialNodeType_Organics_MaterialLeafType_Resist UserDefinedName="/Organics/Resist" isEnable="true">
-              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <etchRatio ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
               <lateralRatio ___expression="0.05" ___lastKnownValue="0.05" ___unitConversionExpr="" ___unitName="nounit"/>
               <etchType ___activeMember="basic ">
                 <basic isEnable="true">
