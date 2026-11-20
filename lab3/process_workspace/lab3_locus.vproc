@@ -11,9 +11,9 @@
 
   <___CustomConfiguration/>
 
-  <___Parser UUID="5b1c1a26-6167-4730-95a2-219b2102c968" ___Name="Variables" ___Type="VariableRoot" isExpanded="true">
+  <___Parser UUID="45011e0e-b070-4a8f-86dc-533f89ba5b4a" ___Name="Variables" ___Type="VariableRoot">
     <___Item Automatic="true" UUID="874ff2af-0475-40ae-a4a2-bbf849141dea" ___Name="Auto" ___Type="VariableGroup">
-      <___Item Automatic="true" UUID="40026758-a6e7-48d4-8dfa-800faf70441f" ___Name="ModelResolution" ___Type="Variable">
+      <___Item Automatic="true" UUID="961e6ccb-b355-4bfc-afac-2f4dd22b4b39" ___Name="ModelResolution" ___Type="Variable">
         <___Properties isEnable="true">
           <value ___expression="0/0" ___lastKnownValue="-nan(ind).0" ___unitConversionExpr="" ___unitName="nounit"/>
           <isExposed ___expression="false"/>
@@ -22,7 +22,7 @@
     </___Item>
   </___Parser>
 
-  <___DocumentTree UUID="41eb2ba8-9f5f-4f29-8e95-d76f26952bdd" ___Name="Process Library" ___Type="ProcessRoot" isExpanded="true">
+  <___DocumentTree UUID="76fdd2f7-114b-438f-bedc-918595c03cc1" ___Name="Process Library" ___Type="ProcessRoot">
     <___Properties isEnable="true">
       <stepName ___text=""/>
       <stepAction ___text="" readonly="true"/>
@@ -91,7 +91,7 @@
           <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal UserDefinedName="/Oxides/SiO2_Thermal" isEnable="true"/>
         </material>
         <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-        <thickness ___expression="15" ___lastKnownValue="15.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <thickness ___expression="4" ___lastKnownValue="4.0" ___unitConversionExpr="" ___unitName="nounit"/>
         <uiDepositSpacer ___text="" extraSpace="true"/>
         <type ___activeMember="conformal ">
           <straight isEnable="true">
@@ -159,7 +159,7 @@
           <_MaterialNodeType_Nitrides_MaterialLeafType_Si3N4_LPCVD UserDefinedName="/Nitrides/Si3N4_LPCVD" isEnable="true"/>
         </material>
         <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-        <thickness ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <thickness ___expression="40" ___lastKnownValue="40.0" ___unitConversionExpr="" ___unitName="nounit"/>
         <uiDepositSpacer ___text="" extraSpace="true"/>
         <type ___activeMember="conformal ">
           <straight isEnable="true">
@@ -261,7 +261,7 @@
             <_MaterialNodeType_Organics_MaterialLeafType_Resist UserDefinedName="/Organics/Resist" isEnable="true"/>
           </material>
           <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-          <thickness ___expression="200" ___lastKnownValue="200.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <thickness ___expression="120" ___lastKnownValue="120.0" ___unitConversionExpr="" ___unitName="nounit"/>
           <uiDepositSpacer ___text="" extraSpace="true"/>
           <type ___activeMember="planarizing ">
             <straight isEnable="true">
@@ -443,7 +443,7 @@
             </_MaterialNodeType_Silicon>
           </materials>
           <selectivity ___expression="true"/>
-          <depth ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <depth ___expression="45" ___lastKnownValue="45.0" ___unitConversionExpr="" ___unitName="nounit"/>
           <uiEtchSpacer1 ___text="" extraSpace="true"/>
           <type ___activeMember="basic ">
             <straight isEnable="true">
@@ -1080,7 +1080,7 @@
             </_MaterialNodeType_Silicon>
           </materials>
           <selectivity ___expression="true"/>
-          <depth ___expression="15" ___lastKnownValue="15.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <depth ___expression="6" ___lastKnownValue="6.0" ___unitConversionExpr="" ___unitName="nounit"/>
           <uiEtchSpacer1 ___text="" extraSpace="true"/>
           <type ___activeMember="basic ">
             <straight isEnable="true">
@@ -1682,28 +1682,648 @@
           </type>
         </___Properties>
       </___Item>
-      <___Item UUID="1466e5fd-7e3f-4b58-9393-5c60b86bd3bb" ___Name="Remove Materials1" ___Type="RemoveMaterials">
-        <___Properties isEnable="true">
-          <stepName ___text="resist removal"/>
-          <stepAction ___text="Remove Materials" icon=":/icons/RemoveMaterials" readonly="true" stepType="RemoveMaterials"/>
+      <___Item UUID="5efcb43c-18e6-487c-a813-83368ba5c61d" ___Name="Etch12" ___Type="Etch">
+        <___Properties VersionNumber="13.1.0.0" isEnable="true">
+          <stepName ___text="bassic Etch"/>
+          <stepAction ___text="Enhanced Basic Etch" icon=":/icons/Etch_basic" readonly="true" stepType="Etch"/>
           <skipMask isEnable="false" showHeader="true">
             <name ___text="" readonly="true"/>
           </skipMask>
           <skipIf ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
           <uiProcessStepSpacer ___text="" extraSpace="true"/>
           <wafer VersionNumber="13.1.0.0" ___text="wafer1"/>
+          <waferSide ___activeMember="top"/>
           <uiWaferSetupSpacer ___text="" extraSpace="true"/>
           <materials VersionNumber="13.1.0.0" uiHideChildNodes="true">
-            <_MaterialNodeType_Organics_MaterialLeafType_Resist UserDefinedName="/Organics/Resist" isEnable="true"/>
+            <_MaterialNodeType_Nitrides UserDefinedName="/Nitrides/" isEnable="true">
+              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+              <lateralRatio ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </_MaterialNodeType_Nitrides>
+            <_MaterialNodeType_Organics UserDefinedName="/Organics/" isEnable="true">
+              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+              <lateralRatio ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </_MaterialNodeType_Organics>
+            <_MaterialNodeType_Oxides UserDefinedName="/Oxides/" isEnable="true">
+              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+              <lateralRatio ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </_MaterialNodeType_Oxides>
+            <_MaterialNodeType_Silicon UserDefinedName="/Silicon/" isEnable="true">
+              <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+              <lateralRatio ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            </_MaterialNodeType_Silicon>
           </materials>
-          <updateVoids ___expression="true" uiHidden="true"/>
+          <selectivity ___expression="true"/>
+          <depth ___expression="100" ___lastKnownValue="100.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <uiEtchSpacer1 ___text="" extraSpace="true"/>
+          <type ___activeMember="basic ">
+            <straight isEnable="true">
+              <advanced isEnable="false" showHeader="true">
+                <mask isEnable="true" readonly="true">
+                  <name ___text="" readonly="true"/>
+                  <polarity ___expression="false" readonly="true"/>
+                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                </mask>
+              </advanced>
+            </straight>
+            <legacyBasic isEnable="true">
+              <lateralRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <pdSpacer ___text="" extraSpace="true"/>
+              <patternDependenceWrapper ___activeMember="none ">
+                <none isEnable="true"/>
+                <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
+                  <calibrator ___activeMember="line ">
+                    <line isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </line>
+                    <trench isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </trench>
+                    <squareVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </squareVia>
+                    <rectangularVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="true" readonly="true">
+                          <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </rectangularVia>
+                    <general isEnable="true">
+                      <calibrateForDepth isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="true" readonly="true"/>
+                      </calibrateForDepth>
+                      <uiSpacer1 ___text="" extraSpace="true"/>
+                      <calibrateForLateralRatio isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="false" readonly="true"/>
+                      </calibrateForLateralRatio>
+                      <uiSpacer2 ___text="" extraSpace="true"/>
+                      <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                    </general>
+                  </calibrator>
+                  <globalMask isEnable="true">
+                    <name ___text=""/>
+                    <polarity ___expression="false"/>
+                    <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </globalMask>
+                  <localMask ___activeMember="useGlobal ">
+                    <useGlobal isEnable="true"/>
+                    <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                    <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </localMask>
+                  <advanced isEnable="false" showHeader="true">
+                    <depth isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </depth>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <lateralRatio isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </lateralRatio>
+                  </advanced>
+                </patternDependence>
+                <loadingMapImport isEnable="true">
+                  <depth isEnable="true" showHeader="true">
+                    <pythonModule ___text=""/>
+                    <pythonClass ___text=""/>
+                    <uiSpacer1 ___text="" extraSpace="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  </depth>
+                  <uiSpacer1 ___text="" extraSpace="true"/>
+                  <lateralRatio isEnable="false" showHeader="true">
+                    <pythonModule ___text="" readonly="true"/>
+                    <pythonClass ___text="" readonly="true"/>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
+                  </lateralRatio>
+                </loadingMapImport>
+              </patternDependenceWrapper>
+              <advancedSpacer ___text="" extraSpace="true"/>
+              <customOverhangRate ___activeMember="useLateralRatio ">
+                <useLateralRatio isEnable="true"/>
+                <useSpecialValue isEnable="true">
+                  <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </useSpecialValue>
+              </customOverhangRate>
+              <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
+                <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              </customLateralRates>
+              <disableSkirting ___expression="false" uiHidden="true"/>
+              <uiEtchSpacer1 ___text="" extraSpace="true"/>
+              <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            </legacyBasic>
+            <basic isEnable="true">
+              <lateralRatio ___expression="0.05" ___lastKnownValue="0.05" ___unitConversionExpr="" ___unitName="nounit"/>
+              <pdSpacer ___text="" extraSpace="true"/>
+              <patternDependenceWrapper ___activeMember="none ">
+                <none isEnable="true"/>
+                <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
+                  <calibrator ___activeMember="line ">
+                    <line isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </line>
+                    <trench isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </trench>
+                    <squareVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </squareVia>
+                    <rectangularVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="true" readonly="true">
+                          <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </rectangularVia>
+                    <general isEnable="true">
+                      <calibrateForDepth isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="true" readonly="true"/>
+                      </calibrateForDepth>
+                      <uiSpacer1 ___text="" extraSpace="true"/>
+                      <calibrateForLateralRatio isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="false" readonly="true"/>
+                      </calibrateForLateralRatio>
+                      <uiSpacer2 ___text="" extraSpace="true"/>
+                      <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                    </general>
+                  </calibrator>
+                  <globalMask isEnable="true">
+                    <name ___text=""/>
+                    <polarity ___expression="false"/>
+                    <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </globalMask>
+                  <localMask ___activeMember="useGlobal ">
+                    <useGlobal isEnable="true"/>
+                    <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                    <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </localMask>
+                  <advanced isEnable="false" showHeader="true">
+                    <depth isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </depth>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <lateralRatio isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </lateralRatio>
+                  </advanced>
+                </patternDependence>
+                <loadingMapImport isEnable="true">
+                  <depth isEnable="true" showHeader="true">
+                    <pythonModule ___text=""/>
+                    <pythonClass ___text=""/>
+                    <uiSpacer1 ___text="" extraSpace="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  </depth>
+                  <uiSpacer1 ___text="" extraSpace="true"/>
+                  <lateralRatio isEnable="false" showHeader="true">
+                    <pythonModule ___text="" readonly="true"/>
+                    <pythonClass ___text="" readonly="true"/>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
+                  </lateralRatio>
+                </loadingMapImport>
+              </patternDependenceWrapper>
+              <advancedSpacer ___text="" extraSpace="true"/>
+              <customOverhangRate ___activeMember="useLateralRatio ">
+                <useLateralRatio isEnable="true"/>
+                <useSpecialValue isEnable="true">
+                  <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </useSpecialValue>
+              </customOverhangRate>
+              <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
+                <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              </customLateralRates>
+              <disableSkirting ___expression="false" uiHidden="true"/>
+              <uiEtchSpacer1 ___text="" extraSpace="true"/>
+              <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            </basic>
+            <taper isEnable="true">
+              <sidewallAngle ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <advanced isEnable="false" showHeader="true">
+                <mask isEnable="true" readonly="true">
+                  <name ___text="" readonly="true"/>
+                  <polarity ___expression="false" readonly="true"/>
+                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                </mask>
+              </advanced>
+            </taper>
+            <constrained isEnable="true">
+              <profile ___activeMember="taper " showHeader="true">
+                <taper isEnable="true">
+                  <sidewallAngle ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </taper>
+                <expression isEnable="true">
+                  <depth ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" showHeader="true"/>
+                  <depthStop ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" showHeader="true" uiHidden="true"/>
+                </expression>
+                <loadFromFile ___text="" showHeader="true"/>
+                <sequence PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="1"/>
+              </profile>
+              <sweepLocation ___activeMember="useMaterials ">
+                <useMaterials isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                  <invert ___expression="false"/>
+                </useMaterials>
+                <useMask isEnable="true">
+                  <mask isEnable="true" showHeader="true">
+                    <name ___text=""/>
+                    <polarity ___expression="false"/>
+                    <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </mask>
+                  <anchorElevation ___activeMember="useSurfaceZ ">
+                    <useSurfaceZ isEnable="true"/>
+                    <useAbsoluteZ isEnable="true">
+                      <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                    </useAbsoluteZ>
+                  </anchorElevation>
+                </useMask>
+              </sweepLocation>
+              <spacer1 ___text="" extraSpace="true"/>
+              <lateralRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              <spacer2 ___text="" extraSpace="true"/>
+              <patternDependenceWrapper ___activeMember="none ">
+                <none isEnable="true"/>
+                <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
+                  <calibrator ___activeMember="line ">
+                    <line isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </line>
+                    <trench isEnable="true">
+                      <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </trench>
+                    <squareVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </squareVia>
+                    <rectangularVia isEnable="true">
+                      <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                      <depth isEnable="false" showHeader="true">
+                        <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="false" readonly="true" showHeader="true">
+                          <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                          <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </depth>
+                      <lateralRatio isEnable="false" showHeader="true">
+                        <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        <extraCalibration isEnable="true" readonly="true">
+                          <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                        </extraCalibration>
+                      </lateralRatio>
+                    </rectangularVia>
+                    <general isEnable="true">
+                      <calibrateForDepth isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="true" readonly="true"/>
+                      </calibrateForDepth>
+                      <uiSpacer1 ___text="" extraSpace="true"/>
+                      <calibrateForLateralRatio isEnable="false" showHeader="true">
+                        <kernelTypes ___activeMember="auto" readonly="true"/>
+                        <averaging ___expression="false" readonly="true"/>
+                      </calibrateForLateralRatio>
+                      <uiSpacer2 ___text="" extraSpace="true"/>
+                      <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                    </general>
+                  </calibrator>
+                  <globalMask isEnable="true">
+                    <name ___text=""/>
+                    <polarity ___expression="false"/>
+                    <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </globalMask>
+                  <localMask ___activeMember="useGlobal ">
+                    <useGlobal isEnable="true"/>
+                    <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                    <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
+                  </localMask>
+                  <advanced isEnable="false" showHeader="true">
+                    <depth isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </depth>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <lateralRatio isEnable="false" readonly="true" showHeader="true">
+                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed1 ___expression="false" readonly="true"/>
+                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                      <directed2 ___expression="false" readonly="true"/>
+                      <averaging ___expression="false" readonly="true"/>
+                    </lateralRatio>
+                  </advanced>
+                </patternDependence>
+                <loadingMapImport isEnable="true">
+                  <depth isEnable="true" showHeader="true">
+                    <pythonModule ___text=""/>
+                    <pythonClass ___text=""/>
+                    <uiSpacer1 ___text="" extraSpace="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+                  </depth>
+                  <uiSpacer1 ___text="" extraSpace="true"/>
+                  <lateralRatio isEnable="false" showHeader="true">
+                    <pythonModule ___text="" readonly="true"/>
+                    <pythonClass ___text="" readonly="true"/>
+                    <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
+                    <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
+                  </lateralRatio>
+                </loadingMapImport>
+              </patternDependenceWrapper>
+              <spacer3 ___text="" extraSpace="true"/>
+              <customOverhangRate ___activeMember="useLateralRatio ">
+                <useLateralRatio isEnable="true"/>
+                <useSpecialValue isEnable="true">
+                  <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </useSpecialValue>
+              </customOverhangRate>
+              <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
+                <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+                <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              </customLateralRates>
+              <disableSkirting ___expression="false" uiHidden="true"/>
+              <spacer4 ___text="" extraSpace="true"/>
+              <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
+            </constrained>
+          </type>
         </___Properties>
       </___Item>
     </___Item>
-    <___Item UUID="42f44e11-ef9e-4771-8086-a16c9cc07269" ___Name="Interface Growth1" ___Type="InterfaceGrowth">
+    <___Item UUID="81c16eb0-fb7b-4172-86f4-ec7cdef25d8d" ___Name="Remove Materials1" ___Type="RemoveMaterials">
       <___Properties isEnable="true">
-        <stepName ___text="thermal oxidation"/>
-        <stepAction ___text="Interface Growth" icon=":/icons/InterfaceGrowth" readonly="true" stepType="InterfaceGrowth"/>
+        <stepName ___text="Remove Materials"/>
+        <stepAction ___text="Remove Materials" icon=":/icons/RemoveMaterials" readonly="true" stepType="RemoveMaterials"/>
         <skipMask isEnable="false" showHeader="true">
           <name ___text="" readonly="true"/>
         </skipMask>
@@ -1712,44 +2332,15 @@
         <wafer VersionNumber="13.1.0.0" ___text="wafer1"/>
         <uiWaferSetupSpacer ___text="" extraSpace="true"/>
         <materials VersionNumber="13.1.0.0" uiHideChildNodes="true">
-          <_MaterialLeafType_Air UserDefinedName="/Air" isEnable="true">
-            <side ___activeMember="side2"/>
-            <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true" undefLabel="Air">
-              <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal UserDefinedName="/Oxides/SiO2_Thermal" isEnable="true"/>
-            </replacementMaterial>
-          </_MaterialLeafType_Air>
-          <_MaterialNodeType_Silicon_MaterialLeafType_Si_Xtal UserDefinedName="/Silicon/Si_Xtal" isEnable="true">
-            <side ___activeMember="side1"/>
-            <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true" undefLabel="Air">
-              <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal UserDefinedName="/Oxides/SiO2_Thermal" isEnable="true"/>
-            </replacementMaterial>
-          </_MaterialNodeType_Silicon_MaterialLeafType_Si_Xtal>
+          <_MaterialNodeType_Organics_MaterialLeafType_Resist UserDefinedName="/Organics/Resist" isEnable="true"/>
         </materials>
-        <airSide ___activeMember="top"/>
-        <growthAmount ___activeMember="totalThickness ">
-          <totalThickness isEnable="true">
-            <thickness ___expression="300" ___lastKnownValue="300.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <ratio ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
-          </totalThickness>
-          <thicknessBySide isEnable="true">
-            <side1 ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <side2 ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
-          </thicknessBySide>
-        </growthAmount>
-        <uiIGSpacer1 ___text="" extraSpace="true"/>
-        <growthDirectionality ___activeMember="isotropic ">
-          <isotropic isEnable="true"/>
-          <verticallyBiased isEnable="true">
-            <side1 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <side2 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-          </verticallyBiased>
-        </growthDirectionality>
+        <updateVoids ___expression="true" uiHidden="true"/>
       </___Properties>
     </___Item>
-    <___Item UUID="ff8f740d-5f20-4be5-b0c3-c1c0f82d1c94" ___Name="Etch1" ___Type="Etch">
-      <___Properties VersionNumber="13.1.0.0" isEnable="true">
-        <stepName ___text="sin hardmask strip"/>
-        <stepAction ___text="Enhanced Basic Etch" icon=":/icons/Etch_basic" readonly="true" stepType="Etch"/>
+    <___Item UUID="61cab7f3-96c6-4b41-80de-7135f35a8b98" ___Name="Deposit3" ___Type="Deposit">
+      <___Properties isEnable="true">
+        <stepName ___text="Deposit"/>
+        <stepAction ___text="Conformal Deposit" icon=":/icons/Deposit_conformal" readonly="true" stepType="Deposit"/>
         <skipMask isEnable="false" showHeader="true">
           <name ___text="" readonly="true"/>
         </skipMask>
@@ -1758,17 +2349,13 @@
         <wafer VersionNumber="13.1.0.0" ___text="wafer1"/>
         <waferSide ___activeMember="top"/>
         <uiWaferSetupSpacer ___text="" extraSpace="true"/>
-        <materials VersionNumber="13.1.0.0" uiHideChildNodes="true">
-          <_MaterialNodeType_Nitrides_MaterialLeafType_Si3N4_LPCVD UserDefinedName="/Nitrides/Si3N4_LPCVD" isEnable="true">
-            <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <replacementMaterial VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-            <lateralRatio ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
-          </_MaterialNodeType_Nitrides_MaterialLeafType_Si3N4_LPCVD>
-        </materials>
-        <selectivity ___expression="true"/>
-        <depth ___expression="105" ___lastKnownValue="105.0" ___unitConversionExpr="" ___unitName="nounit"/>
-        <uiEtchSpacer1 ___text="" extraSpace="true"/>
-        <type ___activeMember="basic ">
+        <material VersionNumber="13.1.0.0" uiHideChildNodes="true">
+          <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_HDP UserDefinedName="/Oxides/SiO2_HDP" isEnable="true"/>
+        </material>
+        <dopants VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+        <thickness ___expression="200" ___lastKnownValue="200.0" ___unitConversionExpr="" ___unitName="nounit"/>
+        <uiDepositSpacer ___text="" extraSpace="true"/>
+        <type ___activeMember="conformal ">
           <straight isEnable="true">
             <advanced isEnable="false" showHeader="true">
               <mask isEnable="true" readonly="true">
@@ -1778,600 +2365,50 @@
               </mask>
             </advanced>
           </straight>
-          <legacyBasic isEnable="true">
-            <lateralRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <pdSpacer ___text="" extraSpace="true"/>
-            <patternDependenceWrapper ___activeMember="none ">
-              <none isEnable="true"/>
-              <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
-                <calibrator ___activeMember="line ">
-                  <line isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </line>
-                  <trench isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </trench>
-                  <squareVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </squareVia>
-                  <rectangularVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="true" readonly="true">
-                        <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </rectangularVia>
-                  <general isEnable="true">
-                    <calibrateForDepth isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="true" readonly="true"/>
-                    </calibrateForDepth>
-                    <uiSpacer1 ___text="" extraSpace="true"/>
-                    <calibrateForLateralRatio isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="false" readonly="true"/>
-                    </calibrateForLateralRatio>
-                    <uiSpacer2 ___text="" extraSpace="true"/>
-                    <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                  </general>
-                </calibrator>
-                <globalMask isEnable="true">
-                  <name ___text=""/>
-                  <polarity ___expression="false"/>
-                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                </globalMask>
-                <localMask ___activeMember="useGlobal ">
-                  <useGlobal isEnable="true"/>
-                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-                  <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
-                </localMask>
-                <advanced isEnable="false" showHeader="true">
-                  <depth isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </depth>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <lateralRatio isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </lateralRatio>
-                </advanced>
-              </patternDependence>
-              <loadingMapImport isEnable="true">
-                <depth isEnable="true" showHeader="true">
-                  <pythonModule ___text=""/>
-                  <pythonClass ___text=""/>
-                  <uiSpacer1 ___text="" extraSpace="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                </depth>
-                <uiSpacer1 ___text="" extraSpace="true"/>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <pythonModule ___text="" readonly="true"/>
-                  <pythonClass ___text="" readonly="true"/>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
-                </lateralRatio>
-              </loadingMapImport>
-            </patternDependenceWrapper>
-            <advancedSpacer ___text="" extraSpace="true"/>
-            <customOverhangRate ___activeMember="useLateralRatio ">
-              <useLateralRatio isEnable="true"/>
-              <useSpecialValue isEnable="true">
-                <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-              </useSpecialValue>
-            </customOverhangRate>
-            <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
-              <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-            </customLateralRates>
-            <disableSkirting ___expression="false" uiHidden="true"/>
-            <uiEtchSpacer1 ___text="" extraSpace="true"/>
-            <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-          </legacyBasic>
-          <basic isEnable="true">
-            <lateralRatio ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <pdSpacer ___text="" extraSpace="true"/>
-            <patternDependenceWrapper ___activeMember="none ">
-              <none isEnable="true"/>
-              <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
-                <calibrator ___activeMember="line ">
-                  <line isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </line>
-                  <trench isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </trench>
-                  <squareVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </squareVia>
-                  <rectangularVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="true" readonly="true">
-                        <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </rectangularVia>
-                  <general isEnable="true">
-                    <calibrateForDepth isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="true" readonly="true"/>
-                    </calibrateForDepth>
-                    <uiSpacer1 ___text="" extraSpace="true"/>
-                    <calibrateForLateralRatio isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="false" readonly="true"/>
-                    </calibrateForLateralRatio>
-                    <uiSpacer2 ___text="" extraSpace="true"/>
-                    <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                  </general>
-                </calibrator>
-                <globalMask isEnable="true">
-                  <name ___text=""/>
-                  <polarity ___expression="false"/>
-                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                </globalMask>
-                <localMask ___activeMember="useGlobal ">
-                  <useGlobal isEnable="true"/>
-                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-                  <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
-                </localMask>
-                <advanced isEnable="false" showHeader="true">
-                  <depth isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </depth>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <lateralRatio isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </lateralRatio>
-                </advanced>
-              </patternDependence>
-              <loadingMapImport isEnable="true">
-                <depth isEnable="true" showHeader="true">
-                  <pythonModule ___text=""/>
-                  <pythonClass ___text=""/>
-                  <uiSpacer1 ___text="" extraSpace="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                </depth>
-                <uiSpacer1 ___text="" extraSpace="true"/>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <pythonModule ___text="" readonly="true"/>
-                  <pythonClass ___text="" readonly="true"/>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
-                </lateralRatio>
-              </loadingMapImport>
-            </patternDependenceWrapper>
-            <advancedSpacer ___text="" extraSpace="true"/>
-            <customOverhangRate ___activeMember="useLateralRatio ">
-              <useLateralRatio isEnable="true"/>
-              <useSpecialValue isEnable="true">
-                <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-              </useSpecialValue>
-            </customOverhangRate>
-            <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
-              <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-            </customLateralRates>
-            <disableSkirting ___expression="false" uiHidden="true"/>
-            <uiEtchSpacer1 ___text="" extraSpace="true"/>
-            <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-          </basic>
-          <taper isEnable="true">
-            <sidewallAngle ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          <conformal isEnable="true">
+            <lateralRatio ___expression="0.67" ___lastKnownValue="0.67" ___unitConversionExpr="" ___unitName="nounit"/>
             <advanced isEnable="false" showHeader="true">
               <mask isEnable="true" readonly="true">
                 <name ___text="" readonly="true"/>
                 <polarity ___expression="false" readonly="true"/>
                 <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
               </mask>
+              <cornerType ___activeMember="rounded" readonly="true"/>
             </advanced>
-          </taper>
-          <constrained isEnable="true">
-            <profile ___activeMember="taper " showHeader="true">
-              <taper isEnable="true">
-                <sidewallAngle ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
-              </taper>
-              <expression isEnable="true">
-                <depth ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" showHeader="true"/>
-                <depthStop ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" showHeader="true" uiHidden="true"/>
-              </expression>
-              <loadFromFile ___text="" showHeader="true"/>
-              <sequence PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="1"/>
-            </profile>
-            <sweepLocation ___activeMember="useMaterials ">
-              <useMaterials isEnable="true">
-                <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-                <invert ___expression="false"/>
-              </useMaterials>
-              <useMask isEnable="true">
-                <mask isEnable="true" showHeader="true">
-                  <name ___text=""/>
-                  <polarity ___expression="false"/>
-                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                </mask>
-                <anchorElevation ___activeMember="useSurfaceZ ">
-                  <useSurfaceZ isEnable="true"/>
-                  <useAbsoluteZ isEnable="true">
-                    <z ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  </useAbsoluteZ>
-                </anchorElevation>
-              </useMask>
-            </sweepLocation>
-            <spacer1 ___text="" extraSpace="true"/>
+          </conformal>
+          <planarizing isEnable="true">
+            <referencePlane ___activeMember="highest"/>
+          </planarizing>
+          <smoothPlanarizing isEnable="true">
+            <smoothingRadius ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <advanced isEnable="false" showHeader="true">
+              <lateralRatio ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </advanced>
+          </smoothPlanarizing>
+          <visibility isEnable="true">
+            <isotropicRatio ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit"/>
             <lateralRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <spacer2 ___text="" extraSpace="true"/>
-            <patternDependenceWrapper ___activeMember="none ">
-              <none isEnable="true"/>
-              <patternDependence isEnable="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
-                <calibrator ___activeMember="line ">
-                  <line isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </line>
-                  <trench isEnable="true">
-                    <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </trench>
-                  <squareVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </squareVia>
-                  <rectangularVia isEnable="true">
-                    <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                    <depth isEnable="false" showHeader="true">
-                      <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                        <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                        <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </depth>
-                    <lateralRatio isEnable="false" showHeader="true">
-                      <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      <extraCalibration isEnable="true" readonly="true">
-                        <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                      </extraCalibration>
-                    </lateralRatio>
-                  </rectangularVia>
-                  <general isEnable="true">
-                    <calibrateForDepth isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="true" readonly="true"/>
-                    </calibrateForDepth>
-                    <uiSpacer1 ___text="" extraSpace="true"/>
-                    <calibrateForLateralRatio isEnable="false" showHeader="true">
-                      <kernelTypes ___activeMember="auto" readonly="true"/>
-                      <averaging ___expression="false" readonly="true"/>
-                    </calibrateForLateralRatio>
-                    <uiSpacer2 ___text="" extraSpace="true"/>
-                    <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                  </general>
-                </calibrator>
-                <globalMask isEnable="true">
-                  <name ___text=""/>
-                  <polarity ___expression="false"/>
-                  <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                </globalMask>
-                <localMask ___activeMember="useGlobal ">
-                  <useGlobal isEnable="true"/>
-                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-                  <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
-                </localMask>
-                <advanced isEnable="false" showHeader="true">
-                  <depth isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </depth>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <lateralRatio isEnable="false" readonly="true" showHeader="true">
-                    <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed1 ___expression="false" readonly="true"/>
-                    <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <directed2 ___expression="false" readonly="true"/>
-                    <averaging ___expression="false" readonly="true"/>
-                  </lateralRatio>
-                </advanced>
-              </patternDependence>
-              <loadingMapImport isEnable="true">
-                <depth isEnable="true" showHeader="true">
-                  <pythonModule ___text=""/>
-                  <pythonClass ___text=""/>
-                  <uiSpacer1 ___text="" extraSpace="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-                </depth>
-                <uiSpacer1 ___text="" extraSpace="true"/>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <pythonModule ___text="" readonly="true"/>
-                  <pythonClass ___text="" readonly="true"/>
-                  <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-                  <numericalParameters PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0" readonly="true"/>
-                </lateralRatio>
-              </loadingMapImport>
-            </patternDependenceWrapper>
-            <spacer3 ___text="" extraSpace="true"/>
-            <customOverhangRate ___activeMember="useLateralRatio ">
-              <useLateralRatio isEnable="true"/>
-              <useSpecialValue isEnable="true">
-                <rate ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-              </useSpecialValue>
-            </customOverhangRate>
-            <customLateralRates isEnable="false" showHeader="true" uiHidden="true">
-              <rateNegX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <rateNegY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosX ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-              <ratePosY ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-            </customLateralRates>
-            <disableSkirting ___expression="false" uiHidden="true"/>
-            <spacer4 ___text="" extraSpace="true"/>
-            <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-          </constrained>
+            <sourceSigma ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
+            <waferTiltAndTwist ___activeMember="fixed ">
+              <fixed isEnable="true">
+                <tilt ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                <twist ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </fixed>
+              <rotating isEnable="true">
+                <tilt ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
+              </rotating>
+            </waferTiltAndTwist>
+            <incrementalOutput isEnable="false" showHeader="true">
+              <interval ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </incrementalOutput>
+          </visibility>
         </type>
       </___Properties>
     </___Item>
-    <___Item UUID="86580fd6-9ea6-490f-8f1f-5ffdcb1fc805" ___Name="Multi Etch1" ___Type="MultiEtch" isExpanded="true">
+    <___Item UUID="710dd082-6728-4129-a3e6-7147319b3e57" ___Name="Polish1" ___Type="Polish">
       <___Properties VersionNumber="13.1.0.0" isEnable="true">
-        <stepName ___text="Multi Etch"/>
-        <stepAction ___text="Multi Etch (Advanced Modeling)" icon=":/icons/MultiEtch" readonly="true" stepType="MultiEtch"/>
+        <stepName ___text="Polish"/>
+        <stepAction ___text="Polish" icon=":/icons/Polish" readonly="true" stepType="Polish"/>
         <skipMask isEnable="false" showHeader="true">
           <name ___text="" readonly="true"/>
         </skipMask>
@@ -2380,478 +2417,69 @@
         <wafer VersionNumber="13.1.0.0" ___text="wafer1"/>
         <waferSide ___activeMember="top"/>
         <uiWaferSetupSpacer ___text="" extraSpace="true"/>
-        <materials VersionNumber="13.1.0.0" uiHideChildNodes="true" uiUseMultiEtchMaterialWidget="true">
-          <_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal UserDefinedName="/Oxides/SiO2_Thermal" isEnable="true">
-            <etchRatio ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            <lateralRatio ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit"/>
-            <etchType ___activeMember="basic ">
-              <basic isEnable="true">
-                <patternDependence isEnable="true" showHeader="true">
-                  <depth ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </depth>
-                  <lateralRatio ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </lateralRatio>
-                </patternDependence>
-              </basic>
-              <taper isEnable="true">
-                <sidewallAngle ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <patternDependence isEnable="true" showHeader="true">
-                  <depth ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </depth>
-                  <lateralRatio ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </lateralRatio>
-                  <sidewallAngle ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </sidewallAngle>
-                </patternDependence>
-              </taper>
-              <sputter isEnable="true">
-                <sputterRatio ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit"/>
-                <maxYieldAngle ___expression="50" ___lastKnownValue="50.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <patternDependence isEnable="true" showHeader="true">
-                  <depth ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </depth>
-                  <lateralRatio ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </lateralRatio>
-                  <sputterRatio ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </sputterRatio>
-                </patternDependence>
-              </sputter>
-              <crystal isEnable="true">
-                <etchRatios isEnable="true" showHeader="true">
-                  <e100 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <e110 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <e111 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                  <e113Ratio isEnable="false" showHeader="true">
-                    <e113 ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </e113Ratio>
-                  <overhang isEnable="false" showHeader="true">
-                    <e111Overhang ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </overhang>
-                </etchRatios>
-                <uiCrystalEtchSpacer1 ___text="" extraSpace="true"/>
-                <patternDependence isEnable="true" showHeader="true">
-                  <depth ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </depth>
-                </patternDependence>
-              </crystal>
-              <visibility isEnable="true">
-                <patternDependence isEnable="true" showHeader="true">
-                  <depth ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </depth>
-                  <lateralRatio ___activeMember="defaults ">
-                    <defaults isEnable="true"/>
-                    <overwrite isEnable="true" showHeader="true">
-                      <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed1 ___expression="false"/>
-                      <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                      <directed2 ___expression="false"/>
-                      <averaging ___expression="false"/>
-                    </overwrite>
-                    <disable isEnable="true"/>
-                  </lateralRatio>
-                </patternDependence>
-              </visibility>
-              <none isEnable="true"/>
-            </etchType>
-          </_MaterialNodeType_Oxides_MaterialLeafType_SiO2_Thermal>
-        </materials>
-        <depth ___expression="18" ___lastKnownValue="18.0" ___unitConversionExpr="" ___unitName="nounit"/>
-        <patternDependenceWrapper isEnable="false" showHeader="true">
-          <patternDependence isEnable="true" readonly="true" showHeader="true" uiHideChildNodes="true" uiUseCustomPatternDependenceWidget="true">
-            <calibrator ___activeMember="line ">
-              <line isEnable="true">
-                <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <depth isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </depth>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </lateralRatio>
-                <sidewallAngle isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sidewallAngle>
-                <sputterRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sputterRatio>
-              </line>
-              <trench isEnable="true">
-                <minWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <depth isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </depth>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </lateralRatio>
-                <sidewallAngle isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sidewallAngle>
-                <sputterRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customWidth ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sputterRatio>
-              </trench>
-              <squareVia isEnable="true">
-                <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <depth isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </depth>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </lateralRatio>
-                <sidewallAngle isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sidewallAngle>
-                <sputterRatio isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sputterRatio>
-              </squareVia>
-              <rectangularVia isEnable="true">
-                <minShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minShortEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <minLongEdge ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-                <depth isEnable="false" showHeader="true">
-                  <valueDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueIso ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="false" readonly="true" showHeader="true">
-                    <customRatio ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongPitch ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customShortSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                    <customLongSize ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </depth>
-                <lateralRatio isEnable="false" showHeader="true">
-                  <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="true" readonly="true">
-                    <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </lateralRatio>
-                <sidewallAngle isEnable="false" showHeader="true">
-                  <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="true" readonly="true">
-                    <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </sidewallAngle>
-                <shortValue isEnable="false" showHeader="true">
-                  <valueShortIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueLongIso ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <valueShortDense ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  <extraCalibration isEnable="true" readonly="true">
-                    <customLongDense ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                  </extraCalibration>
-                </shortValue>
-              </rectangularVia>
-              <general isEnable="true">
-                <calibrateForDepth isEnable="false" showHeader="true">
-                  <kernelTypes ___activeMember="auto" readonly="true"/>
-                  <averaging ___expression="true" readonly="true"/>
-                </calibrateForDepth>
-                <uiSpacer1 ___text="" extraSpace="true"/>
-                <calibrateForLateralRatio isEnable="false" showHeader="true">
-                  <kernelTypes ___activeMember="auto" readonly="true"/>
-                  <averaging ___expression="false" readonly="true"/>
-                </calibrateForLateralRatio>
-                <uiSpacer2 ___text="" extraSpace="true"/>
-                <calibrateForSidewallAngle isEnable="false" showHeader="true">
-                  <kernelTypes ___activeMember="auto" readonly="true"/>
-                  <averaging ___expression="false" readonly="true"/>
-                </calibrateForSidewallAngle>
-                <uiSpacer3 ___text="" extraSpace="true"/>
-                <calibrateForSputterRatio isEnable="false" showHeader="true">
-                  <kernelTypes ___activeMember="auto" readonly="true"/>
-                  <averaging ___expression="false" readonly="true"/>
-                </calibrateForSputterRatio>
-                <uiSpacer4 ___text="" extraSpace="true"/>
-                <array PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="1" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="0" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-              </general>
-            </calibrator>
-            <globalMask isEnable="true">
-              <name ___text=""/>
-              <polarity ___expression="false"/>
-              <lithographyResolution ___expression="0.0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            </globalMask>
-            <localMask ___activeMember="useGlobal ">
-              <useGlobal isEnable="true"/>
-              <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
-              <selectivity ___expression="0.5" ___lastKnownValue="0.5" ___unitConversionExpr="" ___unitName="nounit"/>
-            </localMask>
-            <advanced isEnable="false" showHeader="true">
-              <depth isEnable="false" readonly="true" showHeader="true">
-                <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed1 ___expression="false" readonly="true"/>
-                <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed2 ___expression="false" readonly="true"/>
-                <averaging ___expression="false" readonly="true"/>
-              </depth>
-              <uiSpacer1 ___text="" extraSpace="true" readonly="true"/>
-              <lateralRatio isEnable="false" readonly="true" showHeader="true">
-                <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed1 ___expression="false" readonly="true"/>
-                <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed2 ___expression="false" readonly="true"/>
-                <averaging ___expression="false" readonly="true"/>
-              </lateralRatio>
-              <sidewallAngle isEnable="false" readonly="true" showHeader="true">
-                <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed1 ___expression="false" readonly="true"/>
-                <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed2 ___expression="false" readonly="true"/>
-                <averaging ___expression="false" readonly="true"/>
-              </sidewallAngle>
-              <sputterRatio isEnable="false" readonly="true" showHeader="true">
-                <constant ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <coefficient1 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius1 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed1 ___expression="false" readonly="true"/>
-                <coefficient2 ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <radius2 ___expression="1" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-                <directed2 ___expression="false" readonly="true"/>
-                <averaging ___expression="false" readonly="true"/>
-              </sputterRatio>
-            </advanced>
-          </patternDependence>
-        </patternDependenceWrapper>
-        <uiMultiEtchSpacer1 ___text="" extraSpace="true"/>
-        <sourceProperties isEnable="true" showHeader="true">
-          <visibilitySourceSigma ___expression="0.1" ___lastKnownValue="0.1" ___unitConversionExpr="" ___unitName="nounit"/>
-          <waferTiltAndTwist ___activeMember="fixed ">
-            <fixed isEnable="true">
-              <tilt ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-              <twist ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            </fixed>
-            <rotating isEnable="true">
-              <tilt ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit"/>
-            </rotating>
-          </waferTiltAndTwist>
-        </sourceProperties>
-        <uiMultiEtchSpacer2 ___text="" extraSpace="true"/>
-        <uiMultiEtchSpacer3 ___text="" extraSpace="true"/>
-        <dopantEqs PROPERTY_ARRAYBASE_DISPLAYASTABLE="0" PROPERTY_ARRAYBASE_MEMBERNAMEPROPERTIES="0" PROPERTY_ARRAYBASE_MEMBERSHOWINDEX="1" PROPERTY_ARRAYBASE_MOVEMEMBERS="0"/>
-        <uiMultiEtchSpacer4 ___text="" extraSpace="true"/>
-        <incrementalOutput isEnable="false" showHeader="true">
-          <interval ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-        </incrementalOutput>
-        <uiMultiEtchSpacer5 ___text="" extraSpace="true"/>
-        <advanced isEnable="false" showHeader="true">
-          <acceleration ___expression="0" ___lastKnownValue="0.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
-          <useImprovedNumerics ___expression="false" readonly="true"/>
-        </advanced>
+        <type ___activeMember="stopOnMaterial ">
+          <stopOnReferencePlane isEnable="true">
+            <referencePlane ___activeMember="highest"/>
+            <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+          </stopOnReferencePlane>
+          <stopOnMaterial isEnable="true">
+            <materials VersionNumber="13.1.0.0" uiHideChildNodes="true">
+              <_MaterialNodeType_Nitrides_MaterialLeafType_Si3N4_LPCVD UserDefinedName="/Nitrides/Si3N4_LPCVD" isEnable="true"/>
+            </materials>
+            <overpolish ___expression="10" ___lastKnownValue="10.0" ___unitConversionExpr="" ___unitName="nounit"/>
+            <dishing isEnable="true" showHeader="true">
+              <dishingType ___activeMember="exponential " showHeader="true">
+                <exponential isEnable="true">
+                  <maximumDepth ___expression="15" ___lastKnownValue="15.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                  <lateralDecayConstant ___expression="10" ___lastKnownValue="10.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </exponential>
+                <custom isEnable="true">
+                  <expression ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </custom>
+              </dishingType>
+              <anisoDishing isEnable="false" showHeader="true">
+                <anisoDir ___activeMember="plusX" readonly="true"/>
+                <scaling ___expression="1.0" ___lastKnownValue="1.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+              </anisoDishing>
+            </dishing>
+            <uiPolishSpacer ___text="" extraSpace="true"/>
+            <altPolish isEnable="false" showHeader="true">
+              <condition ___activeMember="materialsPresent " readonly="true">
+                <materialsPresent isEnable="true" readonly="true">
+                  <materials VersionNumber="13.1.0.0" readonly="true" uiHideChildNodes="true"/>
+                </materialsPresent>
+                <materialsNotPresent isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                </materialsNotPresent>
+                <materialsPresentAboveElevation isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                  <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </materialsPresentAboveElevation>
+                <materialsNotPresentAboveElevation isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                  <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </materialsNotPresentAboveElevation>
+                <materialsPresentBelowElevation isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                  <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </materialsPresentBelowElevation>
+                <materialsNotPresentBelowElevation isEnable="true">
+                  <materials VersionNumber="13.1.0.0" uiHideChildNodes="true"/>
+                  <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit"/>
+                </materialsNotPresentBelowElevation>
+                <maskEmpty isEnable="true">
+                  <mask ___text=""/>
+                </maskEmpty>
+                <maskNotEmpty isEnable="true">
+                  <mask ___text=""/>
+                </maskNotEmpty>
+              </condition>
+              <referencePlane ___activeMember="highest" readonly="true"/>
+              <distance ___expression="" ___lastKnownValue="nan.0" ___unitConversionExpr="" ___unitName="nounit" readonly="true"/>
+            </altPolish>
+            <printWhy ___expression="true" uiHidden="true"/>
+          </stopOnMaterial>
+        </type>
       </___Properties>
     </___Item>
   </___DocumentTree>
